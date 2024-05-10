@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    componenteFormativo: 'Requerimientos técnicos y prototipos',
+    descripcionCurso:
+      'El control de calidad es un sistema integrado en las empresas para prevenir fallas y problemas en los procesos productivos, y productos terminados; pero no es suficiente encontrar las fallas o defectos, el propósito es anticiparse al problema y suplir las deficiencias.  En este componente formativo se aborda el control de calidad sobre la base de las normas vigentes para el desarrollo de los productos; posteriormente, se profundiza en la elaboración de prototipos. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -29,30 +20,86 @@ export default {
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema1',
+        titulo: 'Control de calidad',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        nombreRuta: 'tema1',
         desarrolloContenidos: true,
         subMenu: [
           {
+            titulo: 'Concepto de calidad',
+            nombreRuta: 'tema1',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: ' Gestión de calidad total',
+            nombreRuta: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: ' Puntos de control en el proceso de confección',
+            nombreRuta: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: ' Control de calidad en patronaje',
+            nombreRuta: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: ' Control de calidad en trazo y corte',
+            nombreRuta: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: ' Control de calidad en confección',
+            nombreRuta: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: ' Control de calidad en terminados',
+            nombreRuta: 't_1_7',
+          },
+          {
+            numero: '1.8',
+            titulo: ' Control de calidad en insumos, materiales y textiles',
+            nombreRuta: 't_1_8',
           },
         ],
       },
 
       {
+        titulo: 'Elaboración de prototipos en tejido de punto',
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: ' Confección panty femenino',
+            nombreRuta: 'tema_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: ' Confección bóxer masculino',
+            nombreRuta: 'tema_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: ' Confección de camiseta tipo polo',
+            nombreRuta: 'tema_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: ' Confección de pantalón sudadera',
+            nombreRuta: 'tema_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: ' Elaboración de conjunto deportivo top y leggins',
+            nombreRuta: 'tema_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -142,8 +189,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -153,8 +199,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +209,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +234,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],

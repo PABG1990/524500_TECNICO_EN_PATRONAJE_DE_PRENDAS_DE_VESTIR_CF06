@@ -1,19 +1,11 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.banner-principal__img 
+  padding-bottom: 0 !important;
 
+ 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.titulo-principal.color-acento-contenido .titulo-principal__numero,
+.cajon.color-acento-contenido
+    background-color: $color-acento-contenido  !important
 
-  100%
-    transform: translateY(0px)
+.cajon.color-acento-contenido:before
+   background-color: $color-primario
