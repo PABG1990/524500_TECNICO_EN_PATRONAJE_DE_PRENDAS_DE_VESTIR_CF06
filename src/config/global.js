@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Requerimientos técnicos y prototipos',
     descripcionCurso:
-      'El control de calidad es un sistema integrado en las empresas para prevenir fallas y problemas en los procesos productivos, y productos terminados; pero no es suficiente encontrar las fallas o defectos, el propósito es anticiparse al problema y suplir las deficiencias.  En este componente formativo se aborda el control de calidad sobre la base de las normas vigentes para el desarrollo de los productos; posteriormente, se profundiza en la elaboración de prototipos. ',
+      'El control de calidad es un sistema integrado en las empresas para prevenir fallas y problemas en los procesos productivos, y productos terminados; pero no es suficiente encontrar las fallas o defectos, el propósito es anticiparse al problema y suplir las deficiencias.  En este componente formativo se aborda el control de calidad sobre la base de las normas vigentes para el desarrollo de los productos; posteriormente, se profundiza en la elaboración de prototipos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
@@ -27,43 +27,43 @@ export default {
         subMenu: [
           {
             titulo: 'Concepto de calidad',
-            nombreRuta: 'tema1',
+            hash: 't_1_1',
             numero: '1.1',
           },
           {
             numero: '1.2',
             titulo: ' Gestión de calidad total',
-            nombreRuta: 't_1_2',
+            hash: 't_1_2',
           },
           {
             numero: '1.3',
             titulo: ' Puntos de control en el proceso de confección',
-            nombreRuta: 't_1_3',
+            hash: 't_1_3',
           },
           {
             numero: '1.4',
             titulo: ' Control de calidad en patronaje',
-            nombreRuta: 't_1_4',
+            hash: 't_1_4',
           },
           {
             numero: '1.5',
             titulo: ' Control de calidad en trazo y corte',
-            nombreRuta: 't_1_5',
+            hash: 't_1_5',
           },
           {
             numero: '1.6',
             titulo: ' Control de calidad en confección',
-            nombreRuta: 't_1_6',
+            hash: 't_1_6',
           },
           {
             numero: '1.7',
             titulo: ' Control de calidad en terminados',
-            nombreRuta: 't_1_7',
+            hash: 't_1_7',
           },
           {
             numero: '1.8',
             titulo: ' Control de calidad en insumos, materiales y textiles',
-            nombreRuta: 't_1_8',
+            hash: 't_1_8',
           },
         ],
       },
@@ -76,28 +76,29 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: ' Confección panty femenino',
-            nombreRuta: 'tema_2_1',
+            titulo: ' Confección <i>panty</i> femenino',
+            hash: 't_2_1',
           },
           {
             numero: '2.2',
             titulo: ' Confección bóxer masculino',
-            nombreRuta: 'tema_2_2',
+            hash: 't_2_2',
           },
           {
             numero: '2.3',
             titulo: ' Confección de camiseta tipo polo',
-            nombreRuta: 'tema_2_3',
+            hash: 't_2_3',
           },
           {
             numero: '2.4',
             titulo: ' Confección de pantalón sudadera',
-            nombreRuta: 'tema_2_4',
+            hash: 't_2_4',
           },
           {
             numero: '2.5',
-            titulo: ' Elaboración de conjunto deportivo top y leggins',
-            nombreRuta: 'tema_2_5',
+            titulo:
+              ' Elaboración de conjunto deportivo <i>top</i> y <i>leggins</i>',
+            hash: 't_2_5',
           },
         ],
       },
@@ -107,12 +108,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
       },
       {
@@ -150,31 +145,213 @@ export default {
   complementario: [
     {
       tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad',
+      tipo: 'Artículo',
+      link:
+        'https://drive.google.com/file/d/1X6UqHxMFy-T7YPrEvIdlrizKRkjVoszl/view?usp=sharing',
     },
     {
       tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015',
+      tipo: 'Norma',
+      link: 'https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:es',
+    },
+    {
+      tema: '',
+      referencia:
+        'Alonso, F. (2015). Manual control de calidad en productos textiles y afines ',
+      tipo: 'Manual',
+      link:
+        'https://drive.google.com/file/d/13JFqBweR5eX4SfjSgnantXbztgS_6lh5/view?usp=sharing',
+    },
+    {
+      tema: '',
+      referencia:
+        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Panty tanga. YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/G4IGF6OvFSQ',
+    },
+    {
+      tema: '',
+      referencia:
+        'Mata. J. (26 de agosto 2017). Confección de ropa interior para damas. YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/Ds5CtwVbaag',
+    },
+    {
+      tema: '',
+      referencia:
+        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Boxer pijamero. YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/3E8_mDzj8LU',
+    },
+    {
+      tema: '',
+      referencia:
+        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un boxer de hombre.  YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/Y3tyM2WTpZ0',
+    },
+    {
+      tema: '',
+      referencia:
+        'Juki central europe. (11 de agosto 2015). JUKI - polo <i>shirt</i> production.  YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/QPor7WBIZNA',
+    },
+    {
+      tema: '',
+      referencia:
+        'Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección.  YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/HJJp-lOu1E4',
+    },
+    {
+      tema: '',
+      referencia:
+        'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección.  YouTube ',
+      tipo: 'Video',
+      link: 'https://youtu.be/oZTVpkX7cuk',
+    },
+    {
+      tema: '',
+      referencia:
+        'Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección.  YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/hlBctRHgSUw',
+    },
+    {
+      tema: '',
+      referencia:
+        'Josmar creando con amor. (24 de abril de 2020). <i>Top</i> deportivo muy fácil de confeccionar /josmar. YouTube',
+      tipo: 'Video',
+      link: 'https://youtu.be/3xGfOwDybBs',
+    },
+    {
+      tema: '',
+      referencia:
+        'Montilla, E. (10 de mayo 2017). Confección de <i>Leggins</i> deportivo con transparencia. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/owM_WYtLwlc',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Atributos del producto',
+      significado:
+        'son las cualidades o características del producto como color, tamaño.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Defecto',
+      significado:
+        'es una no conformidad en características requeridas por el cliente o una norma y que causa incumplimiento del requisito y por tanto insatisfacción del cliente.',
+    },
+    {
+      termino: 'ISO',
+      significado:
+        'Organización Internacional de Estandarización, ubicada en Ginebra Suiza y tiene presencia en 193. Promueve y desarrolla normas para estandarizar productos y servicios.',
+    },
+    {
+      termino: 'Lote',
+      significado:
+        'número establecido de una producción, las cuales tienen características comunes y se agrupan dependiendo de un objetivo determinado.  ',
+    },
+
+    {
+      termino: 'Mariposa',
+      significado:
+        'pieza del <i>panty</i> ubicada entre el tiro y la entrepierna para proteger y dar comodidad en la parte íntima femenina.',
+    },
+
+    {
+      termino: 'Punto de control',
+      significado:
+        'son determinados con la metodología de árbol de decisión. Son las operaciones, fases o procesos que requieren realizar inspecciones para controlar la ocurrencia de defectos, lo cual es una medida preventiva.',
+    },
+
+    {
+      termino: 'Punto de control crítico',
+      significado:
+        'operaciones, faces o procesos que requiere de riguroso control debido a que representa alto riesgo de presentar defectos y por tanto no cumplir con los requisitos.',
+    },
+
+    {
+      termino: '<i>Sigma</i> (σ)',
+      significado:
+        'es una letra del alfabeto griego, utilizada en representar la desviación estándar (undad estadística de medición), representa la dispersión o variabilidad de un conjunto de datos.',
+    },
+
+    {
+      termino: 'Variables de calidad',
+      significado:
+        'cuantificación de las cualidades del producto. Ejemplo: carta de colores de la prenda.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección. YouTube',
+      link: 'https://youtu.be/oZTVpkX7cuk',
+    },
+    {
+      referencia:
+        'Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección. YouTube.',
+      link: 'https://youtu.be/hlBctRHgSUw',
+    },
+    {
+      referencia:
+        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un boxer de hombre. YouTube.',
+      link: 'https://youtu.be/Y3tyM2WTpZ0',
+    },
+    {
+      referencia:
+        'Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección. YouTube.',
+      link: 'https://youtu.be/HJJp-lOu1E4',
+    },
+    {
+      referencia:
+        'Alonso, F. (2015). Manual control de calidad en productos textiles y afines.',
+      descarga: '/downloads/Manual_Control_Calidad.pdf',
+    },
+    {
+      referencia:
+        'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad.',
+      descarga: '/downloads/Complementario_14_3_Articulo.pdf',
+    },
+    {
+      referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
+      link: 'https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:es',
+    },
+    {
+      referencia:
+        'Josmar creando con amor. (24 de abril de 2020). <i>Top</i> deportivo muy fácil de confeccionar /josmar.  YouTube.',
+      link: 'https://youtu.be/3xGfOwDybBs',
+    },
+    {
+      referencia:
+        'Juki central europe. (11 de agosto 2015). JUKI - polo  <i>shirt</i> production.  YouTube',
+      link: 'https://youtu.be/QPor7WBIZNA',
+    },
+    {
+      referencia:
+        'Mata. J. (26 de agosto 2017). Confección de ropa interior para damas.  YouTube',
+      link: 'https://youtu.be/Ds5CtwVbaag',
+    },
+    {
+      referencia:
+        'Montilla, E. (10 de mayo 2017). Confección de <i>Leggings</i> deportivo con transparencia.  YouTube.',
+      link: 'https://youtu.be/owM_WYtLwlc',
+    },
+    {
+      referencia:
+        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Panty tanga.  YouTube.',
+      link: 'https://youtu.be/G4IGF6OvFSQ',
+    },
+    {
+      referencia:
+        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Boxer pijamero.  YouTube',
+      link: 'https://youtu.be/3E8_mDzj8LU',
     },
   ],
   creditos: [
@@ -187,9 +364,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -197,9 +374,41 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Leidy Johana Velásquez Hernández',
+          cargo: 'Experta temática',
+          centro: 'Diseño, Confección y Moda - Regional Antioquía',
+        },
+        {
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experta temática',
+          centro: 'Diseño, Confección y Moda - Regional Antioquía',
+        },
+        {
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Jiménez Suescun',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -207,24 +416,14 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
+          cargo: 'Diseñadora web',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora Full-Stack',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -232,24 +431,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -260,25 +454,4 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

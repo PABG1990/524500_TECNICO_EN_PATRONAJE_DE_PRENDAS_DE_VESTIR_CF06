@@ -324,7 +324,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Complementario - 14.3 Artículo
                 .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/maquinaria_herramientas_insumos_vf_compressed.pdf')" target="_blank")
+                  a.boton.color-boton(:href="obtenerLink('/downloads/Complementario_14_3_Articulo.pdf')" target="_blank")
                     span.text-sistm Descargar
                     i.fas.fa-file-download.text-sistm
     h3.titulo-tercero(data-aos="zoom-in-left") Control de calidad en la industria textil y confección
@@ -499,15 +499,15 @@
           h3.text-center.mb-0.text-primario Sugerencias para las mejoras
 
     p.mb-3(data-aos="zoom-in-left") Para conocer sobre la metodología Kaizen, leer la estrategia Kaizen ubicada en las referencias bibliográficas (Lefcovich, 2009).
-    p.mb-5(data-aos="zoom-in-left") La estrategia Kaizen fue desarrollada en Japón una vez terminada la II Guerra Mundial, la cual inicia con el análisis del problema; en la siguiente figura podemos observar los diferentes aspectos a tener en cuenta: 
+    p.mb-5(data-aos="zoom-in-left") La estrategia Kaizen fue desarrollada en Japón una vez terminada la II Guerra Mundial, la cual inicia con el análisis del problema; en la siguiente figura podemos consultar los diferentes aspectos a tener en cuenta: 
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
           span
             | Proceso para la solución de problemas
-        img.img-a(src='@/assets/curso/temas/tema1/img_30.svg', alt='La imagen contiene los diferentes aspectos que se deben tener en cuenta para la solución de problemas ellos son:  Sentido común, revisión de diseño, trabajo en equipo, rapeo de procesos, habilidades de liderazgo, diseño de experimentos, flujogramas de despliegues, siete nuevas herramientas administrativas, análisis del árbol de fallas, análisis de valor e ingeniería de valor, six sigma, análisis del modo y efecto de la falla, control estadístico del proceso.')
-    p.mb-5(data-aos="zoom-in-left") A continuación, se pueden observar los 13 pasos de la metodología, descritos en la siguiente tabla:
+        img.img-a(src='@/assets/curso/temas/tema1/img_30.svg', alt='La imagen contiene los diferentes aspectos que se deben tener en cuenta para la solución de problemas ellos son:  Sentido común, revisión de diseño, trabajo en equipo, rapeo de procesos, habilidades de liderazgo, diseño de experimentos, flujogramas de despliegues, siete nuevas herramientas administrativas, análisis del árbol de fallas, análisis de valor e ingeniería de valor,  <i>six sigma</i>, análisis del modo y efecto de la falla, control estadístico del proceso.')
+    p.mb-5(data-aos="zoom-in-left") A continuación, se pueden consultar los 13 pasos de la metodología, descritos en la siguiente tabla:
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-contenido
@@ -562,7 +562,7 @@
         tr
           td.fw-bold 10
           td Implementar Kaizen
-          td Desarrollar el evento según lo planeado, mejorar métodos, modificar layout, observar comportamientos, realizar cambios
+          td Desarrollar el evento según lo planeado, mejorar métodos, modificar layout, consultar comportamientos, realizar cambios
         tr
           td.fw-bold 11
           td Verificar los resultados a corto plazo
@@ -597,13 +597,13 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Para conocer más sobre el modelo le invitamos a visitar el sitio Web Leansolutions, al cual puede acceder a través del siguiente enlace:
                 .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/maquinaria_herramientas_insumos_vf_compressed.pdf')" target="_blank")
+                  a.boton.color-boton(href="http://leansolutions.co/conceptos-lean/que-es-six-sigma/" target="_blank")
                     span.text-sistm Enlace Web
                     i.fas.fa-file-download.text-sistm
     p.mb-5(data-aos="zoom-in-left") En cada fase se utilizan herramientas para el análisis y creación de gráficos como histogramas, diagrama causa efecto, Pareto, gráficos de tendencias, análisis de correlación, capacidad del proceso, gráficos de control, entre otros.
     h3.titulo-tercero(data-aos="zoom-in-left") Costos de calidad
     p.mb-3(data-aos="zoom-in-left") La meta general de la empresa es ser rentable y obtener ganancias, por eso la relación de la calidad con el precio se debe analizar, concientizando al personal sobre su importancia.
-    p.mb-5(data-aos="zoom-in-left") Es importante entender y concientizar al personal sobre el control de los costos de calidad. En la siguiente figura se puede observar los tipos de costos de calidad.
+    p.mb-5(data-aos="zoom-in-left") Es importante entender y concientizar al personal sobre el control de los costos de calidad. En la siguiente figura se puede consultar los tipos de costos de calidad.
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9.mx-auto
         .titulo-sexto.color-acento-contenido
@@ -755,7 +755,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Complementario - 14.3 Artículo
                 .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/maquinaria_herramientas_insumos_vf_compressed.pdf')" target="_blank")
+                  a.boton.color-boton(:href="obtenerLink('/downloads/Complementario_14_3_Articulo.pdf')" target="_blank")
                     span.text-sistm Descargar
                     i.fas.fa-file-download.text-sistm
     
@@ -817,7 +817,7 @@
             .col-sm-12.col-lg-2
               img(src='@/assets/curso/temas/tema1/img_48.svg')
             .col-sm-12.col-lg-9
-              p.mb-0 Del patrón con costuras y sin costuras para comparar medidas con la prenda terminada y correspondencia con la talla, además se debe revisar que las medidas de las piezas sean iguales al unir y que tengan simetría, se puede superponer las piezas para observar que coincidan a sus longitudes..row(titulo="")
+              p.mb-0 Del patrón con costuras y sin costuras para comparar medidas con la prenda terminada y correspondencia con la talla, además se debe revisar que las medidas de las piezas sean iguales al unir y que tengan simetría, se puede superponer las piezas para consultar que coincidan a sus longitudes..row(titulo="")
 
       .row(titulo="Cantidad de piezas")
         .col-12
@@ -1663,7 +1663,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p.mb-3 La tela es la materia prima que más consume la prenda, por eso se debe revisar la uniformidad del color, sin deshilados, huecos, motas, contaminación de otros hilos, textura de acuerdo con el tejido, es decir, que no tenga arrugas no relacionadas con su textura, limpieza, anchos de tela parejos, y orillo de tela.
-        p.mb-5 Es importante revisar el comportamiento del textil al contacto con el agua y las temperaturas, sobre todo las altas, dado el caso que la pieza necesite que se le realice fusionados, y lo relacionado al planchado. Al lavar la tela se puede observar la recuperación y formación de arrugas, la solidez del color para que no migre cuando se presenten combinaciones de colores en las piezas y uso de insumos.
+        p.mb-5 Es importante revisar el comportamiento del textil al contacto con el agua y las temperaturas, sobre todo las altas, dado el caso que la pieza necesite que se le realice fusionados, y lo relacionado al planchado. Al lavar la tela se puede consultar la recuperación y formación de arrugas, la solidez del color para que no migre cuando se presenten combinaciones de colores en las piezas y uso de insumos.
         .cajon.color-acento-botones.p-4
           p.mb-0.fw-bold También se debe tener en cuenta en las fibras, los efectos del contacto con bacterias y microorganismos, su incidencia en la durabilidad. Asimismo, el contacto con fluidos corporales como sangre, saliva o sudoración (Alonso, 2015).
       .col-sm-12.col-lg-3.d-none.d-lg-block
@@ -1680,7 +1680,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Complementario 2 - Manual control de calidad en productos textiles y afines.
                 .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/maquinaria_herramientas_insumos_vf_compressed.pdf')" target="_blank")
+                  a.boton.color-boton(:href="obtenerLink('/downloads/Manual_Control_Calidad.pdf')" target="_blank")
                     span.text-sistm Descargar
                     i.fas.fa-file-download.text-sistm
 
