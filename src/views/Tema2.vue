@@ -65,7 +65,7 @@
                     i.fas.fa-camera.text-sistm
     Separador  
     #t_2_2.titulo-segundo.color-primario(data-aos="zoom-in-left")
-      h2 2.2  Confección bóxer masculino
+      h2 2.2  Confección <i>boxer</i> masculino
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p.mb-3 La prenda requiere máquina fileteadora de 3 hilos o con 4 hilos, con dosificadores de elástico, recubridoras con dosificador de elástico, presilladora. Este tipo de prendas se pueden ensamblar en la máquina flat seamer, que les da más seguridad a las costuras. 
@@ -92,7 +92,7 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 Boxer pijamero - Boxer de hombre
+                  p.mb-0 <i>Boxer</i> pijamero - <i>Boxer</i> de hombre
                 .col-sm-12.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/3E8_mDzj8LU" target="_blank")
                     span.text-sistm Ir al video
@@ -105,7 +105,7 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 Boxer de hombre
+                  p.mb-0 <i>Boxer</i> de hombre
                 .col-sm-12.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/Y3tyM2WTpZ0" target="_blank")
                     span.text-sistm Ir al video

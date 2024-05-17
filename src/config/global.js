@@ -81,7 +81,7 @@ export default {
           },
           {
             numero: '2.2',
-            titulo: ' Confección bóxer masculino',
+            titulo: ' Confección <i>boxer</i> masculino',
             hash: 't_2_2',
           },
           {
@@ -144,7 +144,7 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Análisis de la evolución del significado de calidad ',
       referencia:
         'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad',
       tipo: 'Artículo',
@@ -152,13 +152,14 @@ export default {
         'https://drive.google.com/file/d/1X6UqHxMFy-T7YPrEvIdlrizKRkjVoszl/view?usp=sharing',
     },
     {
-      tema: '',
+      tema: 'Generalidades del sistema de gestión de calidad ISO 9001 ',
       referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015',
       tipo: 'Norma',
       link: 'https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:es',
     },
     {
-      tema: '',
+      tema:
+        'Resumen sobre materiales textiles y aspectos relacionados principalmente con la naturaleza de las fibras ',
       referencia:
         'Alonso, F. (2015). Manual control de calidad en productos textiles y afines ',
       tipo: 'Manual',
@@ -166,70 +167,70 @@ export default {
         'https://drive.google.com/file/d/13JFqBweR5eX4SfjSgnantXbztgS_6lh5/view?usp=sharing',
     },
     {
-      tema: '',
+      tema: 'Confección de panty tanga ',
       referencia:
         'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Panty tanga. YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/G4IGF6OvFSQ',
     },
     {
-      tema: '',
+      tema: 'Confección de ropa interior para dama',
       referencia:
         'Mata. J. (26 de agosto 2017). Confección de ropa interior para damas. YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/Ds5CtwVbaag',
     },
     {
-      tema: '',
+      tema: 'Confección de <i>boxer</i> pijamero',
       referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Boxer pijamero. YouTube',
+        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). <i>Boxer</i> pijamero. YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/3E8_mDzj8LU',
     },
     {
-      tema: '',
+      tema: 'Confección de <i>boxer</i> de hombre ',
       referencia:
-        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un boxer de hombre.  YouTube',
+        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un <i>boxer</i> de hombre.  YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/Y3tyM2WTpZ0',
     },
     {
-      tema: '',
+      tema: 'Confección de camiseta tipo polo ',
       referencia:
         'Juki central europe. (11 de agosto 2015). JUKI - polo <i>shirt</i> production.  YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/QPor7WBIZNA',
     },
     {
-      tema: '',
+      tema: 'Confección de camiseta tipo polo de hombre ',
       referencia:
         'Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección.  YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/HJJp-lOu1E4',
     },
     {
-      tema: '',
+      tema: 'Confección de pantalón deportivo con cintas ',
       referencia:
         'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección.  YouTube ',
       tipo: 'Video',
       link: 'https://youtu.be/oZTVpkX7cuk',
     },
     {
-      tema: '',
+      tema: 'Confección de pantalón de sudadera de dama ',
       referencia:
         'Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección.  YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/hlBctRHgSUw',
     },
     {
-      tema: '',
+      tema: 'Confección de top deportivo ',
       referencia:
         'Josmar creando con amor. (24 de abril de 2020). <i>Top</i> deportivo muy fácil de confeccionar /josmar. YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/3xGfOwDybBs',
     },
     {
-      tema: '',
+      tema: 'Confección de leggins con transparencias ',
       referencia:
         'Montilla, E. (10 de mayo 2017). Confección de <i>Leggins</i> deportivo con transparencia. YouTube.',
       tipo: 'Video',
@@ -301,7 +302,7 @@ export default {
     },
     {
       referencia:
-        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un boxer de hombre. YouTube.',
+        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un <i>boxer</i> de hombre. YouTube.',
       link: 'https://youtu.be/Y3tyM2WTpZ0',
     },
     {
@@ -350,7 +351,7 @@ export default {
     },
     {
       referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Boxer pijamero.  YouTube',
+        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). <i>Boxer</i> pijamero.  YouTube',
       link: 'https://youtu.be/3E8_mDzj8LU',
     },
   ],
