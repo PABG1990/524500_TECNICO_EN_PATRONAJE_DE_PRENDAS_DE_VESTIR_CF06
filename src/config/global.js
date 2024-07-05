@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Requerimientos técnicos y prototipos',
     descripcionCurso:
-      'El control de calidad es un sistema integrado en las empresas para prevenir fallas y problemas en los procesos productivos, y productos terminados; pero no es suficiente encontrar las fallas o defectos, el propósito es anticiparse al problema y suplir las deficiencias.  En este componente formativo se aborda el control de calidad sobre la base de las normas vigentes para el desarrollo de los productos; posteriormente, se profundiza en la elaboración de prototipos.',
+      'El control de calidad es un sistema integrado en las empresas para prevenir fallas y problemas en los procesos productivos, y productos terminados; pero no es suficiente encontrar las fallas o defectos, el propósito es anticiparse al problema y suplir las deficiencias.  En este componente se aborda el control de calidad sobre la base de las normas vigentes para el desarrollo de los productos; posteriormente, se profundiza en la elaboración de prototipos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
@@ -32,7 +32,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: ' Gestión de calidad total',
+            titulo: ' Gestión de la calidad total',
             hash: 't_1_2',
           },
           {
@@ -148,8 +148,7 @@ export default {
       referencia:
         'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad',
       tipo: 'Artículo',
-      link:
-        'https://drive.google.com/file/d/1X6UqHxMFy-T7YPrEvIdlrizKRkjVoszl/view?usp=sharing',
+      descarga: '/downloads/Complementario_14_3_Articulo.pdf',
     },
     {
       tema: 'Generalidades del sistema de gestión de calidad ISO 9001 ',
@@ -163,8 +162,7 @@ export default {
       referencia:
         'Alonso, F. (2015). Manual control de calidad en productos textiles y afines ',
       tipo: 'Manual',
-      link:
-        'https://drive.google.com/file/d/13JFqBweR5eX4SfjSgnantXbztgS_6lh5/view?usp=sharing',
+      link: 'https://oa.upm.es/38763/',
     },
     {
       tema: 'Confección de panty tanga ',
@@ -230,9 +228,9 @@ export default {
       link: 'https://youtu.be/3xGfOwDybBs',
     },
     {
-      tema: 'Confección de leggins con transparencias ',
+      tema: 'Confección de <i>leggins</i> con transparencias ',
       referencia:
-        'Montilla, E. (10 de mayo 2017). Confección de <i>Leggins</i> deportivo con transparencia. YouTube.',
+        'Montilla, E. (10 de mayo 2017). Confección de <i>leggins</i> deportivo con transparencia. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/owM_WYtLwlc',
     },
@@ -313,7 +311,7 @@ export default {
     {
       referencia:
         'Alonso, F. (2015). Manual control de calidad en productos textiles y afines.',
-      descarga: '/downloads/Manual_Control_Calidad.pdf',
+      descarga: 'https://oa.upm.es/38763/',
     },
     {
       referencia:
@@ -367,7 +365,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -378,38 +376,38 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
         },
         {
           nombre: 'Leidy Johana Velásquez Hernández',
           cargo: 'Experta temática',
-          centro: 'Diseño, Confección y Moda - Regional Antioquía',
+          centro: 'Regional Antioquía - Diseño, Confección y Moda ',
         },
         {
           nombre: 'Paola Angélica Castro Salazar',
           cargo: 'Experta temática',
-          centro: 'Diseño, Confección y Moda - Regional Antioquía',
+          centro: 'Regional Antioquía - Diseño, Confección y Moda ',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
           cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Revisora metodológica y pedagógica',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
           cargo: 'Diseñador y evaluador instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica ',
         },
         {
           nombre: 'Carolina Jiménez Suescun',
           cargo: 'Evaluadora Instruccional',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -419,12 +417,12 @@ export default {
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Diseñadora web',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Lizeth Karina Manchego Suarez',
-          cargo: 'Desarrolladora Full-Stack',
-          centro: 'Centro Agroturístico - Regional Santander',
+          cargo: 'Desarrolladora <i>Full-Stack</i>',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -434,17 +432,17 @@ export default {
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora de Recursos Educativos Digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora de Recursos Educativos Digitales',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },

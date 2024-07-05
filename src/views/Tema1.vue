@@ -7,20 +7,20 @@
         span 1
       h1 Control de calidad
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-9
+      .col-sm-12.col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img_1.png')})`}"
           )
-          .bloque-texto-g__texto.p-4
-            p.mb-4 Con el crecimiento de la industrialización se requería ejercer control en los procesos para disminuir los desperdicios y los reprocesos en la producción, cada vez con niveles de unidades más altas, necesitando estandarizar las características del producto fabricado.
-            p.mb-0 A partir de lo mencionado, revisar la producción proporciona una mayor confianza por parte del cliente, mejora la competitividad y sirve como una herramienta en la administración de la empresa.
+          .bloque-texto-g__texto.p-4.d-flex.flex-column
+            .mb-4 Con el crecimiento de la industrialización se requería ejercer control en los procesos para disminuir los desperdicios y los reprocesos en la producción, cada vez con niveles de unidades más altas, necesitando estandarizar las características del producto fabricado.
+            .mb-0 A partir de lo mencionado, revisar la producción proporciona una mayor confianza por parte del cliente, mejora la competitividad y sirve como una herramienta en la administración de la empresa.
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-6
+      .col-sm-12.col-lg-8
         p Es importante mencionar los principios de calidad para el control de la misma:
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-5
+      .col-sm-12.col-lg-5.d-none.d-lg-block
         img.mb-cus(src='@/assets/curso/temas/tema1/img_2.svg', alt='')
       .col-sm-12.col-lg-5
         ul.lista-ul--color
@@ -49,7 +49,7 @@
             i.fas.fa-plus
             | Establecer ruta de calidad
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-7
+      .col-sm-12.col-lg-8
         p Acciones que permiten encaminar la empresa hacia el proceso de control de calidad.
 
     Separador  
@@ -63,7 +63,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p.mb-4 Una vez se tienen definidos los objetivos y los requisitos de calidad del producto se deben controlar las variaciones de esas características, cualidades o especificaciones exigidas por el cliente o de acuerdo con la norma.
-        p.mb-4 Mejor llamado como control estadístico de la calidad es el proceso conformado por una serie de técnicas para analizar el comportamiento de las variaciones de los requisitos del producto, con el fin de establecer acciones que mejoren su calidad, en pro de aumentar las ventas y la productividad de la empresa.
+        p.mb-4 Mejor llamado como control estadístico de la calidad, es el proceso conformado por una serie de técnicas para analizar el comportamiento de las variaciones de los requisitos del producto, con el fin de establecer acciones que mejoren su calidad, en pro de aumentar las ventas y la productividad de la empresa. 
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0.fw-bold El control de calidad no solo está encaminado a las inspecciones del producto terminado, también es importante realizar las inspecciones del producto durante el proceso de producción.
       .col-sm-12.col-lg-3
@@ -99,7 +99,7 @@
             .h2 1
           p.text-center 
             b Necesidades
-          p.text-center Principal objetivo del producto, si no existen genera insatisfacción.
+          p.text-align-cus Principal objetivo del producto, si no existen genera insatisfacción.
           ul.lista-ul--color
             li.color-primario
               i.fas.fa-plus
@@ -123,7 +123,7 @@
             .h2 2
           p.text-center 
             b Expectativas
-          p.text-center Si se presentan en mayor medida genera satisfacción.
+          p.text-align-cus Si se presentan en mayor medida genera satisfacción.
           ul.lista-ul--color
             li.color-primario
               i.fas.fa-plus
@@ -141,7 +141,7 @@
             .h2 3
           p.text-center 
             b Superar expectativas
-          p.text-center No esperado por el cliente (sorprenderle gratamente), incrementa el grado de satisfacción.
+          p.text-align-cus No esperado por el cliente (sorprenderle gratamente), incrementa el grado de satisfacción.
           ul.lista-ul--color
             li.color-primario
               i.fas.fa-plus
@@ -209,10 +209,10 @@
               li.color-primario
                 i.fas.fa-plus
                 | Inspecciones producto terminado.
-        .col-sm-12.col-lg-8
+        .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_13.png")
 
-      .row.justify-content-center.px-5
+      .row.justify-content-center.px-5.pt-5
         .col-sm-12.col-lg-4
           p.mb-5.fw-bold Control de calidad
           ul.lista-ul--color
@@ -234,7 +234,7 @@
               li.color-primario
                 i.fas.fa-plus
                 | Muestreos, gráficos, sistema de información, manuales, instructivos, formatos.
-        .col-sm-12.col-lg-8
+        .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_14.png")
       
       .row.justify-content-center.px-5
@@ -259,7 +259,7 @@
               li.color-primario
                 i.fas.fa-plus
                 | Auditorías internas y externas.
-        .col-sm-12.col-lg-8
+        .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_15.png")
 
       .row.justify-content-center.px-5
@@ -278,7 +278,7 @@
               li.color-primario
                 i.fas.fa-plus
                 | Satisfacción del cliente.
-        .col-sm-12.col-lg-8
+        .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_16.png")
 
       .row.justify-content-center.px-5
@@ -294,7 +294,7 @@
               li.color-primario
                 i.fas.fa-plus
                 | Se involucra todas las áreas y todas las personas de la empresa.
-        .col-sm-12.col-lg-8
+        .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_17.png")
 
       .row.justify-content-center.px-5
@@ -310,7 +310,7 @@
               li.color-primario
                 i.fas.fa-plus
                 | Involucran los procesos. Mejora continua.
-        .col-sm-12.col-lg-8
+        .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_18.png")
 
     .row.justify-content-center(data-aos="zoom-in-left")
@@ -364,24 +364,24 @@
     .row.justify-content-center.align-items-center.mb-1(data-aos="zoom-in-left")
       .col-sm-12.col-lg-6
         p  El control de calidad se realiza en las siguientes fases:
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12.d-none.d-lg-block
         img(src="@/assets/curso/temas/tema1/img_102.svg")
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12.d-sm-block.d-lg-none
         img(src="@/assets/curso/temas/tema1/img_103.svg")
 
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
-        p  Mejora continua, con el fin de prever ocurrencias de la no conformidad, y facilitar la toma de decisiones.
+        p.mb-0  Mejora continua, con el fin de prever ocurrencias de la no conformidad, y facilitar la toma de decisiones.
     h3.titulo-tercero(data-aos="zoom-in-left") Automatización de control de calidad en la industria textil y confección
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
-        p.mb-4 La calidad 4.0 está relacionada con la revolución digital, teniendo en cuenta las tecnologías big data, inteligencia artificial, machine learning, deep learning e internet de las cosas. La automatización de los procesos proporciona agilidad, más seguridad en los datos porque disminuye la presentación de información incorrecta, y más conocimiento sobre cada área de la empresa.
-        p.mb-4 La implementación básica se refiere a la utilización de software especializado; de herramientas de calidad como los programas SPSS, Statgraphics Centurion o SAS; de recursos relacionados con internet de las cosas, por ejemplo, la geolocalización con aplicaciones con códigos QR, y las relacionadas con las herramientas Lean Manufacturing.
+        p.mb-4 La calidad 4.0 está relacionada con la revolución digital, teniendo en cuenta las tecnologías #[i big data], inteligencia artificial, #[i machine learning, deep learning] e #[i internet] de las cosas. La automatización de los procesos proporciona agilidad, más seguridad en los datos porque disminuye la presentación de información incorrecta, y más conocimiento sobre cada área de la empresa.
+        p.mb-4 La implementación básica se refiere a la utilización de #[i software]  especializado; de herramientas de calidad como los programas SPSS, #[i Statgraphics Centurion] o SAS; de recursos relacionados con #[i internet]  de las cosas, por ejemplo, la geolocalización con aplicaciones con códigos #[i QR], y las relacionadas con las herramientas #[i Lean Manufacturing ].
         .cajon.color-acento-contenido.p-4.mb-4
-            p.fw-bold.mb-0 Con la integración de datos y su tratamiento avanzado se puede simular los procesos para mejorar la gestión de calidad. Además, las personas encargadas directamente de la calidad pueden desarrollar actividades de manera remota, sin necesidad de su presencia in situ en la empresa. También puede apoyar la planificación de auditorías en el mejoramiento de la implementación de la metodología 5S.
+            p.fw-bold.mb-0 Con la integración de datos y su tratamiento avanzado se puede simular los procesos para mejorar la gestión de calidad. Además, las personas encargadas directamente de la calidad pueden desarrollar actividades de manera remota, sin necesidad de su presencia #[i in situ] en la empresa. También puede apoyar la planificación de auditorías en el mejoramiento de la implementación de la metodología 5S.
       .col-sm-12.col-lg-3
         img.d-none.d-lg-block(src="@/assets/curso/temas/tema1/img_20.png")
 
@@ -435,14 +435,14 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span
-            | Ciclo de Deming 
+            | Ciclo de #[i Deming ]
         img.img-a(src='@/assets/curso/temas/tema1/img_22.svg', alt='El diagrama presenta los pasos del ciclo: planear, hacer, verificar, actuar.')
        
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         h3.titulo-tercero Cultura de la calidad
         p.mb-4 Son los principios de calidad que rigen la forma de actuar de las personas que hacen parte de la organización, para que interactúen entre ellas y así lograr en equipo los objetivos propuestos.
-        p Esta base definida en términos de valores y hábitos, del quehacer diario de todos los que trabajan en la empresa, requiere para su implementación la capacitación efectiva y constante, la interacción a través de una comunicación asertiva y eficaz para seguir construyendo una cultura de la calidad sólida; la metodología utilizada son los círculos de calidad desarrollados por Kauro Ishikawa. En la siguiente figura se aprecian sus componentes.
+        p Esta base definida en términos de valores y hábitos, del quehacer diario de todos los que trabajan en la empresa, requiere para su implementación la capacitación efectiva y constante, la interacción a través de una comunicación asertiva y eficaz para seguir construyendo una cultura de la calidad sólida; la metodología utilizada son los círculos de calidad desarrollados por Kauro Ishikawa. En la siguiente figura se aprecian sus componentes:
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img.img-a(src='@/assets/curso/temas/tema1/img_23.png')
     
@@ -453,49 +453,45 @@
             h5 Figura 2.
             span
               | Circulo de calidad
-          img.img-a(src='@/assets/curso/temas/tema1/img_24.svg', alt='En el diagrama del circulo de calidad  se aprecian sus componentes así:  Objetivos mejora continua del producto, integrantes son de la misma área, reuniones acordadas en horario diferente al laboral y en otro ambiente,  participación voluntaria, equipos de 3 a 15 personas')
+          img.img-a(src='@/assets/curso/temas/tema1/img_24.svg', alt='En el diagrama del circulo de calidad  se aprecian sus componentes así:  Objetivos mejora continua del producto, integrantes son de la misma área, reuniones acordadas en horario diferente al laboral y en otro ambiente,  participación voluntaria, equipos de 3 a 15 personas.')
     h3.titulo-tercero(data-aos="zoom-in-left") Metodología de mejoramiento continuo   
     p.mb-3(data-aos="zoom-in-left") La metodología se encuentra enmarcada dentro del ciclo de mejoramiento continuo, en el que se desarrollan trece pasos. De manera que todo el personal involucrado en la empresa debe participar para que el mejoramiento sea constante, ya que es un trabajo diario.
     p.mb-5(data-aos="zoom-in-left") Los elementos del Kaizen son:
 
     .row.justify-content-between.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
+      .col-sm-12.col-md-6.col-lg-2
+        .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-              figure
-                img(src='@/assets/curso/temas/tema1/img_25.svg')
+            .col-sm-2.col-md-4.col-lg-7
+                img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_25.svg')
           h3.text-center.mb-0.text-primario Trabajo en equipo
 
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
+      .col-sm-12.col-md-6.col-lg-2
+        .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-              figure
-                img(src='@/assets/curso/temas/tema1/img_26.svg')
+            .col-sm-2.col-md-4.col-lg-7
+                img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_26.svg')
           h3.text-center.mb-0.text-primario Disciplina personal
 
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
+      .col-sm-12.col-md-6.col-lg-2
+        .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-              figure
-                img(src='@/assets/curso/temas/tema1/img_27.svg')
+            .col-sm-2.col-md-4.col-lg-7
+                img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_27.svg')
           h3.text-center.mb-0.text-primario Moral mejorada
 
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
+      .col-sm-12.col-md-6.col-lg-2
+        .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-              figure
+            .col-sm-2.col-md-4.col-lg-7
                 img(src='@/assets/curso/temas/tema1/img_28.svg')
           h3.text-center.mb-0.text-primario Círculos de calidad
 
-      .col-sm-12.col-lg-2
-        .tarjeta--boton.color-primario.p-4.h-anexo-2
+      .col-sm-12.col-md-6.col-lg-2
+        .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-                img(src='@/assets/curso/temas/tema1/img_29.svg')
+            .col-sm-2.col-md-4.col-lg-7
+                img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_29.svg')
           h3.text-center.mb-0.text-primario Sugerencias para las mejoras
 
     p.mb-3(data-aos="zoom-in-left") Para conocer sobre la metodología Kaizen, leer la estrategia Kaizen ubicada en las referencias bibliográficas (Lefcovich, 2009).
@@ -507,7 +503,7 @@
           span
             | Proceso para la solución de problemas
         img.img-a(src='@/assets/curso/temas/tema1/img_30.svg', alt='La imagen contiene los diferentes aspectos que se deben tener en cuenta para la solución de problemas ellos son:  Sentido común, revisión de diseño, trabajo en equipo, rapeo de procesos, habilidades de liderazgo, diseño de experimentos, flujogramas de despliegues, siete nuevas herramientas administrativas, análisis del árbol de fallas, análisis de valor e ingeniería de valor,  <i>six sigma</i>, análisis del modo y efecto de la falla, control estadístico del proceso.')
-    p.mb-5(data-aos="zoom-in-left") A continuación, se pueden consultar los 13 pasos de la metodología, descritos en la siguiente tabla:
+    p.mb-5(data-aos="zoom-in-left") A continuación, se presentan los 13 pasos de la metodología, descritos en la siguiente tabla:
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-contenido
@@ -578,9 +574,7 @@
           td Realizar seguimiento con programa (a cargo del responsable del evento), presentar resultados y estandarizar, si no se obtiene el resultado deseado volver a iniciar.
 
 
-
-
-    h3.titulo-tercero(data-aos="zoom-in-left") #[i Six sigma ]
+    h3.titulo-tercero.mt-2(data-aos="zoom-in-left") #[i Six sigma ]
     p.mb-5(data-aos="zoom-in-left") Es un modelo de gestión, el objetivo es el mejoramiento de los procesos; se conoce por su sigla en inglés DMAIC cuya traducción está asociada a definir, medir, analizar, mejorar y controlar.
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
@@ -595,7 +589,7 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Para conocer más sobre el modelo le invitamos a visitar el sitio Web Leansolutions, al cual puede acceder a través del siguiente enlace:
+                  p.mb-0 Para conocer más sobre el modelo le invitamos a visitar el sitio #[i Web Leansolutions ], al cual puede acceder a través del siguiente enlace:
                 .col-sm-auto
                   a.boton.color-boton(href="http://leansolutions.co/conceptos-lean/que-es-six-sigma/" target="_blank")
                     span.text-sistm Enlace Web
@@ -607,13 +601,13 @@
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9.mx-auto
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
+          h5 Figura 4.
           span
             | Tipos de Costos de Calidad
-        img.img-a(src='@/assets/curso/temas/tema1/img_32.svg', alt='En el diagrama se  observan los tipos de costos de calidad:  Costo de  Calidad que comprende la Prevención y como ejemplo el mantenimiento de máquinas y capacitación de personal y la Evaluación como   ejemplo las  inspecciones, pruebas de laboratorio y auditorías internas y externas   y Costos de no calidad que comprenden los fallos internos  como la producción defectuosa, reprocesos, falda de productividad y paradas de producción y fallos externos  como devoluciones y demandas.')
+        img.img-a(src='@/assets/curso/temas/tema1/img_32.svg', alt='En el diagrama se  presentan los tipos de costos de calidad:  Costo de  Calidad que comprende la Prevención y como ejemplo el mantenimiento de máquinas y capacitación de personal y la Evaluación como   ejemplo las  inspecciones, pruebas de laboratorio y auditorías internas y externas   y Costos de no calidad que comprenden los fallos internos  como la producción defectuosa, reprocesos, falda de productividad y paradas de producción y fallos externos  como devoluciones y demandas.')
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
-        h3.titulo-tercero(data-aos="zoom-in-left") Sistema de gestión de la calidad, Norma ISO 9001 versión 2015
+        h3.titulo-tercero(data-aos="zoom-in-left") Sistema de gestión de la calidad, Norma #[i ISO ] 9001 versión 2015
         p.mb-5 El sistema de gestión de la calidad es una herramienta administrativa, cuenta con una estructura organizada para integrar todos los procesos, e incluye los elementos necesarios para lograr cumplir las necesidades y expectativas del cliente. Obtener la certificación es evidenciar la capacidad que tiene la empresa para cumplir con los requisitos. Una vez certificada la empresa su vigencia es de tres años, con auditorias de seguimiento y una vez pasados los tres años se debe realizar una auditoría de renovación.
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0.fw-bold La certificación es una constancia de valor a nivel internacional. El enfoque de la norma está basado en los riesgos, a través de los cuales la empresa demuestra la gestión de los riesgos y determina las acciones que pueden afectar la capacidad de proporcionar satisfacción al cliente y obtener los resultados esperados de la empresa.
@@ -744,20 +738,7 @@
             p.mb-0.fw-bold En el caso de las telas se puede apoyar su control con equipos como revisadores para inspeccionar los defectos.
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img.img-a(src='@/assets/curso/temas/tema1/img_42.png')
-    .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-6
-        .tarjeta.color-primario.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src="@/assets/template/icono-pdf-2.svg")
-            .col-sm-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 Complementario - 14.3 Artículo
-                .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/Complementario_14_3_Articulo.pdf')" target="_blank")
-                    span.text-sistm Descargar
-                    i.fas.fa-file-download.text-sistm
+    
     
     Separador  
     #t_1_4.titulo-segundo.color-primario(data-aos="zoom-in-left")
@@ -773,7 +754,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
         .cajon.color-acento-botones.p-4
-            p.mb-0.fw-bold En el proceso de patronaje, la persona responsable del patronaje de la prenda, junto con el auditor de calidad realizan la revisión del paquete de moldes o patrones que comprenden la pieza. Es importante revisarlos en físico, a pesar de que se desarrolle la prenda en un software especializado.
+            p.mb-0.fw-bold En el proceso de patronaje, la persona responsable del patronaje de la prenda, junto con el auditor de calidad realizan la revisión del paquete de moldes o patrones que comprenden la pieza. Es importante revisarlos en físico, a pesar de que se desarrolle la prenda en un #[i software]  especializado.
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p Una vez se desarrolla la prenda la validación de los patrones debe estar contenida en un documento de revisión de patronaje.
@@ -784,29 +765,29 @@
       .col-sm-12.col-lg-3
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-                img(src='@/assets/curso/temas/tema1/img_44.svg')
+            .col-sm-4.col-lg-7
+                img.img-accord-cus(src='@/assets/curso/temas/tema1/img_44.svg')
           h3.text-center.mb-3 Explícitos
           p.text-center.mb-0 Declarados por el cliente, según sus expectativas
       .col-sm-12.col-lg-3
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-                img(src='@/assets/curso/temas/tema1/img_45.svg')
+            .col-sm-4.col-lg-7
+                img.img-accord-cus(src='@/assets/curso/temas/tema1/img_45.svg')
           h3.text-center.mb-3 Implícitos
           p.text-center.mb-0 Necesarios para que cumplan su función
       .col-sm-12.col-lg-3
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-                img(src='@/assets/curso/temas/tema1/img_46.svg')
+            .col-sm-4.col-lg-7
+                img.img-accord-cus(src='@/assets/curso/temas/tema1/img_46.svg')
           h3.text-center.mb-3 Legales o reglamentarios
           p.text-center.mb-0 De acuerdo con el cumplimiento de las leyes
       .col-sm-12.col-lg-3
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-3
-            .col-sm-2.col-lg-7
-                img(src='@/assets/curso/temas/tema1/img_47.svg')
+            .col-sm-4.col-lg-7
+                img.img-accord-cus(src='@/assets/curso/temas/tema1/img_47.svg')
           h3.text-center.mb-3 Relacionados con la empresa
           p.text-center.mb-0 Según las políticas de la empresa
     p.mb-5(data-aos="zoom-in-left") Los requisitos para revisar en patronaje son:
@@ -815,15 +796,15 @@
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_48.svg')
+              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_48.svg')
             .col-sm-12.col-lg-9
-              p.mb-0 Del patrón con costuras y sin costuras para comparar medidas con la prenda terminada y correspondencia con la talla, además se debe revisar que las medidas de las piezas sean iguales al unir y que tengan simetría, se puede superponer las piezas para consultar que coincidan a sus longitudes..row(titulo="")
+              p.mb-0 Del patrón con costuras y sin costuras para comparar medidas con la prenda terminada y correspondencia con la talla, además se debe revisar que las medidas de las piezas sean iguales al unir y que tengan simetría, se puede superponer las piezas para consultar que coincidan a sus longitudes.
 
       .row(titulo="Cantidad de piezas")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_49.svg')
+              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_49.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Correspondencia de piezas respecto al diseño y al dibujo plano del patrón.
       
@@ -831,35 +812,35 @@
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_50.svg')
+              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_50.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Debe contener identificación de la prenda, no se debe prestar a dualidades de información, además debe indicar la cantidad a cortar en cada pieza.
       .row(titulo="Aplomos")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_51.svg')
+              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_51.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Indicación clara de las líneas de aplomo de cada pieza.
       .row(titulo="Costuras")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_52.svg')
+              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_52.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Márgenes de costura en cada pieza, y la correspondencia con la pieza a unir, por ejemplo, si en el hombro de la pieza del delantero el ancho es de 1 cm de margen de costura, en el hombro posterior debe corresponder a la misma medida.
       .row(titulo="Piquetes y puntos")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_54.svg')
+              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_54.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Existencia de puntos y piquetes, alineando las piezas y correspondiendo la unión de puntos y piquetes.
       .row(titulo="Plantillas")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img(src='@/assets/curso/temas/tema1/img_55.svg')
+              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_55.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Funcionalidad de la plantilla y sus medidas.  
     
@@ -883,7 +864,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_57.svg')
-          .col-sm-12.col-lg-8
+          .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
@@ -901,7 +882,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_58.svg')
-          .col-sm-12.col-lg-8
+          .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
@@ -926,7 +907,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_59.svg')
-          .col-sm-12.col-lg-8
+          .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
@@ -945,7 +926,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_60.svg')
-          .col-sm-12.col-lg-8
+          .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
@@ -957,7 +938,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_61.svg')
-          .col-sm-12.col-lg-8
+          .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
@@ -978,7 +959,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_62.svg')
-          .col-sm-12.col-lg-8
+          .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
@@ -1011,11 +992,11 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 En las pruebas se analizan las fibras, en cuanto a la cantidad, colorimétrica, peso, composición, cambios dimensionales después del lavado, resistencia a la rotura y al desgarre, elongación y elasticidad de la tela, recuperación a las arrugas, resistencia a la abrasión, solidez al color con el frote, al agua, al planchado, resistencia a la formación de motas (pilling), entre otras.
+                  p.mb-0 En las pruebas se analizan las fibras, en cuanto a la cantidad, colorimétrica, peso, composición, cambios dimensionales después del lavado, resistencia a la rotura y al desgarre, elongación y elasticidad de la tela, recuperación a las arrugas, resistencia a la abrasión, solidez al color con el frote, al agua, al planchado, resistencia a la formación de motas (#[i pilling]), entre otras.
     
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
-        p.mb-0 En el siguiente cuadro se observa algunos ensayos con la norma relacionada que se pueden realizar a la prenda.
+        p.mb-0 En el siguiente cuadro se presentan algunos ensayos con la norma relacionada que se pueden realizar a la prenda.
     
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
@@ -1061,14 +1042,14 @@
             td Determinación de la recuperación de las arrugas.
             td NTC 1199
           tr
-            td Determinación de la resistencia a la formación de motas (Pilling) y otros 
+            td Determinación de la resistencia a la formación de motas (#[i pilling]) y otros 
             td NTC 2051-2: 2003-06-26 <br>  ASTMD 3512-02
           tr
             td Determinación de la resistencia a la penetración del agua. Método presión hidrostática. 
             td EN 20811
           tr
             td Determinación de la resistencia al deslizamiento de los hilos de una costura en telas de tejido plano. <br>Parte 1: método de abertura fija en una costura.
-            td NTC 1386-1: 2006-11-30 <br> ISO 13936-1:2004
+            td NTC 1386-1: 2006-11-30 <br> #[i ISO ] 13936-1:2004
           tr
             td Determinación de la resistencia al estallido de textiles. 
             td NTC 2291/A8TMD3787
@@ -1092,10 +1073,10 @@
             td NTC 850/AATCC 106
           tr 
             td Determinación de la solidez del color al planchado.
-            td NTC 766 / ISO 105-X 11
+            td NTC 766 / #[i ISO ] 105-X 11
           tr 
             td Determinación de la tendencia a la formación de motas y de pelusa.
-            td NTC 2051-1: 2003-04-23<br> ISO 12945-1: 2000<br>NTC 2051-3 ASTMD 4969
+            td NTC 2051-1: 2003-04-23<br> #[i ISO ] 12945-1: 2000<br>NTC 2051-3 ASTMD 4969
           tr 
             td Determinación del ancho de las telas.
             td NTC 228: 2016-05-18<br> ASTM D3774:1996 (2012)
@@ -1104,7 +1085,7 @@
             td NTC 3401
           tr 
             td Determinación del contenido de formaldehído. 
-            td NORMA ISO 14184-1:2011
+            td NORMA #[i ISO ] 14184-1:2011
           tr 
             td Determinación del daño relacionado con la aguja causado por la costura, en tejido plano y en tejido de punto.
             td NTC 5893 / ASTM D1908
@@ -1140,16 +1121,16 @@
             td 6067/ASTMD 6413
           tr 
             td Longitud de caída. 
-            td BS 3356
+            td #[i BS ] 3356
           tr 
             td Longitud de caída. 
-            td BS 3356
+            td #[i BS ] 3356
           tr 
             td Medición de la permeabilidad de los textiles al vapor de agua con fines de control de la calidad. 
             td NTC 6076/15015496
           tr 
             td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc). 
-            td NORMA ISO 17072-1:2011
+            td NORMA #[i ISO ] 17072-1:2011
           tr 
             td Método de ensayo para determinar la solidez del color a la transpiración. 
             td NTC 772: 2017-03-22 <br>AATCC 15:2002
@@ -1179,7 +1160,7 @@
             td ASTMD 1683
           tr 
             td Método para determinar la resistencia al desgarre trapezoidal. 
-            td ASTM D 5587- NTC 2261/ ISO 9073-4
+            td ASTM D 5587- NTC 2261/ #[i ISO ] 9073-4
           tr 
             td Método para determinar las propiedades de estiramiento de telas de tejido de punto de bajo poder. 
             td ASTMD 2594
@@ -1188,16 +1169,16 @@
             td NORMA NTC 5462 / ASTMD 3107
           tr 
             td Métodos de ensayo para telas no tejidas. Determinación de la masa  por unidad de área. 
-            td NTC 2598 <br>ISO 9073-1
+            td NTC 2598 <br>#[i ISO ] 9073-1
           tr 
             td Métodos de ensayo para telas no tejidas. Determinación de la resistencia al desgarre. 
-            td NTC 2601 <br>ISO 9073-4
+            td NTC 2601 <br>#[i ISO ] 9073-4
           tr 
             td Métodos de ensayo para telas no tejidas. Determinación del alargamiento y resistencia a la tensión. 
-            td NTC 2600 <br>ISO 9073-3
+            td NTC 2600 <br>#[i ISO ] 9073-3
           tr 
             td Métodos de ensayo para telas no tejidas. Determinación del espesor. 
-            td NTC 2599 <br>ISO 9073-2
+            td NTC 2599 <br>#[i ISO ] 9073-2
           tr 
             td Permeabilidad al agua por rociado. 
             td AATCC 22
@@ -1227,7 +1208,7 @@
             td NTC 1479-2 1SO 105- B02
           tr 
             td Solidez del color a la saliva. 
-            td ISO 20701
+            td #[i ISO ] 20701
           tr 
             td Solidez del color al agua. 
             td AATCC 107:2013
@@ -1236,7 +1217,7 @@
             td AATCC 116
           tr 
             td Textiles. Determinación de la resistencia al deslizamiento de los hilos de una costura en telas de tejido plano. 
-            td  NTC 1386-2: 2006-11-30 <br>ISO 13936-2: 2004
+            td  NTC 1386-2: 2006-11-30 <br>#[i ISO ] 13936-2: 2004
     h3.titulo-tercero Requisitos de calidad en confección
     p.mb-5 Los requisitos que se deben cumplir en la confección y que son objetos de control son:
     .row.justify-content-around.align-items-center.mb-5
@@ -1264,118 +1245,52 @@
               li.color-primario
                 i.fas.fa-plus
                 | #[b Instrucciones de cuidado y terminados:] según la norma, tener en cuenta los símbolos y la composición del material, incluidas en la etiqueta adherida en la prenda
+    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-8
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img.w-75(src="@/assets/curso/temas/tema1/img_104.svg")
+            .col-sm-12.col-lg-10
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0 A continuación, se presentan imágenes descriptivas de los defectos que pueden existir en las costuras, textiles e insumos:
+    
     .row.justify-content-center.mb-2(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12
-        p.fw-bold.text-center Listado de defectos:
-    .row.justify-content-around.align-content-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_66.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Falta de tensión en costuras
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_67.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus Costuras recogidas
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_68.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Saltos de costuras
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_69.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Costuras sin pulir
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_70.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Costuras recogidas
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_71.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Costuras sueltas
-    
-    .row.justify-content-around.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_72.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Costuras rotas
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_73.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Cases de costura
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_74.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Remates nudosos
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_75.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Falta de simetría
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_76.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Rotura en prenda
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_77.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Costuras abiertas
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_78.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Costuras retendas
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_79.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Salto de puntada
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_80.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Hilos sueltos
-
-
-    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-12
-        p.fw-bold.text-center Defectos en textiles
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_81.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus Manchas de aceite
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_82.png") 
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Mota en tejido
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_83.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Tejido contaminado
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_84.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus Agujero en el tejido
-    
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_85.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus Falla de aguja
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_86.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Lycra rota
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_87.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Tejido barrado
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_88.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus Nudo en el tejido
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_89.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus Quiebres
-      .col-sm-12.col-lg-2 
-        img.mb-0(src="@/assets/curso/temas/tema1/img_90.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Desgaste
-      .col-sm-12.col-lg-2 
-        img.mb-0(src="@/assets/curso/temas/tema1/img_91.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  NEPS
-
-    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-12
-        p.fw-bold.text-center Defectos en insumos
-    
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_92.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus Cremallera rota
-      .col-sm-12.col-lg-2
-        img.mb-0(src="@/assets/curso/temas/tema1/img_93.png")
-        .text-center.bg05.px-1.py-1.align-content-center.mb-cus  Rotura en cordones, sesgos, cintas
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 5.
+          span
+            |  Listado de defectos
     .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-10.bg06.py-3
-        p.text-center.align-content-center.mb-0 Complementario 1 – Equipo de desarrollo curricular técnico Control calidad en confección industrial SENA, 2020, Listado de defectos
+      .col-sm-12.col-lg-12
+        img.mb-0(src="@/assets/curso/temas/tema1/img_105.svg", alt='La imagen presenta una serie de fotografías donde se ilustran los siguientes defectos: falta de tensión en las costuras, costuras recogidas, saltos de costura, costuras sin pulir, costuras sueltas, costuras rotas, cases de costuras, remates nudosos, falta de simetría, rotura en prenda, costuras abiertas, costuras retenidas, salto de puntada, hilos sueltos.')
+ 
     
+
+
+    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        .titulo-sexto.color-acento-contenido
+            h5 Figura 6.
+            span
+              | Defectos en textiles
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-9
+        img.mb-0(src="@/assets/curso/temas/tema1/img_106.svg", alt='La imagen presenta una serie de fotografías que ejemplifican los siguientes defectos en textiles: manchas de aceite,  mota en tejido, tejido contaminado, agujero en el tejido, falla de aguja, lycra rota, tejido barrado, nudo en el tejido, quiebres y NEPS.')
+  
+    
+
+    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-6
+        .titulo-sexto.color-acento-contenido
+            h5 Figura 7.
+            span
+              | Defectos en insumos
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-6
+        img.mb-0(src="@/assets/curso/temas/tema1/img_107.svg", alt='La imagen presenta dos fotografías, una de una cremallera rota y la otra de rotura en cordones, sesgos, cintas.')
+  
     Separador  
     #t_1_7.titulo-segundo.color-primario(data-aos="zoom-in-left")
       h2 1.7 Control de calidad en terminados   
@@ -1464,7 +1379,7 @@
                   p.mb-0 Es importante controlar desperdicios generados en la producción de los insumos, los cuales inciden en el costo del producto, de allí la importancia del control de los consumos en la planta.
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8 
-        p.mb-0.px-0.mx-0 El siguiente cuadro muestra pruebas especializadas que se realizan para evaluar características de algunos insumos:
+        p.mb-0.px-0.mx-0 El siguiente cuadro presenta pruebas especializadas que se realizan para evaluar características de algunos insumos:
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
         .titulo-sexto.color-acento-contenido
@@ -1490,31 +1405,31 @@
           td NTC 481: 2012-12-12   <br>  ASTMD 629:2008
         tr
           td Resistencia del freno. 
-          td NTC 2512 / BS 3084
+          td NTC 2512 / #[i BS ] 3084
         tr
           td Resistencia del deslizador de tira simple en cierres separables.
-          td  NTC 2512 / BS 3084
+          td  NTC 2512 / #[i BS ] 3084
         tr
           td Determinación de las medidas de longitud de los cierres. 
-          td NTC 2512 / BS 3084
+          td NTC 2512 / #[i BS ] 3084
         tr
           td Resistencia a la carga lateral del cierre. 
-          td NTC 2512 / BS 3084
+          td NTC 2512 / #[i BS ] 3084
         tr
           td Resistencia lateral del conjunto separable (pin y caja). 
-          td NTC 2512 / BS 3084
+          td NTC 2512 / #[i BS ] 3084
         tr
           td Resistencia de la paleta del deslizador. 
-          td NTC 2512 / BS 3084
+          td NTC 2512 / #[i BS ] 3084
         tr
           td Resistencia a la fijación del tope inferior por separación de la tira.
           td &nbsp;
         tr
           td Resistencia del tope superior.
-          td  NTC 2512 / BS 3084
+          td  NTC 2512 / #[i BS ] 3084
         tr
           td Resistencia de la caja retenedora. 
-          td NTC 2512 / BS 3084
+          td NTC 2512 / #[i BS ] 3084
         tr
           td Método de ensayo para determinar la solidez del color al lavado en seco, usando solvente percloroetileno.
           td NTC 4160/1S0 105D01
@@ -1586,16 +1501,16 @@
           td NTC 1155-3: 2017-10-18<br>AATCC 61:2013
         tr
           td Solidez del color a la luz- luz solar. 
-          td NTC 1479-2 ISO 105- B02
+          td NTC 1479-2 #[i ISO ] 105- B02
         tr
           td Determinación de torsiones. 
           td NTC 443-NTC 752
         tr
           td Formaldehído libre. 
-          td ISO 14184-1:2011
+          td #[i ISO ] 14184-1:2011
         tr
           td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc). 
-          td ISO 17072-1:2011
+          td #[i ISO ] 17072-1:2011
 
     h3.titulo-tercero(data-aos="zoom-in-left") Control de calidad de materiales
     p.mb-2(data-aos="zoom-in-left") Los materiales que apoyan la producción como es el caso, en mayor medida, de la papelería, sus especificaciones técnicas deben corresponder a su aplicación en el proceso productivo.
@@ -1619,8 +1534,8 @@
                 p.mb-0 Funcionalidad, composición, tamaño, peso, color, uniformidad
 
     h3.titulo-tercero(data-aos="zoom-in-left") Control de calidad en textiles
-    p.mb-3(data-aos="zoom-in-left") En el caso de los textiles, teniendo en cuenta las propiedades asociadas a su composición se realizan las inspecciones que pueden ser observadas con detenimiento, pero es necesario realizar pruebas de laboratorio que garanticen la calidad para su utilización.
-    p.mb-5(data-aos="zoom-in-left") Se tienen en cuenta algunas de ellas como muestra el siguiente cuadro:
+    p.mb-3(data-aos="zoom-in-left") En el caso de los textiles, teniendo en cuenta las propiedades asociadas a su composición se realizan las inspecciones que pueden ser evidenciadas con detenimiento, pero es necesario realizar pruebas de laboratorio que garanticen la calidad para su utilización.
+    p.mb-5(data-aos="zoom-in-left") Se tienen en cuenta algunas de ellas como presenta el siguiente cuadro:
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-contenido
@@ -1658,7 +1573,7 @@
               td NTC 959
             tr 
               td Libre de formaldehído.
-              td ISO 14184-1:2011
+              td #[i ISO ] 14184-1:2011
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
