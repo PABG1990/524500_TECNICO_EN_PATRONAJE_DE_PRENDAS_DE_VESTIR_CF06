@@ -74,6 +74,11 @@ li.color-primario > i
   height: 60px
 .bg06
   background-color: #F6F6F6
+
+.bg07
+  background-color:#FAFAFA
+  border-radius: 15px
+
 .tabs-c 
     border-bottom: 0 !important
 .tabs-c__tab--active
@@ -82,9 +87,37 @@ li.color-primario > i
   height: 150px
 .text-align-cus
   text-align: center
+.w-card-text
+  position: relative
+  left: -70px
+  z-index: 0
+  color: $color-primario
+.w-card-icon
+  width: min-content
+  z-index: 1
+.tarjeta.color-cus
+    background-color: #F4EEFF
+    border-radius: 12px
+.img-sliderF
+  border-radius: 12px
+.txt-sliderF
+  font-size: 24px
+  font-weight: bold
+  margin-bottom: 0 !important
+  padding-bottom: 0 !important
+.slider-1 .txt-sliderF
+  color: #fff !important
+.slider-1 .slyder-f__btn i
+  color: $color-acento-botones
+.slider-2 .slyder-f__btn i
+  color: $color-primario
+.h-slyderF
+  height: 220px
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em 
+  .mb-cus-2
+    margin-bottom: 3em 
   .px-sm-cus  
     padding-left: 2em !important
     padding-right: 2em  !important
@@ -102,13 +135,18 @@ li.color-primario > i
     margin-bottom: 1em 
   .tarjeta--container > .tarjeta:last-child
     border-radius: 20px !important
-
+  .h-slyderF
+    height: auto
 
 @media screen and (max-width: $bp-max-sm)
   .h-anexo, .h-anexo-2
     height: auto
   .mb-cus
     margin-bottom: 2em 
+  .mb-cus-3
+    margin-bottom: 2em 
+  .mb-cus-2
+    margin-bottom: 3em 
   .px-sm-cus  
     padding-left: 2em !important
     padding-right: 2em  !important
@@ -126,3 +164,5 @@ li.color-primario > i
     margin-bottom: 1em 
   .tarjeta--container > .tarjeta:last-child
     border-radius: 20px !important
+  .h-slyderF
+      height: auto
