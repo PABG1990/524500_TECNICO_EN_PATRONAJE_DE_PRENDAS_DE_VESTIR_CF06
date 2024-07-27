@@ -5,7 +5,7 @@
     p.mb-5 A continuación, se presenta un mapa conceptual con los elementos más importantes desarrollados en este componente.
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="el diagrama de flujo presenta el contenido de la unidad, describiendo cada tema y sus subtemas")
       .col-auto

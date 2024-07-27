@@ -24,7 +24,11 @@ li.color-primario > i
 .h-anexo
   height: 350px
 .h-anexo-2
-  height: 200px
+  height: 240px
+.h-anexo-3
+  height: 400px
+.h-anexo-4
+  height: 300px
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
     background-color: $color-acento-botones;
     border: 1px solid $color-acento-botones;
@@ -38,23 +42,42 @@ li.color-primario > i
     background-color: #FFF5D3;
 .text-primario
   color: $color-primario
-.tarjeta--purple
+.tarjeta--purple.acordion__activo
     background-color: #E0D7F1;
     border-radius: 25px;
+.tarjeta--purple
+  border-bottom: 1px solid #E8E8E8
+  border-radius: 0
+.tarjeta--purple.acordion__activo .acordion__accion__btn--b
+  border: 1px solid #12263F
+.acordion__accion__btn--b
+  border: 1px solid #AFAFAF
 .w-10-cus
   width: 10% !important
-
+.tabs-c__tab--active span
+  font-weight: bold !important
+.tabs-c.color-primario .tabs-c__tab--active
+  background-color: #FFF 
+.tabs-c__tab
+  background-color: #FAFAFA 
 .fullview
   background: #FFF5D3
   background-position: center
   background-size: cover
   margin-inline: -3.4rem
 .fullview-blue
-  background: #D2E1F1
+  background: #F0ECF8
   background-position: center
   background-size: cover
   margin-inline: -3.4rem
   border-radius: 15px
+.fullview-purple
+  background: linear-gradient(to bottom, #fff, #F7F5FB, #F0ECF8, #F7F5FB, #fff);
+  background-position: center
+  background-size: cover
+  margin-inline: -3.4rem
+  padding-left: 3.5rem !important
+  padding-right: 3.5rem !important
 .bg01
   background-color: #E7E0F4
   border-radius: 15px
@@ -78,7 +101,12 @@ li.color-primario > i
 .bg07
   background-color:#FAFAFA
   border-radius: 15px
-
+.bg-tx
+  background-color: transparent !important
+  border: 1.5px solid #D1BCFF
+.bg-theader
+  background-color: #D1BCFF !important
+  border: 1.5px solid #D1BCFF
 .tabs-c 
     border-bottom: 0 !important
 .tabs-c__tab--active
@@ -112,7 +140,143 @@ li.color-primario > i
 .slider-2 .slyder-f__btn i
   color: $color-primario
 .h-slyderF
-  height: 220px
+  height: 240px
+.txt-number
+  font-size: 38px
+  font-weight: 900
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  .h5 
+    color: #12263F
+    line-height: 1.5
+    font-size: 1em
+    font-weight: 900
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before 
+    background-color: #FFEAA6 !important
+.crd--second
+  &::before 
+    background-color: #FFE695 !important
+.crd--third
+  &::before 
+    background-color: #FFE183 !important
+.crd--fourth
+  &::before 
+    background-color: #FFDD72 !important
+.crd--last
+  &::before 
+    background-color: #FFD54F !important
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+.img250
+  width: 770px
+.avatar
+  position: absolute
+  bottom: 0
+  right: -8rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.w-50-cus
+  width: 50% !important
+.w-40-cus
+  width: 40% !important
+.mb-cus-4
+    margin-bottom: 2em 
+.br-bb-td
+    border-right: 1px #AFAFAF solid !important
+    border-bottom: 1px #AFAFAF solid !important
+.bt-td
+    border-top: 1px #AFAFAF solid !important
+.br-bl-td
+    border-left: 1px #AFAFAF solid !important
+    border-right: 1px #AFAFAF solid !important
+.bg-tr-odd
+  background-color: #F6F6F6 !important
+.bg-tr-even
+  background-color: #fff !important
+.br-cn-td
+    border-right:  1px #AFAFAF solid !important
+.w-col-1
+  width: 5% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+.w-col-2
+  width: 35% !important;
+.w-img-cus
+  width: 115px;
+.table-xl tr:nth-child(even) 
+      background-color: #FFF;
+    
+.table-xl tr:nth-child(odd) 
+      background-color: #F6F6F6;
+.table-xl-2 tr:nth-child(even) 
+      background-color: #F6F6F6;
+    
+.table-xl-2 tr:nth-child(odd) 
+      background-color: #FFF; 
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em 
@@ -137,14 +301,17 @@ li.color-primario > i
     border-radius: 20px !important
   .h-slyderF
     height: auto
-
+  .w-50-cus, .w-40-cus
+    width: auto !important
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus-3
+    margin-bottom: 2em 
 @media screen and (max-width: $bp-max-sm)
-  .h-anexo, .h-anexo-2
+  .h-anexo, .h-anexo-2, .h-anexo-3, .h-anexo-4
     height: auto
   .mb-cus
     margin-bottom: 2em 
-  .mb-cus-3
-    margin-bottom: 2em 
+  
   .mb-cus-2
     margin-bottom: 3em 
   .px-sm-cus  
@@ -166,3 +333,5 @@ li.color-primario > i
     border-radius: 20px !important
   .h-slyderF
       height: auto
+  .w-50-cus, .w-40-cus
+    width: auto !important

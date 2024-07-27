@@ -91,16 +91,16 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0.fw-bold ¿Qué es un requisito?
+                  h4.mb-0 ¿Qué es un requisito?
                   p Es la traducción de las necesidades y expectativas del cliente y se presenta en tres niveles:
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-4.mb-4
-        .tarjeta-numerada.color-acento-contenido.p-5.h-anexo
+        .tarjeta-numerada.color-acento-contenido.p-5.h-anexo-3
           .tarjeta-numerada__numero
             .h2 1
-          p.text-center 
-            b Necesidades
-          p.text-align-cus Principal objetivo del producto, si no existen genera insatisfacción.
+          .text-center 
+            h4  Necesidades
+          p Principal objetivo del producto, si no existen genera insatisfacción.
           ul.lista-ul--color
             li.color-primario
               i.fas.fa-plus
@@ -119,12 +119,12 @@
               | Tiempo de duración de vida útil
       
       .col-sm-12.col-lg-4.mb-4
-        .tarjeta-numerada.color-acento-botones.p-5.h-anexo
+        .tarjeta-numerada.color-acento-botones.p-5.h-anexo-3
           .tarjeta-numerada__numero
             .h2 2
-          p.text-center 
-            b Expectativas
-          p.text-align-cus Si se presentan en mayor medida genera satisfacción.
+          .text-center 
+            h4 Expectativas
+          p Si se presentan en mayor medida genera satisfacción.
           ul.lista-ul--color
             li.color-primario
               i.fas.fa-plus
@@ -137,12 +137,12 @@
               | Hacer sentir importante al cliente
       
       .col-sm-12.col-lg-4.mb-4
-        .tarjeta-numerada.color-primario.p-5.h-anexo
+        .tarjeta-numerada.color-primario.p-5.h-anexo-3
           .tarjeta-numerada__numero
             .h2 3
-          p.text-center 
-            b Superar expectativas
-          p.text-align-cus No esperado por el cliente (sorprenderle gratamente), incrementa el grado de satisfacción.
+          .text-center 
+            h4 Superar expectativas
+          p No esperado por el cliente (sorprenderle gratamente), incrementa el grado de satisfacción.
           ul.lista-ul--color
             li.color-primario
               i.fas.fa-plus
@@ -160,9 +160,9 @@
         .col-sm-12.col-lg-7
           p.mb-5 Existen tipos de requisitos relacionados con:
           ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | Función del producto: referencia a su desempeño, responde a la pregunta ¿para qué sirve?
+                span Función del producto: referencia a su desempeño, responde a la pregunta ¿para qué sirve?
               li.color-primario
                 i.fas.fa-plus
                 | Características técnicas: cantidades, peso, tamaño, color, entre otras
@@ -199,7 +199,7 @@
     SlyderA(tipo='b').bg01.p-sm-1.p-lg-5.mb-5(data-aos="zoom-in-left")
       .row.justify-content-center.px-5
         .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Inspecciones
+          h4.mb-5 Inspecciones
           ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
@@ -215,14 +215,14 @@
 
       .row.justify-content-center.px-5.pt-5
         .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Control de calidad
+          h4.mb-5 Control de calidad
           ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | A partir de la Segunda Guerra Mundial, en los años 40.
-              li.color-primario
+                span A partir de la Segunda Guerra Mundial, en los años 40.
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | Estudios de métodos y tiempos para mejorar eficiencia.
+                span Estudios de métodos y tiempos para mejorar eficiencia.
               li.color-primario
                 i.fas.fa-plus
                 | Procesos más especializados.
@@ -232,15 +232,15 @@
               li.color-primario
                 i.fas.fa-plus
                 | Uso de métodos de medición.
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | Muestreos, gráficos, sistema de información, manuales, instructivos, formatos.
+                span Muestreos, gráficos, sistema de información, manuales, instructivos, formatos.
         .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_14.png")
       
       .row.justify-content-center.px-5
         .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Aseguramiento de calidad
+          h4.mb-5 Aseguramiento de calidad
           ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
@@ -265,14 +265,14 @@
 
       .row.justify-content-center.px-5
         .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Gestión de calidad
+          h4.mb-5 Gestión de calidad
           ul.lista-ul--color
               li.color-primario
                 i.fas.fa-plus
                 | A partir de los años 80.
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | Participación de la dirección de la empresa.
+                span Participación de la dirección de la empresa.
               li.color-primario
                 i.fas.fa-plus
                 | Mejora continua.
@@ -284,33 +284,33 @@
 
       .row.justify-content-center.px-5
         .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Calidad total
+          h4.mb-5 Calidad total
           ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Círculos de calidad:] trabajo en equipo.
-              li.color-primario
+                span #[b Círculos de calidad:] trabajo en equipo.
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Desarrollo personal:] capacitación y entrenamiento.
-              li.color-primario
+                span #[b Desarrollo personal:] capacitación y entrenamiento.
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | Se involucra todas las áreas y todas las personas de la empresa.
+                span Se involucra todas las áreas y todas las personas de la empresa.
         .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_17.png")
 
       .row.justify-content-center.px-5
         .col-sm-12.col-lg-4
-          p.mb-5.fw-bold Excelencia de la igualdad
+          h4.mb-5 Excelencia de la igualdad
           ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | Suma de teorías y prácticas de calidad.
-              li.color-primario
+                span Suma de teorías y prácticas de calidad.
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | Liderazgo en el mercado.
-              li.color-primario
+                span Liderazgo en el mercado.
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | Involucran los procesos. Mejora continua.
+                span Involucran los procesos. Mejora continua.
         .col-sm-12.col-lg-8.d-none.d-lg-block
           img(src="@/assets/curso/temas/tema1/img_18.png")
 
@@ -347,9 +347,9 @@
           li.color-primario
             i.fas.fa-plus
             | Reducción de defectos
-          li.color-primario
+          li.color-primario.d-flex
             i.fas.fa-plus
-            | Obtención de productos estandarizados
+            span Obtención de productos estandarizados
           li.color-primario
             i.fas.fa-plus
             | Disminución de desperdicios
@@ -365,12 +365,44 @@
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0.fw-bold De acuerdo con lo anterior, el control de la calidad en la industria se realiza en los procesos y en los recursos que intervienen en la producción de la prenda, desde su diseño y patronaje; la materia prima, en este caso la tela; los insumos entre los que se destaca el hilo, el empaque, el embalaje y la entrega al cliente asociados a las características de cada proceso y de cada material.
     p.mb-5.text-center El control de calidad se realiza en las siguientes fases:
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-12.d-none.d-lg-block
-        img(src="@/assets/curso/temas/tema1/img_102.svg")
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-12.d-sm-block.d-lg-none
-        img(src="@/assets/curso/temas/tema1/img_103.svg")
+
+    
+    .row.justify-content-start.mt-5.mb-cus-4
+      .col-lg-11.position-relative
+        .avatar
+          img(src="@/assets/curso/temas/tema1/img_110.svg").img250
+        .crd.crd--avatarHorizontal.crd--first.py-4
+          .row.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/img_111.svg", alt="alt").img100
+            .col.d-flex
+              p.w-50-cus #[b Planificación:] se establece un plan y programa de calidad, las técnicas y métodos a utilizar, la muestra y el lote.
+        .crd.crd--avatarHorizontal.crd--second.py-4
+          .row.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/img_112.svg")
+            .col
+              p.w-50-cus #[b Alistamiento de los recursos:] alistar instrumentos de medición como cintas métricas, calibradores y plantillas.
+        .crd.crd--avatarHorizontal.crd--third.py-4
+          .row.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/img_113.svg")
+            .col
+              p.w-50-cus Implementación de la técnica, se verifica si se presentan defectos.
+        .crd.crd--avatarHorizontal.crd--fourth.py-4
+          .row.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/img_114.svg")
+            .col
+              p.w-50-cus Registros de mediciones y controles.
+        .crd.crd--avatarHorizontal.crd--last.py-4
+          .row.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/img_115.svg")
+            .col
+              p.w-40-cus Análisis y definición de acciones correctivas, análisis de causas de defectos.
+            
+   
 
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
@@ -402,31 +434,31 @@
         ol.lista-ol--cuadro
           li.d-flex
             .lista-ol--cuadro__vineta
-              span 1
+              span.text-sistm.fw-bold 1
             p.mb-0 #[b Enfoque al cliente:] conocer al cliente, requisitos y expectativas 
           li.d-flex
             .lista-ol--cuadro__vineta
-              span 2
+              span.text-sistm.fw-bold 2
             p.mb-0 #[b Enfoque estratégico:]  establecer objetivo de calidad como clave para la empresa, e incluirlo en su visión
           li
             .lista-ol--cuadro__vineta
-              span 3
+              span.text-sistm.fw-bold 3
             | #[b Liderazgo enfocado:] compromiso positivo de la dirección de la empresa
           li
             .lista-ol--cuadro__vineta
-              span 4
+              span.text-sistm.fw-bold 4
             | #[b Enfoque en procesos:] control de los procesos 
           li.d-flex
             .lista-ol--cuadro__vineta
-              span 5
+              span.text-sistm.fw-bold 5
             p.mb-0 #[b Orientación a las personas:] involucrar al personal y ofrecerle capacitación permanente, con el fin de aumentar el nivel de compromiso y satisfacción del cliente interno
           li.d-flex
             .lista-ol--cuadro__vineta
-              span 6
+              span.text-sistm.fw-bold 6
             p.mb-0 #[b Enfoque científico:] evaluación de la calidad con evidencias y datos, aplicación del método científico
           li.d-flex
             .lista-ol--cuadro__vineta
-              span 7
+              span.text-sistm.fw-bold 7
             p.mb-0 #[b Mejora continua, innovación y aprendizaje:] todo proceso es susceptible de mejoras, no consiste solo en corregir sino actuar de forma proactiva
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
@@ -469,35 +501,35 @@
       .col-sm-12.col-md-6.col-lg-2
         .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-md-4.col-lg-7
+            .col-sm-2.col-md-6.col-lg-10
                 img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_25.svg')
           h3.text-center.mb-0.text-primario Trabajo en equipo
 
       .col-sm-12.col-md-6.col-lg-2
         .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-md-4.col-lg-7
+            .col-sm-2.col-md-6.col-lg-10
                 img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_26.svg')
           h3.text-center.mb-0.text-primario Disciplina personal
 
       .col-sm-12.col-md-6.col-lg-2
         .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-md-4.col-lg-7
+            .col-sm-2.col-md-6.col-lg-10
                 img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_27.svg')
           h3.text-center.mb-0.text-primario Moral mejorada
 
       .col-sm-12.col-md-6.col-lg-2
         .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-md-4.col-lg-7
-                img(src='@/assets/curso/temas/tema1/img_28.svg')
+            .col-sm-2.col-md-6.col-lg-10
+                img(src='@/assets/curso/temas/tema1/img_116.svg')
           h3.text-center.mb-0.text-primario Círculos de calidad
 
       .col-sm-12.col-md-6.col-lg-2
         .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-2.col-md-4.col-lg-7
+            .col-sm-2.col-md-6.col-lg-10
                 img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_29.svg')
           h3.text-center.mb-0.text-primario Sugerencias para las mejoras
 
@@ -509,7 +541,7 @@
           h5 Figura 3.
           span
             | Proceso para la solución de problemas
-        img.img-a(src='@/assets/curso/temas/tema1/img_30.svg', alt='La imagen contiene los diferentes aspectos que se deben tener en cuenta para la solución de problemas ellos son:  Sentido común, revisión de diseño, trabajo en equipo, rapeo de procesos, habilidades de liderazgo, diseño de experimentos, flujogramas de despliegues, siete nuevas herramientas administrativas, análisis del árbol de fallas, análisis de valor e ingeniería de valor,  <i>six sigma</i>, análisis del modo y efecto de la falla, control estadístico del proceso.')
+        img.img-a(src='@/assets/curso/temas/tema1/img_30.svg', alt='La imagen contiene los diferentes aspectos que se deben tener en cuenta para la solución de problemas ellos son:  Sentido común, revisión de diseño, trabajo en equipo, rapeo de procesos, habilidades de liderazgo, diseño de experimentos, flujogramas de despliegues, siete nuevas herramientas administrativas, análisis del árbol de fallas, análisis de valor e ingeniería de valor,  #[i six sigma], análisis del modo y efecto de la falla, control estadístico del proceso.')
     p.mb-3(data-aos="zoom-in-left") A continuación, se presentan los 13 pasos de la metodología, descritos en la siguiente tabla:
     .row.mb-2(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12
@@ -523,62 +555,62 @@
       table
         caption Tabla tomada del SENA - Programa Técnico control calidad en confección industrial (2020).
         tr
-          td(rowspan="10").fw-bold Planear
-        tr
-          td.fw-bold 1
-          td Identificar el área que requiere mejora
-          td Utilizar 5S y mapeo de flujo de valor
-        tr
-          td.fw-bold 2
-          td Identificar/clarificar el objetivo Kaizen
-          td Mejorar servicio, reducir defectos, mejorar productividad, entre otros
-        tr
-          td 3
-          td Identificar los miembros del equipo Kaizen
-          td Nombrar líder del equipo, miembros de la misma área y de diferente área
-        tr
-          td.fw-bold 4
-          td Completar hoja de preparación del Kaizen
-          td Realizar el guion de desarrollo del evento, debe ser aprobado por el líder de área
-        tr
-          td.fw-bold 5
-          td Entender la situación actual
-          td Documentar el flujo de información, calcular takt time, diagrama espagueti, y documentación
-        tr
-          td.fw-bold 6
-          td Imaginar una situación ideal
-          td Producir al ritmo takt time, introducir técnica poka yoke, eliminar tiempos de espera, analizar movimientos
-        tr
-          td.fw-bold 7
-          td Cuantificar los resultados esperados
-          td Determinar mediciones del evento, calcular resultados esperados
-        tr
-          td.fw-bold 8
-          td Desarrollar estrategia Kaizen
-          td Identificar obstáculos, utilizar simulaciones y pruebas
-        tr
-          td.fw-bold 9
-          td  Desarrollar plan de acciones Kaizen
-          td Documentar acciones, identificar recursos requeridos, establecer responsabilidades, fechas y tiempos
-        tr
-          td(rowspan="4").fw-bold Hacer
-        tr
-          td.fw-bold 10
-          td Implementar Kaizen
-          td Desarrollar el evento según lo planeado, mejorar métodos, modificar layout, consultar comportamientos, realizar cambios
-        tr
-          td.fw-bold 11
-          td Verificar los resultados a corto plazo
-          td Seguimiento a los colaboradores, verificar progreso, seguimiento al proceso
-        tr
-          td.fw-bold 12
-          td Documentar actividades Kaizen
-          td Preparar formatos, registrar información, realizar registros fotográficos
-        tr
+          td(rowspan="10").fw-bold.br-bb-td Planear
+        tr.bg-tr-odd
+          td.br-bl-td.fw-bold.w-col-1 1
+          td.br-bl-td.w-col-2 Identificar el área que requiere mejora
+          td.br-bl-td Utilizar 5S y mapeo de flujo de valor
+        tr.bg-tr-even
+          td.fw-bold.br-bl-td.w-col-1 2
+          td.br-bl-td  Identificar/clarificar el objetivo Kaizen
+          td.br-bl-td  Mejorar servicio, reducir defectos, mejorar productividad, entre otros
+        tr.bg-tr-odd
+          td.fw-bold.br-bl-td.w-col-1  3
+          td.br-bl-td  Identificar los miembros del equipo Kaizen
+          td.br-bl-td  Nombrar líder del equipo, miembros de la misma área y de diferente área
+        tr.bg-tr-even
+          td.fw-bold.br-bl-td.w-col-1 4
+          td.br-bl-td  Completar hoja de preparación del Kaizen
+          td.br-bl-td  Realizar el guion de desarrollo del evento, debe ser aprobado por el líder de área
+        tr.bg-tr-odd
+          td.fw-bold.br-bl-td.w-col-1 5
+          td.br-bl-td  Entender la situación actual
+          td.br-bl-td  Documentar el flujo de información, calcular takt time, diagrama espagueti, y documentación
+        tr.bg-tr-even
+          td.fw-bold.br-bl-td.w-col-1 6
+          td.br-bl-td  Imaginar una situación ideal
+          td.br-bl-td  Producir al ritmo takt time, introducir técnica poka yoke, eliminar tiempos de espera, analizar movimientos
+        tr.bg-tr-odd
+          td.fw-bold.br-bl-td.w-col-1 7
+          td.br-bl-td  Cuantificar los resultados esperados
+          td.br-bl-td  Determinar mediciones del evento, calcular resultados esperados
+        tr.bg-tr-even
+          td.fw-bold.br-bl-td.w-col-1 8
+          td.br-bl-td  Desarrollar estrategia Kaizen
+          td.br-bl-td  Identificar obstáculos, utilizar simulaciones y pruebas
+        tr.bg-tr-odd
+          td.fw-bold.br-bl-td.w-col-1 9
+          td.br-bl-td   Desarrollar plan de acciones Kaizen
+          td.br-bl-td  Documentar acciones, identificar recursos requeridos, establecer responsabilidades, fechas y tiempos
+        tr.bg-tr-even
+          td(rowspan="4").fw-bold.br-bb-td Hacer
+        tr.bg-tr-even
+          td.fw-bold.br-bl-td.bt-td.w-col-1 10
+          td.br-bl-td.bt-td  Implementar Kaizen
+          td.br-bl-td.bt-td  Desarrollar el evento según lo planeado, mejorar métodos, modificar layout, consultar comportamientos, realizar cambios
+        tr.bg-tr-odd
+          td.fw-bold.br-bl-td.w-col-1 11
+          td.br-bl-td  Verificar los resultados a corto plazo
+          td.br-bl-td  Seguimiento a los colaboradores, verificar progreso, seguimiento al proceso
+        tr.bg-tr-even
+          td.fw-bold.br-bl-td.w-col-1 12
+          td.br-bl-td  Documentar actividades Kaizen
+          td.br-bl-td  Preparar formatos, registrar información, realizar registros fotográficos
+        tr.bg-tr-odd
           td.fw-bold Verificar<br>Actuar
-          td.fw-bold 13
-          td Confirmar los resultados a largo plazo
-          td Realizar seguimiento con programa (a cargo del responsable del evento), presentar resultados y estandarizar, si no se obtiene el resultado deseado volver a iniciar.
+          td.fw-bold.br-bl-td.bt-td.w-col-1 13
+          td.br-bl-td.bt-td  Confirmar los resultados a largo plazo
+          td.br-bl-td.bt-td  Realizar seguimiento con programa (a cargo del responsable del evento), presentar resultados y estandarizar, si no se obtiene el resultado deseado volver a iniciar.
 
 
     .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
@@ -653,45 +685,45 @@
             ol.lista-ol--cuadro
               li
               .lista-ol--cuadro__vineta
-                span 1
+                span.text-sistm.fw-bold 1
               | Objeto y campo de aplicación 
               li
               .lista-ol--cuadro__vineta
-                span 2
+                span.text-sistm.fw-bold 2
               | Referencias normativas
               li
               .lista-ol--cuadro__vineta
-                span 3
+                span.text-sistm.fw-bold 3
               | Términos y definiciones
               li
               .lista-ol--cuadro__vineta
-                span 4
+                span.text-sistm.fw-bold 4
               | Contexto de la organización
               li
               .lista-ol--cuadro__vineta
-                span 5
+                span.text-sistm.fw-bold 5
               | Liderazgo
           .col-sm-12.col-lg-6
             ol.lista-ol--cuadro
               li
               .lista-ol--cuadro__vineta
-                span 6
+                span.text-sistm.fw-bold 6
               | Planificación
               li
               .lista-ol--cuadro__vineta
-                span 7
+                span.text-sistm.fw-bold 7
               | Apoyo
               li
               .lista-ol--cuadro__vineta
-                span 8
+                span.text-sistm.fw-bold 8
               | Operación
               li
               .lista-ol--cuadro__vineta
-                span 9
+                span.text-sistm.fw-bold 9
               | Evaluación del desempeño
               li
               .lista-ol--cuadro__vineta
-                span 10
+                span.text-sistm.fw-bold 10
               | Mejora
         img.img-a(src='@/assets/curso/temas/tema1/img_35.svg')
 
@@ -714,68 +746,69 @@
             p.mb-4 Se debe establecer diferencia entre los puntos de control y los puntos de control crítico para asegurar la garantía de calidad de la prenda. Una vez se analice el flujo de los procesos mediante los diagramas de árbol y flujogramas, se determina en el proceso y en la prenda, los puntos a inspeccionar según su relevancia y así se establece la clasificación.
     p.mb-4(data-aos="zoom-in-left") En el patronaje se debe inspeccionar número de piezas, ancho de costuras, medidas de patrón y de prenda terminada. Además, en las medidas en cortes para unión de piezas, cada lado a unir debe corresponder; se debe disponer del tiempo necesario para realizar la revisión sea en un patrón manual o en el programa especializado.
     p.mb-5(data-aos="zoom-in-left") En el momento de desarrollo del producto se debe realizar la inspección, de tal forma que se compare junto con la muestra, y así pueda ser aprobado y pasar a los procesos de producción.
-    .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
-      img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-      h3.py-2.w-card-text.mb-cus-3 Puntos de control en trazo y corte
-    p.mb-3(data-aos="zoom-in-left") Una vez desarrollado el trazo, antes de imprimir en el caso que sea digital, y antes de realizar el extendido de la tela se debe inspeccionar el trazo, revisando la correspondencia de piezas y distribución de tallas, teniendo en cuenta la orden de producción, el ancho de trazo y el ancho de tela.
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-9
-        p.mb-5 El corte se debe revisar una vez se termina de extender. Antes de iniciar el corte de las unidades de capas y alineación del tendido se debe inspeccionar la apariencia de la tela, también se debe tener cuidado con la separación del corte, sobre todo si se han extendido diferentes rollos de tela en el mismo corte, y verificar el cumplimiento de tiempos de reposo.
-        .cajon.color-acento-contenido.p-4
-          p.mb-0.fw-bold En la separación, tiqueteado y paqueteo de las piezas, el inspector de calidad debe revisar el corte de las piezas, al comparar con el patronaje de la pieza, contar las piezas del paquete, y verificar el sistema de amarre y rotulado. Es importante disponer de un puesto de trabajo para la inspección, con excelente luz y limpieza para determinar defectos en la tela y en el corte de las piezas. Es necesaria la correcta disposición de las piezas para evitar contaminaciones del paquete con otros colores de estas u otras referencias.
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_37.png')
+    .fullview-purple.px-5
+      .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
+        img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
+        h3.py-2.w-card-text.mb-cus-3 Puntos de control en trazo y corte
+      p.mb-3(data-aos="zoom-in-left") Una vez desarrollado el trazo, antes de imprimir en el caso que sea digital, y antes de realizar el extendido de la tela se debe inspeccionar el trazo, revisando la correspondencia de piezas y distribución de tallas, teniendo en cuenta la orden de producción, el ancho de trazo y el ancho de tela.
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-9
+          p.mb-5 El corte se debe revisar una vez se termina de extender. Antes de iniciar el corte de las unidades de capas y alineación del tendido se debe inspeccionar la apariencia de la tela, también se debe tener cuidado con la separación del corte, sobre todo si se han extendido diferentes rollos de tela en el mismo corte, y verificar el cumplimiento de tiempos de reposo.
+          .cajon.color-acento-contenido.p-4
+            p.mb-0.fw-bold En la separación, tiqueteado y paqueteo de las piezas, el inspector de calidad debe revisar el corte de las piezas, al comparar con el patronaje de la pieza, contar las piezas del paquete, y verificar el sistema de amarre y rotulado. Es importante disponer de un puesto de trabajo para la inspección, con excelente luz y limpieza para determinar defectos en la tela y en el corte de las piezas. Es necesaria la correcta disposición de las piezas para evitar contaminaciones del paquete con otros colores de estas u otras referencias.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img.img-a(src='@/assets/curso/temas/tema1/img_37.png')
+          
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img.img-a(src='@/assets/curso/temas/tema1/img_38.png')
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
+            img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
+            h3.py-2.w-card-text.mb-cus-3 Puntos de control en confección
+          p.mb-0 Al tener en cuenta que los procesos dentro de la confección de las prendas comprenden operaciones de preparación, ensamble y terminados, del mismo modo se establecen puntos de control en estas áreas, por tanto,  es importante determinar los puestos de calidad en donde se realizarán las inspecciones por parte del inspector de calidad; en el caso que el sistema de la planta sea modular, cada módulo debe disponer del puesto de calidad con las herramientas para realizar las mediciones y formatos definidos, además de una ubicación estratégica dentro del área.
         
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_38.png')
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
-          img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-          h3.py-2.w-card-text.mb-cus-3 Puntos de control en confección
-        p.mb-0 Al tener en cuenta que los procesos dentro de la confección de las prendas comprenden operaciones de preparación, ensamble y terminados, del mismo modo se establecen puntos de control en estas áreas, por tanto,  es importante determinar los puestos de calidad en donde se realizarán las inspecciones por parte del inspector de calidad; en el caso que el sistema de la planta sea modular, cada módulo debe disponer del puesto de calidad con las herramientas para realizar las mediciones y formatos definidos, además de una ubicación estratégica dentro del área.
+    
+      .row.justify-content-center.align-items-center.mb-5
+        .col-sm-12.col-lg-7 
+          .d-flex.align-items-center.mt-5.mb-3
+            img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
+            h3.py-2.w-card-text.mb-cus-3 Puntos de control en el producto en proceso
+          p.mb-3 Aunque es muy importante el autocontrol que ejerce cada operario sobre lo que realiza para garantizar la calidad de su trabajo; de igual manera se debe llevar a cabo las inspecciones denominadas “en pie de máquina”, estas se realizan mientras la persona desarrolla las operaciones en su puesto de trabajo, con el fin de detectar de manera temprana defectos y establecer acciones de mejora. 
+          .cajon.color-acento-botones.p-4.mb-4
+              p.mb-0.fw-bold Cuando en el producto se realizan procesos de estampación o bordados se requiere establecer puntos de control de esos procesos, que son considerados críticos.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img.img-a(src='@/assets/curso/temas/tema1/img_108.png')
       
-   
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-7 
-        .d-flex.align-items-center.mt-5.mb-3
-          img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-          h3.py-2.w-card-text.mb-cus-3 Puntos de control en el producto en proceso
-        p.mb-3 Aunque es muy importante el autocontrol que ejerce cada operario sobre lo que realiza para garantizar la calidad de su trabajo; de igual manera se debe llevar a cabo las inspecciones denominadas “en pie de máquina”, estas se realizan mientras la persona desarrolla las operaciones en su puesto de trabajo, con el fin de detectar de manera temprana defectos y establecer acciones de mejora. 
-        .cajon.color-acento-botones.p-4.mb-4
-            p.mb-0.fw-bold Cuando en el producto se realizan procesos de estampación o bordados se requiere establecer puntos de control de esos procesos, que son considerados críticos.
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_108.png')
-    
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_40.png')
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
-          img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-          h3.py-2.w-card-text.mb-cus-3 Puntos de control en el producto terminado
-        p.mb-0  Al finalizar la confección en cada módulo de producción o línea de la referencia se revisa el producto terminado antes de realizar procesos de planchado, de lavandería, empaque y embalaje; pero igualmente se debe inspeccionar una vez se realice el planchado, si es requerido, y su empaque. Se debe establecer las medidas para la atención de prendas que no fueron aceptadas en las inspecciones y las acciones para su tratamiento.
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
-          img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-          h3.py-2.w-card-text.mb-cus-3 Puntos de control en confección de lote piloto
-        p.mb-4 El lote piloto son unidades que se confeccionan con el fin de simular la producción de una referencia nueva; desarrollado el nuevo producto, es necesario realizar simulaciones para prever fallas en la producción; la información proporcionada una vez se realice el pilotaje brinda confianza sobre la viabilidad del producto y señala las estrategias a efectuar en el momento de la producción de la prenda.
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_109.png')
-    
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img.img-a(src='@/assets/curso/temas/tema1/img_42.png')
-      .col-sm-12.col-lg-7
-        .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
-          img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-          h3.py-2.w-card-text.mb-cus-3 Puntos de control en compra de materiales e insumos
-        p.mb-4 En las áreas de bodegas y almacenes se deben realizar las inspecciones necesarias antes de la integración del producto, donde se realiza el alistamiento de los insumos necesarios para la confección y se integran al paquete de las unidades cortadas según las unidades establecidas.
-        .cajon.color-acento-botones.p-4.mb-4
-            p.mb-0.fw-bold En el caso de las telas se puede apoyar su control con equipos como revisadores para inspeccionar los defectos.
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img.img-a(src='@/assets/curso/temas/tema1/img_40.png')
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
+            img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
+            h3.py-2.w-card-text.mb-cus-3 Puntos de control en el producto terminado
+          p.mb-0  Al finalizar la confección en cada módulo de producción o línea de la referencia se revisa el producto terminado antes de realizar procesos de planchado, de lavandería, empaque y embalaje; pero igualmente se debe inspeccionar una vez se realice el planchado, si es requerido, y su empaque. Se debe establecer las medidas para la atención de prendas que no fueron aceptadas en las inspecciones y las acciones para su tratamiento.
       
+      .row.justify-content-center.align-items-center.mb-5
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
+            img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
+            h3.py-2.w-card-text.mb-cus-3 Puntos de control en confección de lote piloto
+          p.mb-4 El lote piloto son unidades que se confeccionan con el fin de simular la producción de una referencia nueva; desarrollado el nuevo producto, es necesario realizar simulaciones para prever fallas en la producción; la información proporcionada una vez se realice el pilotaje brinda confianza sobre la viabilidad del producto y señala las estrategias a efectuar en el momento de la producción de la prenda.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img.img-a(src='@/assets/curso/temas/tema1/img_109.png')
+      
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img.img-a(src='@/assets/curso/temas/tema1/img_42.png')
+        .col-sm-12.col-lg-7
+          .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
+            img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
+            h3.py-2.w-card-text.mb-cus-3 Puntos de control en compra de materiales e insumos
+          p.mb-4 En las áreas de bodegas y almacenes se deben realizar las inspecciones necesarias antes de la integración del producto, donde se realiza el alistamiento de los insumos necesarios para la confección y se integran al paquete de las unidades cortadas según las unidades establecidas.
+          .cajon.color-acento-botones.p-4.mb-4
+              p.mb-0.fw-bold En el caso de las telas se puede apoyar su control con equipos como revisadores para inspeccionar los defectos.
+        
     
     
     Separador  
@@ -802,31 +835,31 @@
     p.mb-4(data-aos="zoom-in-left") Los productos tienen variables y atributos, las variables son características cuantitativas y los atributos son las cualidades no cuantificables, los cuales constituyen los requisitos de una prenda.
     p.mb-5(data-aos="zoom-in-left") Los requisitos además están clasificados de la siguiente manera:
     .row.justify-content-between.align-items-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-3
-        .tarjeta--boton.color-primario.p-4
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta--boton.color-primario.p-4.h-anexo-4.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-4.col-lg-7
+            .col-sm-4.col-md-10.col-lg-8
                 img.img-accord-cus(src='@/assets/curso/temas/tema1/img_44.svg')
           h3.text-center.mb-3 Explícitos
           p.text-center.mb-0 Declarados por el cliente, según sus expectativas
-      .col-sm-12.col-lg-3
-        .tarjeta--boton.color-primario.p-4
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta--boton.color-primario.p-4.h-anexo-4.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-4.col-lg-7
+            .col-sm-4.col-md-10.col-lg-8
                 img.img-accord-cus(src='@/assets/curso/temas/tema1/img_45.svg')
           h3.text-center.mb-3 Implícitos
           p.text-center.mb-0 Necesarios para que cumplan su función
-      .col-sm-12.col-lg-3
-        .tarjeta--boton.color-primario.p-4
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta--boton.color-primario.p-4.h-anexo-4.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-4.col-lg-7
+            .col-sm-4.col-md-10.col-lg-8
                 img.img-accord-cus(src='@/assets/curso/temas/tema1/img_46.svg')
           h3.text-center.mb-3 Legales o reglamentarios
           p.text-center.mb-0 De acuerdo con el cumplimiento de las leyes
-      .col-sm-12.col-lg-3
-        .tarjeta--boton.color-primario.p-4
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta--boton.color-primario.p-4.h-anexo-4.mb-cus
           .row.justify-content-center.mb-3
-            .col-sm-4.col-lg-7
+            .col-sm-4.col-md-10.col-lg-8
                 img.img-accord-cus(src='@/assets/curso/temas/tema1/img_47.svg')
           h3.text-center.mb-3 Relacionados con la empresa
           p.text-center.mb-0 Según las políticas de la empresa
@@ -836,7 +869,7 @@
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_48.svg')
+              img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_48.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Del patrón con costuras y sin costuras para comparar medidas con la prenda terminada y correspondencia con la talla, además se debe revisar que las medidas de las piezas sean iguales al unir y que tengan simetría, se puede superponer las piezas para consultar que coincidan a sus longitudes.
 
@@ -844,7 +877,7 @@
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_49.svg')
+              img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_49.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Correspondencia de piezas respecto al diseño y al dibujo plano del patrón.
       
@@ -852,35 +885,35 @@
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_50.svg')
+              img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_50.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Debe contener identificación de la prenda, no se debe prestar a dualidades de información, además debe indicar la cantidad a cortar en cada pieza.
       .row(titulo="Aplomos")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_51.svg')
+              img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_51.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Indicación clara de las líneas de aplomo de cada pieza.
       .row(titulo="Costuras")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_52.svg')
+              img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_52.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Márgenes de costura en cada pieza, y la correspondencia con la pieza a unir, por ejemplo, si en el hombro de la pieza del delantero el ancho es de 1 cm de margen de costura, en el hombro posterior debe corresponder a la misma medida.
       .row(titulo="Piquetes y puntos")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_54.svg')
+              img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_54.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Existencia de puntos y piquetes, alineando las piezas y correspondiendo la unión de puntos y piquetes.
       .row(titulo="Plantillas")
         .col-12
           .row.justify-content-center
             .col-sm-12.col-lg-2
-              img.img-accord-cus(src='@/assets/curso/temas/tema1/img_55.svg')
+              img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_55.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Funcionalidad de la plantilla y sus medidas.  
     
@@ -908,42 +941,42 @@
             img(src='@/assets/curso/temas/tema1/img_57.svg')
           .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Alineación de piezas: ] cada pieza debe estar contenida en el trazo conforme a la línea de aplomo
-              li.color-primario
+                span #[b Alineación de piezas: ] cada pieza debe estar contenida en el trazo conforme a la línea de aplomo
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Organización de piezas: ] con el fin de controlar los rendimientos de telas, es importante la disposición de las piezas, colocando una al lado de la otra y aprovechando líneas o curvas compartidas entre las piezas
-              li.color-primario
+                span #[b Organización de piezas: ] con el fin de controlar los rendimientos de telas, es importante la disposición de las piezas, colocando una al lado de la otra y aprovechando líneas o curvas compartidas entre las piezas
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Cantidad de piezas: ] contar el número de piezas que corresponda a cada talla del producto
-              li.color-primario
+                span #[b Cantidad de piezas: ] contar el número de piezas que corresponda a cada talla del producto
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Ancho de trazo: ] conforme al ancho útil de la tela
+                span #[b Ancho de trazo: ] conforme al ancho útil de la tela
       .py-4.py-md-5(titulo="Tendido").bg04
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_58.svg')
           .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Alineación de capas: ] respetar el margen colocado a partir de la base, es decir, la primera capa. También en los extremos debe alcanzar a cubrir el largo del trazo, sobre todo en trazos escalonados
-              li.color-primario
+                span  #[b Alineación de capas: ] respetar el margen colocado a partir de la base, es decir, la primera capa. También en los extremos debe alcanzar a cubrir el largo del trazo, sobre todo en trazos escalonados
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Uniformidad de tendido: ] el extendido de cada capa no debe tener arrugas
-              li.color-primario
+                span  #[b Uniformidad de tendido: ] el extendido de cada capa no debe tener arrugas
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Cantidad de capas: ] antes de cortar se debe contar el número de capas para que correspondan a las unidades a cortar, según la distribución del trazo
-              li.color-primario
+                span  #[b Cantidad de capas: ] antes de cortar se debe contar el número de capas para que correspondan a las unidades a cortar, según la distribución del trazo
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Tiempos de reposo: ] sobre todo en tejidos de punto para evitar encogimiento, se tiene en cuenta la ficha técnica de la tela y se valida con pruebas que confirmen niveles de encogimiento, que se desarrollan una vez finalicen los tiempos de reposo
-              li.color-primario
+                span  #[b Tiempos de reposo: ] sobre todo en tejidos de punto para evitar encogimiento, se tiene en cuenta la ficha técnica de la tela y se valida con pruebas que confirmen niveles de encogimiento, que se desarrollan una vez finalicen los tiempos de reposo
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Lado de tela: ] a partir del tipo de trazo se debe respetar el derecho de la tela
-              li.color-primario
+                span  #[b Lado de tela: ] a partir del tipo de trazo se debe respetar el derecho de la tela
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Tela: ] defectos de tela, marcas, piques, marras, entre otras. Cuidar la combinación de rollos y de colores para evitar contaminación entre los colores, debido a los residuos de las fibras en el corte del tejido
+                span  #[b Tela: ] defectos de tela, marcas, piques, marras, entre otras. Cuidar la combinación de rollos y de colores para evitar contaminación entre los colores, debido a los residuos de las fibras en el corte del tejido
     
       .py-4.py-md-5(titulo="Corte").bg04
         .row.justify-content-center.align-items-center.mb-5
@@ -951,18 +984,18 @@
             img(src='@/assets/curso/temas/tema1/img_59.svg')
           .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Uniformidad: ] respetar el trazo de cada pieza, obedeciendo a curvas y rectas según sea el caso de cada parte de la pieza
-              li.color-primario
+                span  #[b Uniformidad: ] respetar el trazo de cada pieza, obedeciendo a curvas y rectas según sea el caso de cada parte de la pieza
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                |#[b Simetrías: ] mantener las simetrías de cada pieza sosteniendo el colchón o bloque de telas, evitando que se corra para que no afecte la disposición de las capas inferiores
-              li.color-primario
+                span #[b Simetrías: ] mantener las simetrías de cada pieza sosteniendo el colchón o bloque de telas, evitando que se corra para que no afecte la disposición de las capas inferiores
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Piquetes y puntos: ] ubicación de piquetes y en profundidad no mayor a 0,4 cm; en los puntos evitar que se corra la ubicación, y debe tener un tamaño razonable
-              li.color-primario
+                span  #[b Piquetes y puntos: ] ubicación de piquetes y en profundidad no mayor a 0,4 cm; en los puntos evitar que se corra la ubicación, y debe tener un tamaño razonable
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                |#[b Corte de piezas de forro y entretela: ] revisar el material y que las piezas se corten conforme a la ficha técnica y a la programación de la producción
+                span #[b Corte de piezas de forro y entretela: ] revisar el material y que las piezas se corten conforme a la ficha técnica y a la programación de la producción
 
       .py-4.py-md-5(titulo="Tiqueteado").bg04
         .row.justify-content-center.align-items-center.mb-5
@@ -970,48 +1003,48 @@
             img(src='@/assets/curso/temas/tema1/img_60.svg')
           .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Ubicación: ] se coloca en el revés de la tela, en un lugar visible sin que afecte el ensamble
-              li.color-primario
+                span  #[b Ubicación: ] se coloca en el revés de la tela, en un lugar visible sin que afecte el ensamble
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Descripción: ] la información debe corresponder a cada pieza, contener el número consecutivo de la misma en orden, según el tendido, además debe incluir talla y referencia
+                span  #[b Descripción: ] la información debe corresponder a cada pieza, contener el número consecutivo de la misma en orden, según el tendido, además debe incluir talla y referencia
       .py-4.py-md-5(titulo="Fusionado").bg04
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_61.svg')
           .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Temperatura: ] que corresponda con el material a fusionar
-              li.color-primario
+                span  #[b Temperatura: ] que corresponda con el material a fusionar
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Tiempo: ] duración en la fusionadora
-              li.color-primario
+                span  #[b Tiempo: ] duración en la fusionadora
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Presión: ] ejercida en cada pieza para que la unión sea uniforme
-              li.color-primario
+                span  #[b Presión: ] ejercida en cada pieza para que la unión sea uniforme
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Alineación y posición: ] que se encuentre derecha y teniendo en cuenta si se debe dejar el ancho de costura
-              li.color-primario
+                span  #[b Alineación y posición: ] que se encuentre derecha y teniendo en cuenta si se debe dejar el ancho de costura
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Limpieza de la máquina: ] para evitar manchas en las prendas fusionadas
+                span  #[b Limpieza de la máquina: ] para evitar manchas en las prendas fusionadas
       .py-4.py-md-5(titulo="Paqueteado").bg04
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_62.svg')
           .col-sm-12.col-lg-8.px-sm-cus
             ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Cantidad: ] unidades de acuerdo con lo determinado para incorporar a la producción, 10 o 20, se prefiere paquetes pequeños que facilitan el manejo, o más unidades según lo establecido por la empresa
-              li.color-primario
+                span  #[b Cantidad: ] unidades de acuerdo con lo determinado para incorporar a la producción, 10 o 20, se prefiere paquetes pequeños que facilitan el manejo, o más unidades según lo establecido por la empresa
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Amarre: ] en el doblado incluir todas las piezas del paquete, con un amarre resistente
-              li.color-primario
+                span  #[b Amarre: ] en el doblado incluir todas las piezas del paquete, con un amarre resistente
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Identificación: ] rotulado de cada paquete con tarjetas que indiquen la información necesaria como talla, número de lote, cantidad, entre otras, que precisen el contenido del paquete
+                span  #[b Identificación: ] rotulado de cada paquete con tarjetas que indiquen la información necesaria como talla, número de lote, cantidad, entre otras, que precisen el contenido del paquete
     
     Separador  
     #t_1_6.titulo-segundo.color-primario(data-aos="zoom-in-left")
@@ -1041,224 +1074,224 @@
         p.mb-0 En el siguiente cuadro se presentan algunos ensayos con la norma relacionada que se pueden realizar a la prenda.
     
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-8
+      .col-sm-12.col-lg-9
         .titulo-sexto.color-acento-contenido
             h5 Tabla 2.
             span
               | Pruebas de calidad en laboratorios para prenda terminada
         .tabla-b.color-acento-contenido.mb-5(data-aos="zoom-in-left")
-          .tabla-b__header
-              h5.mb-0 Pruebas de calidad en laboratorios para prenda terminada
-          table
+          .tabla-b__header.bg-tx
+              h3.mb-0 Pruebas de calidad en laboratorios para prenda terminada
+          table.table-xl
             caption Tabla Recuperada de: Material de formación - Equipo de desarrollo curricular Tec. Control Calidad en Confección Industrial - SENA 2020
             thead
               tr
-                th.text-center Ensayo
-                th.text-center Norma
+                th.bg-theader Ensayo
+                th.bg-theader Norma
             tbody
               tr
-                td.w-100 Análisis cualitativo de fibras.
+                td.br-cn-td.w-100 Análisis cualitativo de fibras.
                 td.w-100 NTC 1213/AATCC 20
               tr
-                td Análisis cuantitativo de fibras.
+                td.br-cn-td Análisis cuantitativo de fibras.
                 td NTC 481: 2012-12-12    ASTMD 629:2008
               tr
-                td Cambio de oblicuidad en telas y deformación por torsión en prendas de vestir como resultado de lavado .
+                td.br-cn-td Cambio de oblicuidad en telas y deformación por torsión en prendas de vestir como resultado de lavado .
                 td NTC 5121: 2002-10-30 <br> AATCC 179:2004
               tr
-                td Cambios dimensionales en prendas después de lavado en máquina de uso doméstico.
+                td.br-cn-td Cambios dimensionales en prendas después de lavado en máquina de uso doméstico.
                 td NTC 2308 2017-10-18 <br>  AATCC 150 2012 <br> NTC 908: 2018-12-12 <br> AATCC135: 2015
               tr
-                td Determinación de la absorción.
+                td.br-cn-td Determinación de la absorción.
                 td NTC 2397 / AATCC 79
               tr
-                td Determinación de la elongación de tejidos elásticos angostos.
+                td.br-cn-td Determinación de la elongación de tejidos elásticos angostos.
                 td ASTMD 5278
               tr
-                td Determinación de la humedad. 
+                td.br-cn-td Determinación de la humedad. 
                 td NTC 1378
               tr
-                td Determinación de la masa por unidad de área (peso) de tela.
+                td.br-cn-td Determinación de la masa por unidad de área (peso) de tela.
                 td NTC 230: 2010-07-28 <br>  ASTMD 3776/D3776M:2009
               tr
-                td Determinación de la recuperación de las arrugas.
+                td.br-cn-td Determinación de la recuperación de las arrugas.
                 td NTC 1199
               tr
-                td Determinación de la resistencia a la formación de motas (#[i pilling]) y otros 
+                td.br-cn-td Determinación de la resistencia a la formación de motas (#[i pilling]) y otros 
                 td NTC 2051-2: 2003-06-26 <br>  ASTMD 3512-02
               tr
-                td Determinación de la resistencia a la penetración del agua. Método presión hidrostática. 
+                td.br-cn-td Determinación de la resistencia a la penetración del agua. Método presión hidrostática. 
                 td EN 20811
               tr
-                td Determinación de la resistencia al deslizamiento de los hilos de una costura en telas de tejido plano. <br>Parte 1: método de abertura fija en una costura.
+                td.br-cn-td Determinación de la resistencia al deslizamiento de los hilos de una costura en telas de tejido plano. <br>Parte 1: método de abertura fija en una costura.
                 td NTC 1386-1: 2006-11-30 <br> #[i ISO ] 13936-1:2004
               tr
-                td Determinación de la resistencia al estallido de textiles. 
+                td.br-cn-td Determinación de la resistencia al estallido de textiles. 
                 td NTC 2291/A8TMD3787
               tr
-                td Determinación de la resistencia de las telas al desgarre. 
+                td.br-cn-td Determinación de la resistencia de las telas al desgarre. 
                 td NTC 5634: 2008-11-26 <br> ASTMD2261: 2013 <br> NTC 313-2: 2009-12-16 <br> ASTMD 1424: 2009
               tr
-                td Determinación de la resistencia de las telas al enganche — método de la maza.
+                td.br-cn-td Determinación de la resistencia de las telas al enganche — método de la maza.
                 td NTC 2293/A8TMD3999
               tr
-                td Determinación de la solidez del color a la sublimación. 
+                td.br-cn-td Determinación de la solidez del color a la sublimación. 
                 td AATCC 117
               tr
-                td Determinación de la solidez del color a los disolventes orgánicos. 
+                td.br-cn-td Determinación de la solidez del color a los disolventes orgánicos. 
                 td NTC 1068 /1SO 105-X05
               tr
-                td Determinación de la solidez del color al agua clorada. Parte 1: solidez al agua de las piscinas. 
+                td.br-cn-td Determinación de la solidez del color al agua clorada. Parte 1: solidez al agua de las piscinas. 
                 td NTC 2292-1 / 150 105 E 03
               tr 
-                td Determinación de la solidez del color al agua de mar.
+                td.br-cn-td Determinación de la solidez del color al agua de mar.
                 td NTC 850/AATCC 106
               tr 
-                td Determinación de la solidez del color al planchado.
+                td.br-cn-td Determinación de la solidez del color al planchado.
                 td NTC 766 / #[i ISO ] 105-X 11
               tr 
-                td Determinación de la tendencia a la formación de motas y de pelusa.
+                td.br-cn-td Determinación de la tendencia a la formación de motas y de pelusa.
                 td NTC 2051-1: 2003-04-23<br> #[i ISO ] 12945-1: 2000<br>NTC 2051-3 ASTMD 4969
               tr 
-                td Determinación del ancho de las telas.
+                td.br-cn-td Determinación del ancho de las telas.
                 td NTC 228: 2016-05-18<br> ASTM D3774:1996 (2012)
               tr 
-                td Determinación del arco y del sesgo en tela de tejido plano y de punto.
+                td.br-cn-td Determinación del arco y del sesgo en tela de tejido plano y de punto.
                 td NTC 3401
               tr 
-                td Determinación del contenido de formaldehído. 
+                td.br-cn-td Determinación del contenido de formaldehído. 
                 td NORMA #[i ISO ] 14184-1:2011
               tr 
-                td Determinación del daño relacionado con la aguja causado por la costura, en tejido plano y en tejido de punto.
+                td.br-cn-td Determinación del daño relacionado con la aguja causado por la costura, en tejido plano y en tejido de punto.
                 td NTC 5893 / ASTM D1908
               tr 
-                td Determinación del número de hilos de urdimbre y del número de hilos de trama, de tejidos planos.
+                td.br-cn-td Determinación del número de hilos de urdimbre y del número de hilos de trama, de tejidos planos.
                 td NTC 427: 2018-08-15<br>ASTM D3775: 2017
               tr 
-                td Determinación del número de hilos por unidad de longitud de tela, de tejidos de punto.
+                td.br-cn-td Determinación del número de hilos por unidad de longitud de tela, de tejidos de punto.
                 td NTC 5656
               tr 
-                td Determinación del número de hilos por unidad de longitud de tela, de tejidos de punto.
+                td.br-cn-td Determinación del número de hilos por unidad de longitud de tela, de tejidos de punto.
                 td NTC 5656
               tr 
-                td Determinación del título del hilo basado en especímenes de longitud corta.
+                td.br-cn-td Determinación del título del hilo basado en especímenes de longitud corta.
                 td NTC 5772 / ASTMD 1059
               tr 
-                td Espesor. 
+                td.br-cn-td Espesor. 
                 td NTC 2599
               tr 
-                td Evaluación colorimétrica. 
+                td.br-cn-td Evaluación colorimétrica. 
                 td NTMD 0151- NTC 4873-2 Y 3
               tr 
-                td Flamabilidad en ángulo de 45”. A
+                td.br-cn-td Flamabilidad en ángulo de 45”. A
                 td STM D 1230
               tr 
-                td Flamabilidad horizontal. 
+                td.br-cn-td Flamabilidad horizontal. 
                 td ASTMD 5132
               tr 
-                td Flamabilidad horizontal. 
+                td.br-cn-td Flamabilidad horizontal. 
                 td ASTMD 5132
               tr 
-                td Flamabilidad vertical. 
+                td.br-cn-td Flamabilidad vertical. 
                 td 6067/ASTMD 6413
               tr 
-                td Longitud de caída. 
+                td.br-cn-td Longitud de caída. 
                 td #[i BS ] 3356
               tr 
-                td Longitud de caída. 
+                td.br-cn-td Longitud de caída. 
                 td #[i BS ] 3356
               tr 
-                td Medición de la permeabilidad de los textiles al vapor de agua con fines de control de la calidad. 
+                td.br-cn-td Medición de la permeabilidad de los textiles al vapor de agua con fines de control de la calidad. 
                 td NTC 6076/15015496
               tr 
-                td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc). 
+                td.br-cn-td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc). 
                 td NORMA #[i ISO ] 17072-1:2011
               tr 
-                td Método de ensayo para determinar la solidez del color a la transpiración. 
+                td.br-cn-td Método de ensayo para determinar la solidez del color a la transpiración. 
                 td NTC 772: 2017-03-22 <br>AATCC 15:2002
               tr 
-                td Método de ensayo para determinar la solidez del color al frote. 
+                td.br-cn-td Método de ensayo para determinar la solidez del color al frote. 
                 td NTC 786: 2017-03-22<br> AATCC 8:2016
               tr 
-                td Método de ensayo para determinar la solidez del color al lavado en seco usando solvente percloroetileno. 
+                td.br-cn-td Método de ensayo para determinar la solidez del color al lavado en seco usando solvente percloroetileno. 
                 td NTC 4160/1S0 105D01
               tr 
-                td Método de ensayo para la determinación de la solidez del color al lavado doméstico e industrial. 
+                td.br-cn-td Método de ensayo para la determinación de la solidez del color al lavado doméstico e industrial. 
                 td NTC 1155-3: 2017-10-18 <br>AATCC 61:2013   
               tr 
-                td Método para determinar el transporte de humedad en textiles. 
+                td.br-cn-td Método para determinar el transporte de humedad en textiles. 
                 td AATCC 195
               tr 
-                td Método para determinar la resistencia a la abrasión plana. 
+                td.br-cn-td Método para determinar la resistencia a la abrasión plana. 
                 td ASTMD 4966
               tr 
-                td Método para determinar la resistencia a la rotura y elongación de las telas. Método de la tira. 
+                td.br-cn-td Método para determinar la resistencia a la rotura y elongación de las telas. Método de la tira. 
                 td NORMA NTC 754-2 / ASTM D5034
               tr 
-                td Método para determinar la resistencia a la rotura y elongación de las telas. Método del agarre. 
+                td.br-cn-td Método para determinar la resistencia a la rotura y elongación de las telas. Método del agarre. 
                 td NTC 754-1: 2013-10-16 <br>ASTM D5034: 2013
               tr 
-                td Método para determinar la resistencia a las costuras en telas de tejido plano. 
+                td.br-cn-td Método para determinar la resistencia a las costuras en telas de tejido plano. 
                 td ASTMD 1683
               tr 
-                td Método para determinar la resistencia al desgarre trapezoidal. 
+                td.br-cn-td Método para determinar la resistencia al desgarre trapezoidal. 
                 td ASTM D 5587- NTC 2261/ #[i ISO ] 9073-4
               tr 
-                td Método para determinar las propiedades de estiramiento de telas de tejido de punto de bajo poder. 
+                td.br-cn-td Método para determinar las propiedades de estiramiento de telas de tejido de punto de bajo poder. 
                 td ASTMD 2594
               tr 
-                td Método para determinar las propiedades de estiramiento de telas de tejido plano elaboradas con hilos extensibles. 
+                td.br-cn-td Método para determinar las propiedades de estiramiento de telas de tejido plano elaboradas con hilos extensibles. 
                 td NORMA NTC 5462 / ASTMD 3107
               tr 
-                td Métodos de ensayo para telas no tejidas. Determinación de la masa  por unidad de área. 
+                td.br-cn-td Métodos de ensayo para telas no tejidas. Determinación de la masa  por unidad de área. 
                 td NTC 2598 <br>#[i ISO ] 9073-1
               tr 
-                td Métodos de ensayo para telas no tejidas. Determinación de la resistencia al desgarre. 
+                td.br-cn-td Métodos de ensayo para telas no tejidas. Determinación de la resistencia al desgarre. 
                 td NTC 2601 <br>#[i ISO ] 9073-4
               tr 
-                td Métodos de ensayo para telas no tejidas. Determinación del alargamiento y resistencia a la tensión. 
+                td.br-cn-td Métodos de ensayo para telas no tejidas. Determinación del alargamiento y resistencia a la tensión. 
                 td NTC 2600 <br>#[i ISO ] 9073-3
               tr 
-                td Métodos de ensayo para telas no tejidas. Determinación del espesor. 
+                td.br-cn-td Métodos de ensayo para telas no tejidas. Determinación del espesor. 
                 td NTC 2599 <br>#[i ISO ] 9073-2
               tr 
-                td Permeabilidad al agua por rociado. 
+                td.br-cn-td Permeabilidad al agua por rociado. 
                 td AATCC 22
               tr 
-                td PH del extracto acuoso de textiles procesados en húmedo. 
+                td.br-cn-td PH del extracto acuoso de textiles procesados en húmedo. 
                 td NTC 5495/AATCC 81
               tr 
-                td Porcentaje de rizo y contracción. 
+                td.br-cn-td Porcentaje de rizo y contracción. 
                 td ASTMD 3883
               tr 
-                td Protección UV. 
+                td.br-cn-td Protección UV. 
                 td AS/NZS 4399
               tr 
-                td Resistencia a la abrasión de textiles. 
+                td.br-cn-td Resistencia a la abrasión de textiles. 
                 td NORMA ASTMD 3884
               tr 
-                td Resistencia a la tensión y elongación del papel y cartón. 
+                td.br-cn-td Resistencia a la tensión y elongación del papel y cartón. 
                 td NTC 363
               tr 
-                td Resistencia a las costuras en telas de tejido de punto. Método de la resistencia al estallido de textiles. 
+                td.br-cn-td Resistencia a las costuras en telas de tejido de punto. Método de la resistencia al estallido de textiles. 
                 td NTC 2291/ASTMD3787
               tr 
-                td Resistencia la abrasión. 
+                td.br-cn-td Resistencia la abrasión. 
                 td AATCC 93
               tr 
-                td Solidez del color a la luz- luz solar. Valor hora. 
+                td.br-cn-td Solidez del color a la luz- luz solar. Valor hora. 
                 td NTC 1479-2 1SO 105- B02
               tr 
-                td Solidez del color a la saliva. 
+                td.br-cn-td Solidez del color a la saliva. 
                 td #[i ISO ] 20701
               tr 
-                td Solidez del color al agua. 
+                td.br-cn-td Solidez del color al agua. 
                 td AATCC 107:2013
               tr 
-                td Solidez del color al frote circular. 
+                td.br-cn-td Solidez del color al frote circular. 
                 td AATCC 116
               tr 
-                td Textiles. Determinación de la resistencia al deslizamiento de los hilos de una costura en telas de tejido plano. 
+                td.br-cn-td Textiles. Determinación de la resistencia al deslizamiento de los hilos de una costura en telas de tejido plano. 
                 td  NTC 1386-2: 2006-11-30 <br>#[i ISO ] 13936-2: 2004
     .d-flex.align-items-center.mb-2(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
@@ -1271,24 +1304,24 @@
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
             ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Costura:] simetría, sin recogidos ni prenses, costuras rectas, respetar márgenes de costura, costura uniforme, marquilla de acuerdo con el cuidado de la prenda, remates uniformes, clase de costuras
-              li.color-primario
+                span #[b Costura:] simetría, sin recogidos ni prenses, costuras rectas, respetar márgenes de costura, costura uniforme, marquilla de acuerdo con el cuidado de la prenda, remates uniformes, clase de costuras
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Tela:] con colores uniformes, tela sin arrugas, sin imperfecciones
-              li.color-primario
+                span #[b Tela:] con colores uniformes, tela sin arrugas, sin imperfecciones
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Ambiente del taller:] orden y limpieza en piso, puestos de trabajo
-              li.color-primario
+                span #[b Ambiente del taller:] orden y limpieza en piso, puestos de trabajo
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Ajuste de maquinaria:] mantenimiento de la máquina y uso de aditamentos, pies, guías y fólderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo
-              li.color-primario
+                span #[b Ajuste de maquinaria:] mantenimiento de la máquina y uso de aditamentos, pies, guías y fólderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Operario:] manipulación del material, métodos utilizados en la operación
-              li.color-primario
+                span #[b Operario:] manipulación del material, métodos utilizados en la operación
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Instrucciones de cuidado y terminados:] según la norma, tener en cuenta los símbolos y la composición del material, incluidas en la etiqueta adherida en la prenda
+                span #[b Instrucciones de cuidado y terminados:] según la norma, tener en cuenta los símbolos y la composición del material, incluidas en la etiqueta adherida en la prenda
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
         .tarjeta.color-primario.p-3
@@ -1304,83 +1337,83 @@
         h4.text-center Listado de defectos
 
     SlyderF.mb-5.slider-1(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_66.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falta de tensión en costuras
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_67.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus Costuras recogidas
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_68.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Saltos de costuras
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_69.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras sin pulir
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_70.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras recogidas
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_71.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras sueltas
     
             
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_72.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras rotas
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_73.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Cases de costura
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_74.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Remates nudosos
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_75.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falta de simetría
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_76.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Rotura en prenda
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_77.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras abiertas
 
    
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_78.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras retendas
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_79.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Salto de puntada
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_80.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Hilos sueltos
 
@@ -1388,62 +1421,62 @@
       .col-sm-12.col-lg-12
         h4.text-center Defectos en textiles
     SlyderF.mb-5.slider-2(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_81.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Manchas de aceite
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_82.png") 
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Mota en tejido
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_83.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Tejido contaminado
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_84.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Agujero en el tejido
     
     
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_85.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falla de aguja
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_86.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Lycra rota
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_87.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Tejido barrado
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_88.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Nudo en el tejido
    
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10
+          .col-sm-12.col-lg-10.mx-0.px-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_89.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Quiebres
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10 
+          .col-sm-12.col-lg-10.mx-0.px-1 
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_90.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Desgaste
-      .tarjeta.color-acento-botones.p-4
+      .tarjeta.color-acento-botones.py-4.px-0.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10 
+          .col-sm-12.col-lg-10.mx-0.px-1 
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_91.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   NEPS
 
@@ -1456,11 +1489,11 @@
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-sm-12.col-lg-3
-        .tarjeta.color-primario.p-4.h-slyderF.mb-cus
+        .tarjeta.color-primario.py-4.px-3.mx-1.h-slyderF.mb-cus
           img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_92.png")
           .txt-sliderF.text-white.text-center.px-1.py-1.align-content-center.mb-cus Cremallera rota
       .col-sm-12.col-lg-3
-        .tarjeta.color-primario.p-4.h-slyderF
+        .tarjeta.color-primario.py-4.px-3.h-slyderF
           img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_93.png")
           .txt-sliderF.text-white.text-center.px-1.py-1.align-content-center.mb-cus  Rotura en cordones, sesgos, cintas
     
@@ -1500,27 +1533,27 @@
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
             ul.lista-ul--color
-              li.color-primario
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Planchado:] uniforme, quiebres según lo especificado, si se debe doblar que no genere arrugas, control en la temperatura para que no queme, limpieza, además del control en la presión y la humedad
-              li.color-primario
+                span #[b Planchado:] uniforme, quiebres según lo especificado, si se debe doblar que no genere arrugas, control en la temperatura para que no queme, limpieza, además del control en la presión y la humedad
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Empaque:] según lo establecido por la empresa, utilizar los recursos como el gancho, bolsa y etiqueta correspondiente
-              li.color-primario
+                span #[b Empaque:] según lo establecido por la empresa, utilizar los recursos como el gancho, bolsa y etiqueta correspondiente
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Embalaje:] tener en cuenta el pedido del cliente, utilizando materiales como cajas, cinta de amarre o zuncho, cinta adhesiva, tensor para la cinta de amarre. Rotular para identificar el contenido, organizar el contenido
-              li.color-primario
+                span #[b Embalaje:] tener en cuenta el pedido del cliente, utilizando materiales como cajas, cinta de amarre o zuncho, cinta adhesiva, tensor para la cinta de amarre. Rotular para identificar el contenido, organizar el contenido
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Estampados:] uniformidad del dibujo y colores, posición y ubicación
-              li.color-primario
+                span #[b Estampados:] uniformidad del dibujo y colores, posición y ubicación
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Bordados:] tensión del hilo, colores y letras que correspondan al diseño, posición y ubicación
-              li.color-primario
+                span #[b Bordados:] tensión del hilo, colores y letras que correspondan al diseño, posición y ubicación
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Rebordados:] alineación y ubicación al colocar pedrería u otros; el diseño debe corresponder al rebordado realizado
-              li.color-primario
+                span #[b Rebordados:] alineación y ubicación al colocar pedrería u otros; el diseño debe corresponder al rebordado realizado
+              li.color-primario.d-flex
                 i.fas.fa-plus
-                | #[b Lavandería:] uniformidad de colores, que el proceso corresponda al solicitado, sin dañar costuras o tejido de la tela
+                span #[b Lavandería:] uniformidad de colores, que el proceso corresponda al solicitado, sin dañar costuras o tejido de la tela
 
     Separador  
     #t_1_8.titulo-segundo.color-primario(data-aos="zoom-in-left")
@@ -1577,129 +1610,129 @@
             span
               | Pruebas de calidad en laboratorios para insumos
     .tabla-b.color-acento-contenido.mb-5(data-aos="zoom-in-left")
-      .tabla-b__header
-        h5.mb-0 Pruebas de calidad en laboratorios para insumos
-      table
+      .tabla-b__header.bg-tx
+        h4.mb-0 Pruebas de calidad en laboratorios para insumos
+      table.table-xl-2
         caption Tabla tomada del SENA - programa técnico Control calidad en confección industrial (2020)
         tr
-          th.w-10-cus &nbsp;
-          th Ensayo
-          th Norma
+          th.bg-theader.w-10-cus &nbsp;
+          th.bg-theader Ensayo
+          th.bg-theader Norma
         tr
-          td(rowspan="13").fw-bold Cremallera
+          td(rowspan="13").br-cn-td.fw-bold Cremallera
         tr
-          td Análisis cualitativo.
+          td.br-cn-td Análisis cualitativo.
           td NTC 1213/AATCC 20
         tr
-          td Análisis cuantitativo.
+          td.br-cn-td Análisis cuantitativo.
           td NTC 481: 2012-12-12   <br>  ASTMD 629:2008
         tr
-          td Resistencia del freno. 
+          td.br-cn-td Resistencia del freno. 
           td NTC 2512 / #[i BS ] 3084
         tr
-          td Resistencia del deslizador de tira simple en cierres separables.
+          td.br-cn-td Resistencia del deslizador de tira simple en cierres separables.
           td  NTC 2512 / #[i BS ] 3084
         tr
-          td Determinación de las medidas de longitud de los cierres. 
+          td.br-cn-td Determinación de las medidas de longitud de los cierres. 
           td NTC 2512 / #[i BS ] 3084
         tr
-          td Resistencia a la carga lateral del cierre. 
+          td.br-cn-td Resistencia a la carga lateral del cierre. 
           td NTC 2512 / #[i BS ] 3084
         tr
-          td Resistencia lateral del conjunto separable (pin y caja). 
+          td.br-cn-td Resistencia lateral del conjunto separable (pin y caja). 
           td NTC 2512 / #[i BS ] 3084
         tr
-          td Resistencia de la paleta del deslizador. 
+          td.br-cn-td Resistencia de la paleta del deslizador. 
           td NTC 2512 / #[i BS ] 3084
         tr
-          td Resistencia a la fijación del tope inferior por separación de la tira.
+          td.br-cn-td Resistencia a la fijación del tope inferior por separación de la tira.
           td &nbsp;
         tr
-          td Resistencia del tope superior.
+          td.br-cn-td Resistencia del tope superior.
           td  NTC 2512 / #[i BS ] 3084
         tr
-          td Resistencia de la caja retenedora. 
+          td.br-cn-td Resistencia de la caja retenedora. 
           td NTC 2512 / #[i BS ] 3084
         tr
-          td Método de ensayo para determinar la solidez del color al lavado en seco, usando solvente percloroetileno.
+          td.br-cn-td Método de ensayo para determinar la solidez del color al lavado en seco, usando solvente percloroetileno.
           td NTC 4160/1S0 105D01
 
         tr
-          td(rowspan="6").fw-bold Botones
+          td.br-cn-td.bt-td(rowspan="6").fw-bold Botones
         tr
-          td Análisis cualitativo.
-          td NTC 1213/AATCC 20
+          td.br-cn-td.bt-td Análisis cualitativo.
+          td.bt-td NTC 1213/AATCC 20
         tr
-          td Dimensiones.
+          td.br-cn-td Dimensiones.
           td NTC 2510
         tr
-          td Evaluación tono a tono.
+          td.br-cn-td Evaluación tono a tono.
           td NTC 2510
         tr
-          td Solidez del color al planchado.
+          td.br-cn-td Solidez del color al planchado.
           td NTC 2510
         tr
-          td Solidez del color al planchado.
+          td.br-cn-td Solidez del color al planchado.
           td NTC 2510
         tr
-          td(rowspan="20").fw-bold Hilos
+          td.br-cn-td(rowspan="20").fw-bold.bt-td Hilos
         tr 
-          td Análisis cualitativo. 
-          td NTC 1213/AATCC 20
+          td.br-cn-td.bt-td Análisis cualitativo. 
+          td.bt-td NTC 1213/AATCC 20
         tr 
-          td Análisis cuantitativo. 
+          td.br-cn-td Análisis cuantitativo. 
           td NTC 481: 2012-12-12 <br>ASTMD 629-2008
         tr 
-          td Determinación de la densidad lineal del hilo (título de hilo) mediante el método de la madeja. 
+          td.br-cn-td Determinación de la densidad lineal del hilo (título de hilo) mediante el método de la madeja. 
           td NTC 842: 2011-05-18 <br>ASTM D1907: 2007
         tr 
-          td Determinación de la humedad. 
+          td.br-cn-td Determinación de la humedad. 
           td NTC 1378
         tr 
-          td Determinación del encogimiento en agua en ebullición. 
+          td.br-cn-td Determinación del encogimiento en agua en ebullición. 
           td NTC 2089
         tr 
-          td Determinación de las materias extraíbles. 
+          td.br-cn-td Determinación de las materias extraíbles. 
           td NTC 751
         tr 
-          td Determinación de la pilosidad de hebras textiles. 
+          td.br-cn-td Determinación de la pilosidad de hebras textiles. 
           td NTC 1153
         tr 
-          td Método de ensayo para la uniformidad de hebras textiles, usando equipo de ensayo de capacitancia. 
+          td.br-cn-td Método de ensayo para la uniformidad de hebras textiles, usando equipo de ensayo de capacitancia. 
           td NTC 1153
         tr 
-          td Ensayo de propiedades, tensión de hilos, método monofilamento. 
+          td.br-cn-td Ensayo de propiedades, tensión de hilos, método monofilamento. 
           td NTC 386: 2011-05-18 <br>ASTM D 2256
         tr 
-          td Determinación de la solidez del color al agua del mar. 
+          td.br-cn-td Determinación de la solidez del color al agua del mar. 
           td NTC 850/AATCC 106
         tr 
-          td Solidez del color al agua. 
+          td.br-cn-td Solidez del color al agua. 
           td AATCC 107:2013
         tr 
-          td Solidez del color al lavado en seco. 
+          td.br-cn-td Solidez del color al lavado en seco. 
           td NTC 4160/IS0 105D01
 
         tr
-          td Método de ensayo para determinar la solidez del color a la transpiración. 
+          td.br-cn-td Método de ensayo para determinar la solidez del color a la transpiración. 
           td NTC 772: 2017-03-22 <br>AATCC 15
         tr 
-          td Solidez del color al frote lineal. 
+          td.br-cn-td Solidez del color al frote lineal. 
           td NTC 786 AATCC 8
         tr
-          td Método de ensayo para la determinación de la solidez del color al lavado doméstico e industrial. 
+          td.br-cn-td Método de ensayo para la determinación de la solidez del color al lavado doméstico e industrial. 
           td NTC 1155-3: 2017-10-18<br>AATCC 61:2013
         tr
-          td Solidez del color a la luz- luz solar. 
+          td.br-cn-td Solidez del color a la luz- luz solar. 
           td NTC 1479-2 #[i ISO ] 105- B02
         tr
-          td Determinación de torsiones. 
+          td.br-cn-td Determinación de torsiones. 
           td NTC 443-NTC 752
         tr
-          td Formaldehído libre. 
+          td.br-cn-td Formaldehído libre. 
           td #[i ISO ] 14184-1:2011
         tr
-          td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc). 
+          td.br-cn-td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc). 
           td #[i ISO ] 17072-1:2011
 
     .d-flex.align-items-center.mb-2(data-aos="zoom-in-left")
@@ -1737,36 +1770,36 @@
           span
             | Pruebas de calidad en laboratorios para textiles
         .tabla-b.color-acento-contenido.mb-5
-          .tabla-b__header
-            h5.mb-0 Pruebas de calidad en laboratorios para textiles
-          table
+          .tabla-b__header.bg-tx
+            h4.mb-0 Pruebas de calidad en laboratorios para textiles
+          table.table-xl
             caption Tabla tomada del SENA - programa técnico Control calidad en confección industrial (2020)
             tr
-              th Ensayo
-              th Norma
+              th.bg-theader Ensayo
+              th.bg-theader Norma
             tr 
-              td Análisis cualitativo de fibras.
+              td.br-cn-td Análisis cualitativo de fibras.
               td NTC 1213/AATCC 20/ASTMD 276
             tr 
-              td Análisis cuantitativo.
+              td.br-cn-td Análisis cuantitativo.
               td NTC 481: 2012-12-12   ASTMD 629:2008
             tr 
-              td Coeficiente de fricción.
+              td.br-cn-td Coeficiente de fricción.
               td ASTMD 3412
             tr 
-              td Determinación de la densidad lineal (título).
+              td.br-cn-td Determinación de la densidad lineal (título).
               td NTC 959
             tr 
-              td Determinación de las materias extraíbles.
+              td.br-cn-td Determinación de las materias extraíbles.
               td NTC 751
             tr 
-              td Determinación de los rizos por unidad de longitud.
+              td.br-cn-td Determinación de los rizos por unidad de longitud.
               td NTC 840
             tr 
-              td Determinación de la resistencia a la tracción y alargamiento de fibras individuales.
+              td.br-cn-td Determinación de la resistencia a la tracción y alargamiento de fibras individuales.
               td NTC 959
             tr 
-              td Libre de formaldehído.
+              td.br-cn-td Libre de formaldehído.
               td #[i ISO ] 14184-1:2011
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
