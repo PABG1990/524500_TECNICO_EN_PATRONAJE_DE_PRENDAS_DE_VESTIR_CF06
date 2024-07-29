@@ -277,6 +277,11 @@ li.color-primario > i
     
 .table-xl-2 tr:nth-child(odd) 
       background-color: #FFF; 
+
+.px-cus-slyderF
+  padding-right: .25rem !important;
+  padding-left: .25rem !important;
+//// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em 
@@ -288,27 +293,19 @@ li.color-primario > i
   .img-accord-cus
     width: 50%;
     margin: auto;
-    padding-bottom: 2em;
   .img-accord-cus-2
     margin: auto;
-    padding-bottom: 2em;
   .text-align-cus
     text-align: left
-  .tarjeta--container > .tarjeta:first-child 
-    border-radius: 20px !important
-    margin-bottom: 1em 
-  .tarjeta--container > .tarjeta:last-child
-    border-radius: 20px !important
-  .h-slyderF
-    height: auto
+ 
   .w-50-cus, .w-40-cus
     width: auto !important
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus-3
-    margin-bottom: 2em 
-@media screen and (max-width: $bp-max-sm)
-  .h-anexo, .h-anexo-2, .h-anexo-3, .h-anexo-4
-    height: auto
+  .h-card-ctl
+    height: 370px
+
+//// TABLET MINI 768--------------------------------------
+@media screen and (max-width: $bp-min-md)
+  
   .mb-cus
     margin-bottom: 2em 
   
@@ -320,18 +317,40 @@ li.color-primario > i
   .img-accord-cus
     width: 50%;
     margin: auto;
-    padding-bottom: 2em;
-  .img-accord-cus-2
-    margin: auto;
-    padding-bottom: 2em;
+  
   .text-align-cus
     text-align: left
+  
+  
+  .w-50-cus, .w-40-cus
+    width: auto !important
+  .h-card-ctl
+    height: 370px
+
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus-3, .mb-cus-5
+    margin-bottom: 2em 
+  .mb-cus-6
+    margin-bottom: 1em 
+  .h-anexo, .h-anexo-2, .h-anexo-3, .h-anexo-4, .h-card-ctl
+    height: auto
+  .img-accord-cus-2 
+    margin: auto;
+    width: 50%;
+  .img-accord-cus 
+    width: 50%;
+    margin: auto;
+  .px-cus-slyderF
+    padding-right: .50rem !important;
+    padding-left: .50rem !important;
+  .h-slyderF
+      height: auto
   .tarjeta--container > .tarjeta:first-child 
     border-radius: 20px !important
     margin-bottom: 1em 
   .tarjeta--container > .tarjeta:last-child
     border-radius: 20px !important
-  .h-slyderF
-      height: auto
-  .w-50-cus, .w-40-cus
-    width: auto !important
+  .slyder-a__tipo-b
+    padding: 1em
+

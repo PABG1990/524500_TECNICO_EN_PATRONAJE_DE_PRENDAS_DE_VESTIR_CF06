@@ -196,7 +196,7 @@
 
         .col-sm-12.col-lg-3
           img.d-none.d-lg-block(src="@/assets/curso/temas/tema1/img_12.png")
-    SlyderA(tipo='b').bg01.p-sm-1.p-lg-5.mb-5(data-aos="zoom-in-left")
+    SlyderA(tipo='b').bg01.p-sm-cus.p-lg-5.mb-5
       .row.justify-content-center.px-5
         .col-sm-12.col-lg-4
           h4.mb-5 Inspecciones
@@ -523,7 +523,7 @@
         .tarjeta--boton.color-primario.p-4.h-anexo-2.mb-cus
           .row.justify-content-center.mb-3
             .col-sm-2.col-md-6.col-lg-10
-                img(src='@/assets/curso/temas/tema1/img_116.svg')
+                img.img-accord-cus-2(src='@/assets/curso/temas/tema1/img_116.svg')
           h3.text-center.mb-0.text-primario Círculos de calidad
 
       .col-sm-12.col-md-6.col-lg-2
@@ -804,7 +804,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text.mb-cus-3 Puntos de control en compra de materiales e insumos
+            h3.py-2.w-card-text.mb-cus-2 Puntos de control en compra de materiales e insumos
           p.mb-4 En las áreas de bodegas y almacenes se deben realizar las inspecciones necesarias antes de la integración del producto, donde se realiza el alistamiento de los insumos necesarios para la confección y se integran al paquete de las unidades cortadas según las unidades establecidas.
           .cajon.color-acento-botones.p-4.mb-4
               p.mb-0.fw-bold En el caso de las telas se puede apoyar su control con equipos como revisadores para inspeccionar los defectos.
@@ -868,7 +868,7 @@
       .row(titulo="Medidas")
         .col-12
           .row.justify-content-center
-            .col-sm-12.col-lg-2
+            .col-sm-12.col-md-6.col-lg-2
               img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_48.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Del patrón con costuras y sin costuras para comparar medidas con la prenda terminada y correspondencia con la talla, además se debe revisar que las medidas de las piezas sean iguales al unir y que tengan simetría, se puede superponer las piezas para consultar que coincidan a sus longitudes.
@@ -876,7 +876,7 @@
       .row(titulo="Cantidad de piezas")
         .col-12
           .row.justify-content-center
-            .col-sm-12.col-lg-2
+            .col-sm-12.col-md-6.col-lg-2
               img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_49.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Correspondencia de piezas respecto al diseño y al dibujo plano del patrón.
@@ -884,35 +884,35 @@
       .row(titulo="Señalización de pieza")
         .col-12
           .row.justify-content-center
-            .col-sm-12.col-lg-2
+            .col-sm-12.col-md-6.col-lg-2
               img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_50.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Debe contener identificación de la prenda, no se debe prestar a dualidades de información, además debe indicar la cantidad a cortar en cada pieza.
       .row(titulo="Aplomos")
         .col-12
           .row.justify-content-center
-            .col-sm-12.col-lg-2
+            .col-sm-12.col-md-6.col-lg-2
               img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_51.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Indicación clara de las líneas de aplomo de cada pieza.
       .row(titulo="Costuras")
         .col-12
           .row.justify-content-center
-            .col-sm-12.col-lg-2
+            .col-sm-12.col-md-6.col-lg-2
               img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_52.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Márgenes de costura en cada pieza, y la correspondencia con la pieza a unir, por ejemplo, si en el hombro de la pieza del delantero el ancho es de 1 cm de margen de costura, en el hombro posterior debe corresponder a la misma medida.
       .row(titulo="Piquetes y puntos")
         .col-12
           .row.justify-content-center
-            .col-sm-12.col-lg-2
+            .col-sm-12.col-md-6.col-lg-2
               img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_54.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Existencia de puntos y piquetes, alineando las piezas y correspondiendo la unión de puntos y piquetes.
       .row(titulo="Plantillas")
         .col-12
           .row.justify-content-center
-            .col-sm-12.col-lg-2
+            .col-sm-12.col-md-6.col-lg-2
               img.w-img-cus.img-accord-cus(src='@/assets/curso/temas/tema1/img_55.svg')
             .col-sm-12.col-lg-9
               p.mb-0 Funcionalidad de la plantilla y sus medidas.  
@@ -1336,147 +1336,147 @@
       .col-sm-12.col-lg-12
         h4.text-center Listado de defectos
 
-    SlyderF.mb-5.slider-1(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-primario.py-4.px-0.mx-1
+    SlyderF.mb-5.slider-1(columnas="col-md-6 col-lg-6 col-xl-4")
+      .tarjeta.color-primario.py-4.px-cus-slyderF.mx-1
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_66.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falta de tensión en costuras
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_67.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus Costuras recogidas
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_68.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Saltos de costuras
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_69.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras sin pulir
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_70.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras recogidas
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_71.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras sueltas
     
             
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_72.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras rotas
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_73.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Cases de costura
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_74.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Remates nudosos
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_75.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falta de simetría
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_76.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Rotura en prenda
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_77.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras abiertas
 
    
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_78.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras retendas
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_79.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Salto de puntada
-      .tarjeta.color-primario.py-4.px-0.mx-1
+      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_80.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Hilos sueltos
 
     .row.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12
         h4.text-center Defectos en textiles
-    SlyderF.mb-5.slider-2(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+    SlyderF.mb-5.slider-2(columnas="col-md-6 col-lg-6 col-xl-4")
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_81.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Manchas de aceite
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_82.png") 
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Mota en tejido
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_83.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Tejido contaminado
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_84.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Agujero en el tejido
     
     
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_85.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falla de aguja
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_86.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Lycra rota
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_87.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Tejido barrado
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_88.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Nudo en el tejido
    
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_89.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Quiebres
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1 
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1 
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_90.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Desgaste
-      .tarjeta.color-acento-botones.py-4.px-0.mx-1
+      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
         .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-0.px-1 
+          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1 
             img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_91.png")
             .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   NEPS
 
@@ -1488,14 +1488,14 @@
         h4.text-center Defectos en insumos
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-3
-        .tarjeta.color-primario.py-4.px-3.mx-1.h-slyderF.mb-cus
+      .col-sm-12.col-md-6.col-lg-3
+        .tarjeta.color-primario.py-4.px-3.mx-1.h-slyderF.mb-cus-5
           img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_92.png")
-          .txt-sliderF.text-white.text-center.px-1.py-1.align-content-center.mb-cus Cremallera rota
-      .col-sm-12.col-lg-3
+          .txt-sliderF.text-white.text-center.px-1.py-1.align-content-center Cremallera rota
+      .col-sm-12.col-md-6.col-lg-3
         .tarjeta.color-primario.py-4.px-3.h-slyderF
           img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_93.png")
-          .txt-sliderF.text-white.text-center.px-1.py-1.align-content-center.mb-cus  Rotura en cordones, sesgos, cintas
+          .txt-sliderF.text-white.text-center.px-1.py-1.align-content-center  Rotura en cordones, sesgos, cintas
     
 
 
@@ -1576,14 +1576,14 @@
       h3.py-2.w-card-text.mb-cus-3 Control de calidad en insumos
     p.mb-5(data-aos="zoom-in-left") Los requisitos necesarios para cumplir con las solicitudes de insumos son:
     .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-6.tarjeta.color-primario.p-5
+      .col-sm-12.col-md-6.col-lg-6.tarjeta.color-primario.p-5.h-card-ctl
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema1/img_97.png', alt='Texto que describa la imagen')
         h2.text-center Disponibilidad
         p.mb-0.text-center El tiempo de obtención para su uso
-      .col-sm-12.col-lg-6.tarjeta.color-acento-botones.p-5
+      .col-sm-12.col-md-6.col-lg-6.tarjeta.color-acento-botones.p-5.h-card-ctl
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -1820,7 +1820,7 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Complementario 2 - Manual control de calidad en productos textiles y afines.
+                  p.mb-cus-6 Complementario 2 - Manual control de calidad en productos textiles y afines.
                 .col-sm-auto
                   a.boton.color-boton(:href="obtenerLink('/downloads/Manual_Control_Calidad.pdf')" target="_blank")
                     span.text-sistm Descargar

@@ -42,11 +42,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-10
+            .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 #[i Panty] tanga - Confección de ropa interior para damas
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
+                  p.mb-cus-5 #[i Panty] tanga - Confección de ropa interior para damas
+                .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/G4IGF6OvFSQ" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -55,11 +55,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-10
+            .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 Confección de ropa interior para damas
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
+                  p.mb-cus-5 Confección de ropa interior para damas
+                .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/Ds5CtwVbaag" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -89,11 +89,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-10
+            .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 #[i Boxer] pijamero - #[i Boxer] de hombre
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
+                  p.mb-cus-5 #[i Boxer] pijamero - #[i Boxer] de hombre
+                .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/3E8_mDzj8LU" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -102,11 +102,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-10
+            .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 #[i Boxer] de hombre
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
+                  p.mb-cus-5 #[i Boxer] de hombre
+                .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/Y3tyM2WTpZ0" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -137,11 +137,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-10
+            .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 Polo #[i Shirt] Production
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
+                  p.mb-cus-5 Polo #[i Shirt] Production
+                .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/QPor7WBIZNA" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -150,11 +150,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-10
+            .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 Como hacer camiseta polo hombre corte y confección
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
+                  p.mb-cus-5 Como hacer camiseta polo hombre corte y confección
+                .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/HJJp-lOu1E4" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -185,11 +185,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-10
+            .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
+                  p.mb-cus-5 Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección
+                .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/oZTVpkX7cuk" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -198,11 +198,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-10
+            .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-7.mb-sm-0
-                  p.mb-0 Cómo hacer un pantalón de sudadera para mujer, corte y confección
-                .col-sm-12.col-lg-5
+                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
+                  p.mb-cus-5 Cómo hacer un pantalón de sudadera para mujer, corte y confección
+                .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/hlBctRHgSUw" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -216,11 +216,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-1.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-11
+            .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-9.mb-sm-0
-                  p.mb-0 Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección
-                .col-sm-12.col-lg-3
+                .col-sm-12.col-md-9.col-lg-9.mb-sm-0
+                  p.mb-cus-5 Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección
+                .col-sm-12.col-md-3.col-lg-3
                   a.boton.color-boton(href="https://www.youtube.com/embed/3xGfOwDybBs" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -228,11 +228,11 @@
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-1.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-lg-11
+            .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-lg-9.mb-sm-0
-                  p.mb-0 Cómo hacer un pantalón de sudadera para mujer, corte y confección
-                .col-sm-12.col-lg-3
+                .col-sm-12.col-md-9.col-lg-9.mb-sm-0
+                  p.mb-cus-5 Cómo hacer un pantalón de sudadera para mujer, corte y confección
+                .col-sm-12.col-md-3.col-lg-3
                   a.boton.color-boton(href="https://www.youtube.com/embed/owM_WYtLwlc" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
