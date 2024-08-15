@@ -150,91 +150,91 @@ export default {
   },
   complementario: [
     {
-      tema: 'Análisis de la evolución del significado de calidad ',
+      tema: 'Análisis de la evolución del significado de calidad.',
       referencia:
-        'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad',
+        'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad.',
       tipo: 'Artículo',
       descarga: '/downloads/Complementario_14_3_Articulo.pdf',
     },
     {
-      tema: 'Generalidades del sistema de gestión de calidad ISO 9001 ',
-      referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015',
+      tema: 'Generalidades del sistema de gestión de calidad ISO 9001.',
+      referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
       tipo: 'Norma',
       link: 'https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:es',
     },
     {
       tema:
-        'Resumen sobre materiales textiles y aspectos relacionados principalmente con la naturaleza de las fibras ',
+        'Resumen sobre materiales textiles y aspectos relacionados principalmente con la naturaleza de las fibras.',
       referencia:
-        'Alonso, F. (2015). Manual control de calidad en productos textiles y afines ',
+        'Alonso, F. (2015). Manual control de calidad en productos textiles y afines.',
       tipo: 'Manual',
       link: 'https://oa.upm.es/38763/',
     },
     {
-      tema: 'Confección de panty tanga ',
+      tema: 'Confección de panty tanga.',
       referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Panty tanga. YouTube',
+        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Panty tanga. YouTube.',
       tipo: 'Video',
-      link: 'https://youtu.be/G4IGF6OvFSQ',
+      link: 'https://youtu.be/2DkN1Ur5Dw0',
     },
     {
-      tema: 'Confección de ropa interior para dama',
+      tema: 'Confección de ropa interior para dama.',
       referencia:
-        'Mata. J. (26 de agosto 2017). Confección de ropa interior para damas. YouTube',
+        'Mata. J. (26 de agosto 2017). Confección de ropa interior para damas. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/Ds5CtwVbaag',
     },
     {
-      tema: 'Confección de <i>boxer</i> pijamero',
+      tema: 'Confección de <i>boxer</i> pijamero.',
       referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). <i>Boxer</i> pijamero. YouTube',
+        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). <i>Boxer</i> pijamero. YouTube.',
       tipo: 'Video',
-      link: 'https://youtu.be/3E8_mDzj8LU',
+      link: 'https://youtu.be/OnqJO8oVyrc',
     },
     {
-      tema: 'Confección de <i>boxer</i> de hombre ',
+      tema: 'Confección de <i>boxer</i> de hombre.',
       referencia:
-        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un <i>boxer</i> de hombre.  YouTube',
+        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un <i>boxer</i> de hombre.  YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/Y3tyM2WTpZ0',
     },
     {
-      tema: 'Confección de camiseta tipo polo ',
+      tema: 'Confección de camiseta tipo polo.',
       referencia:
-        'Juki central europe. (11 de agosto 2015). JUKI - polo <i>shirt</i> production.  YouTube',
+        'Juki central europe. (11 de agosto 2015). JUKI - polo <i>shirt</i> production.  YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/QPor7WBIZNA',
     },
     {
-      tema: 'Confección de camiseta tipo polo de hombre ',
+      tema: 'Confección de camiseta tipo polo de hombre.',
       referencia:
-        'Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección.  YouTube',
+        'Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección.  YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/HJJp-lOu1E4',
     },
     {
-      tema: 'Confección de pantalón deportivo con cintas ',
+      tema: 'Confección de pantalón deportivo con cintas.',
       referencia:
-        'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección.  YouTube ',
+        'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección.  YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/oZTVpkX7cuk',
     },
     {
-      tema: 'Confección de pantalón de sudadera de dama ',
+      tema: 'Confección de pantalón de sudadera de dama.',
       referencia:
-        'Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección.  YouTube',
+        'Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección.  YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/hlBctRHgSUw',
     },
     {
-      tema: 'Confección de top deportivo ',
+      tema: 'Confección de top deportivo.',
       referencia:
-        'Josmar creando con amor. (24 de abril de 2020). <i>Top</i> deportivo muy fácil de confeccionar /josmar. YouTube',
+        'Josmar creando con amor. (24 de abril de 2020). <i>Top</i> deportivo muy fácil de confeccionar /josmar. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/3xGfOwDybBs',
     },
     {
-      tema: 'Confección de <i>leggins</i> con transparencias ',
+      tema: 'Confección de <i>leggins</i> con transparencias.',
       referencia:
         'Montilla, E. (10 de mayo 2017). Confección de <i>leggins</i> deportivo con transparencia. YouTube.',
       tipo: 'Video',
@@ -255,7 +255,7 @@ export default {
     {
       termino: 'ISO',
       significado:
-        'Organización Internacional de Estandarización, ubicada en Ginebra Suiza y tiene presencia en 193. Promueve y desarrolla normas para estandarizar productos y servicios.',
+        ' Organización Internacional de Estandarización, ubicada en Ginebra Suiza y tiene presencia en 193. Promueve y desarrolla normas para estandarizar productos y servicios.',
     },
     {
       termino: 'Lote',
@@ -296,7 +296,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección. YouTube',
+        'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección. YouTube.',
       link: 'https://youtu.be/oZTVpkX7cuk',
     },
     {
@@ -317,12 +317,12 @@ export default {
     {
       referencia:
         'Alonso, F. (2015). Manual control de calidad en productos textiles y afines.',
-      descarga: 'https://oa.upm.es/38763/',
+      link: 'https://oa.upm.es/38763/',
     },
     {
       referencia:
         'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad.',
-      descarga: '/downloads/Complementario_14_3_Articulo.pdf',
+      link: '/downloads/Complementario_14_3_Articulo.pdf',
     },
     {
       referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
@@ -350,13 +350,17 @@ export default {
     },
     {
       referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Panty tanga.  YouTube.',
-      link: 'https://youtu.be/G4IGF6OvFSQ',
+        'Red producción de contenidos grupo gestión curricular SENA. (Agosto 2024). Panty tanga.  YouTube.',
+      link: 'https://youtu.be/2DkN1Ur5Dw0',
     },
     {
       referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). <i>Boxer</i> pijamero.  YouTube',
-      link: 'https://youtu.be/3E8_mDzj8LU',
+        'Red producción de contenidos grupo gestión curricular SENA. (Agosto 2024). <i>Boxer</i> pijamero.  YouTube',
+      link: 'https://youtu.be/OnqJO8oVyrc',
+    },
+    {
+      referencia:
+        'SENA. (2020). Desarrollo curricular. Técnico Control calidad en confección industrial. ',
     },
   ],
   creditos: [
@@ -422,12 +426,22 @@ export default {
       autores: [
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
-          cargo: 'Diseñadora web',
+          cargo: 'Diseñador web',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Lizeth Karina Manchego Suarez',
           cargo: 'Desarrolladora <i>Full-Stack</i>',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrolladora Actividad Didáctica',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+        {
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -441,12 +455,7 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Validadora de Recursos Educativos Digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
-        },
-        {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: '--',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },

@@ -26,13 +26,13 @@
         ul.lista-ul--color
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones preparación: ] mariposa, entre otras
+            span #[b Operaciones preparación: ] mariposa, entre otras.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones ensamble: ] unir entrepierna, fijar mariposa, unir costados, sesgar pierna, sesgar cintura, entre otras
+            span #[b Operaciones ensamble: ] unir entrepierna, fijar mariposa, unir costados, sesgar pierna, sesgar cintura, entre otras.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones de terminados: ] presillar costado, limpiar, revisar, empacar, entre otras
+            span #[b Operaciones de terminados: ] presillar costado, limpiar, revisar, empacar, entre otras.
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_2.png')
 
@@ -45,9 +45,9 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 #[i Panty] tanga - Confección de ropa interior para damas
+                  p.mb-cus-5 #[i Panty] tanga - Confección de ropa interior para damas.
                 .col-sm-12.col-md-3.col-lg-5
-                  a.boton.color-boton(href="https://www.youtube.com/embed/G4IGF6OvFSQ" target="_blank")
+                  a.boton.color-boton(href="https://www.youtube.com/embed/2DkN1Ur5Dw0" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
       .col-sm-12.col-lg-5
@@ -58,7 +58,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Confección de ropa interior para damas
+                  p.mb-cus-5 Confección de ropa interior para damas.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/Ds5CtwVbaag" target="_blank")
                     span.text-sistm Ir al video
@@ -72,13 +72,13 @@
         ul.lista-ul--color
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones preparación: ] unir realce, unir tiro, entre otras
+            span #[b Operaciones preparación: ] unir realce, unir tiro, entre otras.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones ensamble: ]  unir entre pierna, pierna, dobladillar pierna, fijar elástico, entre otras
+            span #[b Operaciones ensamble: ]  unir entre pierna, pierna, dobladillar pierna, fijar elástico, entre otras.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones de terminados: ] presillar, limpiar, revisar, empacar, entre otras
+            span #[b Operaciones de terminados: ] presillar, limpiar, revisar, empacar, entre otras.
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_3.png')
 
@@ -92,9 +92,9 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 #[i Boxer] pijamero - #[i Boxer] de hombre
+                  p.mb-cus-5 #[i Boxer] pijamero - #[i Boxer] de hombre.
                 .col-sm-12.col-md-3.col-lg-5
-                  a.boton.color-boton(href="https://www.youtube.com/embed/3E8_mDzj8LU" target="_blank")
+                  a.boton.color-boton(href="https://www.youtube.com/embed/OnqJO8oVyrc" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
       .col-sm-12.col-lg-5
@@ -105,7 +105,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 #[i Boxer] de hombre
+                  p.mb-cus-5 #[i Boxer] de hombre.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/Y3tyM2WTpZ0" target="_blank")
                     span.text-sistm Ir al video
@@ -120,13 +120,13 @@
         ul.lista-ul--color
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones preparación: ] pechera, cuello, bolsillo, entre otras
+            span #[b Operaciones preparación: ] pechera, cuello, bolsillo, entre otras.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones ensamble: ]  unir por hombros, montar mangas, cerrar por costados, dobladillar ruedo, entre otras
+            span #[b Operaciones ensamble: ]  unir por hombros, montar mangas, cerrar por costados, dobladillar ruedo, entre otras.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones de terminados: ] ojalar, botonar, revisar, planchar, empacar, entre otras
+            span #[b Operaciones de terminados: ] ojalar, botonar, revisar, planchar, empacar, entre otras.
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_4.png')
 
@@ -140,7 +140,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Polo #[i Shirt] Production
+                  p.mb-cus-5 Polo #[i Shirt Production].
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/QPor7WBIZNA" target="_blank")
                     span.text-sistm Ir al video
@@ -153,7 +153,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Como hacer camiseta polo hombre corte y confección
+                  p.mb-cus-5 Como hacer camiseta polo hombre corte y confección.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/HJJp-lOu1E4" target="_blank")
                     span.text-sistm Ir al video
@@ -168,13 +168,13 @@
         ul.lista-ul--color
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones preparación: ] colocar bolsillo lateral, bolsillos posteriores, unir forro, entre otras
+            span #[b Operaciones preparación: ] colocar bolsillo lateral, bolsillos posteriores, unir forro, entre otras.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones ensamble: ] unir por entrepierna, unir por costados, pegar elástico incluyendo forro, dobladillar botas, entre otras
+            span #[b Operaciones ensamble: ] unir por entrepierna, unir por costados, pegar elástico incluyendo forro, dobladillar botas, entre otras.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span #[b Operaciones de terminados: ] revisar, empacar, entre otras
+            span #[b Operaciones de terminados: ] revisar, empacar, entre otras.
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_5.png')
 
@@ -188,7 +188,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección
+                  p.mb-cus-5 ¿Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección?
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/oZTVpkX7cuk" target="_blank")
                     span.text-sistm Ir al video
@@ -201,7 +201,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Cómo hacer un pantalón de sudadera para mujer, corte y confección
+                  p.mb-cus-5 ¿Cómo hacer un pantalón de sudadera para mujer, corte y confección?
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/hlBctRHgSUw" target="_blank")
                     span.text-sistm Ir al video
@@ -219,9 +219,9 @@
             .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-9.mb-sm-0
-                  p.mb-cus-5 Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección
+                  p.mb-cus-5 ¿Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección?
                 .col-sm-12.col-md-3.col-lg-3
-                  a.boton.color-boton(href="https://www.youtube.com/embed/3xGfOwDybBs" target="_blank")
+                  a.boton.color-boton(href="https://www.youtube.com/embed/oZTVpkX7cuk" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
         .tarjeta.color-primario.p-3.mb-5
@@ -231,7 +231,7 @@
             .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-9.mb-sm-0
-                  p.mb-cus-5 Cómo hacer un pantalón de sudadera para mujer, corte y confección
+                  p.mb-cus-5 ¿Cómo hacer un pantalón de sudadera para mujer, corte y confección?
                 .col-sm-12.col-md-3.col-lg-3
                   a.boton.color-boton(href="https://www.youtube.com/embed/owM_WYtLwlc" target="_blank")
                     span.text-sistm Ir al video

@@ -2,8 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se presenta un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p.mb-5 En este componente se enfatizó en la importancia de prevenir fallas y errores en procesos de producción, considerando las normativas vigentes y el control de calidad en cada proceso. El siguiente diagrama presenta los conceptos más importantes trabajados:
     .row.justify-content-center
       .col-12.mb-5
         figure

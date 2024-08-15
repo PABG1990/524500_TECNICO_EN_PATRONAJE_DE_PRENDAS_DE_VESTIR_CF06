@@ -24,28 +24,28 @@
         ul.lista-ul--color
           li.color-primario
             i.fas.fa-plus
-            | Mejora continua
+            | Mejora continua.
           li.color-primario
             i.fas.fa-plus
-            | Evitar inspecciones masivas
+            | Evitar inspecciones masivas.
           li.color-primario
             i.fas.fa-plus
-            | Relación de precio y calidad
+            | Relación de precio y calidad.
           li.color-primario
             i.fas.fa-plus
-            | Métodos modernos de capacitación y entrenamiento
+            | Métodos modernos de capacitación y entrenamiento.
           li.color-primario
             i.fas.fa-plus
-            | Exigencia de la competitividad
+            | Exigencia de la competitividad.
           li.color-primario.d-flex
             i.fas.fa-plus
-            p.mb-0 Identificación del trabajador con sus funciones y su aporte a la calidad
+            p.mb-0 Identificación del trabajador con sus funciones y su aporte a la calidad.
           li.color-primario
             i.fas.fa-plus
-            | Eliminación de barreras entre áreas
+            | Eliminación de barreras entre áreas.
           li.color-primario
             i.fas.fa-plus
-            | Establecer ruta de calidad
+            | Establecer ruta de calidad.
     p.text-center.mb-0(data-aos="zoom-in-left") Acciones que permiten encaminar la empresa hacia el proceso de control de calidad.
 
     Separador  
@@ -102,21 +102,21 @@
             h4  Necesidades
           p Principal objetivo del producto, si no existen genera insatisfacción.
           ul.lista-ul--color
-            li.color-primario
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Ser funcional
-            li.color-primario
+              p.mb-0 Ser funcional.
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Resolver el problema
-            li.color-primario
+              p.mb-0 Resolver el problema.
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Entrega oportuna
-            li.color-primario
+              p.mb-0 Entrega oportuna.
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Respetar precio acordado
-            li.color-primario
+              p.mb-0 Respetar precio acordado.
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Tiempo de duración de vida útil
+              p.mb-0 Tiempo de duración de vida útil.
       
       .col-sm-12.col-lg-4.mb-4
         .tarjeta-numerada.color-acento-botones.p-5.h-anexo-3
@@ -126,15 +126,15 @@
             h4 Expectativas
           p Si se presentan en mayor medida genera satisfacción.
           ul.lista-ul--color
-            li.color-primario
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Darle importancia al cliente 
-            li.color-primario
+              p.mb-0 Darle importancia al cliente.
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Trato cordial y amable al cliente
-            li.color-primario
+              p.mb-0 Trato cordial y amable al cliente.
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Hacer sentir importante al cliente
+              p.mb-0 Hacer sentir importante al cliente.
       
       .col-sm-12.col-lg-4.mb-4
         .tarjeta-numerada.color-primario.p-5.h-anexo-3
@@ -144,15 +144,15 @@
             h4 Superar expectativas
           p No esperado por el cliente (sorprenderle gratamente), incrementa el grado de satisfacción.
           ul.lista-ul--color
-            li.color-primario
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Asistencia técnica 
-            li.color-primario
+              p.mb-0 Asistencia técnica.
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Descuentos
-            li.color-primario
+              p.mb-0 Descuentos.
+            li.color-primario.d-flex
               i.fas.fa-plus
-              | Tiempos de entrega
+              p.mb-0 Tiempos de entrega.
     .fullview
       .row.justify-content-center.align-items-center.mb-5.p-5(data-aos="zoom-in-left")
         .col-sm-12.col-lg-3
@@ -343,22 +343,22 @@
         ul.lista-ul--color
           li.color-primario
             i.fas.fa-plus
-            | Reducción de costos
+            | Reducción de costos.
           li.color-primario
             i.fas.fa-plus
-            | Reducción de defectos
+            | Reducción de defectos.
           li.color-primario.d-flex
             i.fas.fa-plus
-            span Obtención de productos estandarizados
+            span Obtención de productos estandarizados.
           li.color-primario
             i.fas.fa-plus
-            | Disminución de desperdicios
+            | Disminución de desperdicios.
           li.color-primario
             i.fas.fa-plus
-            | Mejoras en los procesos
+            | Mejoras en los procesos.
           li.color-primario
             i.fas.fa-plus
-            | Aumento de la productividad
+            | Aumento de la productividad.
       
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
@@ -435,31 +435,31 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span.text-sistm.fw-bold 1
-            p.mb-0 #[b Enfoque al cliente:] conocer al cliente, requisitos y expectativas 
+            p.mb-0 #[b Enfoque al cliente:] conocer al cliente, requisitos y expectativas.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.text-sistm.fw-bold 2
-            p.mb-0 #[b Enfoque estratégico:]  establecer objetivo de calidad como clave para la empresa, e incluirlo en su visión
+            p.mb-0 #[b Enfoque estratégico:]  establecer objetivo de calidad como clave para la empresa, e incluirlo en su visión.
           li
             .lista-ol--cuadro__vineta
               span.text-sistm.fw-bold 3
-            | #[b Liderazgo enfocado:] compromiso positivo de la dirección de la empresa
+            | #[b Liderazgo enfocado:] compromiso positivo de la dirección de la empresa.
           li
             .lista-ol--cuadro__vineta
               span.text-sistm.fw-bold 4
-            | #[b Enfoque en procesos:] control de los procesos 
+            | #[b Enfoque en procesos:] control de los procesos.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.text-sistm.fw-bold 5
-            p.mb-0 #[b Orientación a las personas:] involucrar al personal y ofrecerle capacitación permanente, con el fin de aumentar el nivel de compromiso y satisfacción del cliente interno
+            p.mb-0 #[b Orientación a las personas:] involucrar al personal y ofrecerle capacitación permanente, con el fin de aumentar el nivel de compromiso y satisfacción del cliente interno.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.text-sistm.fw-bold 6
-            p.mb-0 #[b Enfoque científico:] evaluación de la calidad con evidencias y datos, aplicación del método científico
+            p.mb-0 #[b Enfoque científico:] evaluación de la calidad con evidencias y datos, aplicación del método científico.
           li.d-flex
             .lista-ol--cuadro__vineta
               span.text-sistm.fw-bold 7
-            p.mb-0 #[b Mejora continua, innovación y aprendizaje:] todo proceso es susceptible de mejoras, no consiste solo en corregir sino actuar de forma proactiva
+            p.mb-0 #[b Mejora continua, innovación y aprendizaje:] todo proceso es susceptible de mejoras, no consiste solo en corregir sino actuar de forma proactiva.
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10
         .cajon.color-acento-botones.p-4.mb-4
@@ -490,7 +490,7 @@
             h5 Figura 2.
             span
               | Circulo de calidad
-          img.img-a(src='@/assets/curso/temas/tema1/img_24.svg', alt='En el diagrama del circulo de calidad  se aprecian sus componentes así:  Objetivos mejora continua del producto, integrantes son de la misma área, reuniones acordadas en horario diferente al laboral y en otro ambiente,  participación voluntaria, equipos de 3 a 15 personas.')
+          img.img-a(src='@/assets/curso/temas/tema1/img_24.svg', alt='En el diagrama del circulo de calidad  se aprecian sus componentes así:  objetivos mejora continua del producto, integrantes son de la misma área, reuniones acordadas en horario diferente al laboral y en otro ambiente,  participación voluntaria, equipos de 3 a 15 personas.')
     .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
       h3.py-2.w-card-text.mb-cus-3 Metodología de mejoramiento continuo   
@@ -558,58 +558,58 @@
           td(rowspan="10").fw-bold.br-bb-td Planear
         tr.bg-tr-odd
           td.br-bl-td.fw-bold.w-col-1 1
-          td.br-bl-td.w-col-2 Identificar el área que requiere mejora
-          td.br-bl-td Utilizar 5S y mapeo de flujo de valor
+          td.br-bl-td.w-col-2 Identificar el área que requiere mejora.
+          td.br-bl-td Utilizar 5S y mapeo de flujo de valor.
         tr.bg-tr-even
           td.fw-bold.br-bl-td.w-col-1 2
-          td.br-bl-td  Identificar/clarificar el objetivo Kaizen
-          td.br-bl-td  Mejorar servicio, reducir defectos, mejorar productividad, entre otros
+          td.br-bl-td  Identificar/clarificar el objetivo Kaizen.
+          td.br-bl-td  Mejorar servicio, reducir defectos, mejorar productividad, entre otros.
         tr.bg-tr-odd
           td.fw-bold.br-bl-td.w-col-1  3
-          td.br-bl-td  Identificar los miembros del equipo Kaizen
-          td.br-bl-td  Nombrar líder del equipo, miembros de la misma área y de diferente área
+          td.br-bl-td  Identificar los miembros del equipo Kaizen.
+          td.br-bl-td  Nombrar líder del equipo, miembros de la misma área y de diferente área.
         tr.bg-tr-even
           td.fw-bold.br-bl-td.w-col-1 4
-          td.br-bl-td  Completar hoja de preparación del Kaizen
-          td.br-bl-td  Realizar el guion de desarrollo del evento, debe ser aprobado por el líder de área
+          td.br-bl-td  Completar hoja de preparación del Kaizen.
+          td.br-bl-td  Realizar el guion de desarrollo del evento, debe ser aprobado por el líder de área.
         tr.bg-tr-odd
           td.fw-bold.br-bl-td.w-col-1 5
-          td.br-bl-td  Entender la situación actual
-          td.br-bl-td  Documentar el flujo de información, calcular takt time, diagrama espagueti, y documentación
+          td.br-bl-td  Entender la situación actual.
+          td.br-bl-td  Documentar el flujo de información, calcular #[i takt time], diagrama espagueti, y documentación.
         tr.bg-tr-even
           td.fw-bold.br-bl-td.w-col-1 6
-          td.br-bl-td  Imaginar una situación ideal
-          td.br-bl-td  Producir al ritmo takt time, introducir técnica poka yoke, eliminar tiempos de espera, analizar movimientos
+          td.br-bl-td  Imaginar una situación ideal.
+          td.br-bl-td  Producir al ritmo #[i takt time], introducir técnica #[i poka yoke], eliminar tiempos de espera, analizar movimientos.
         tr.bg-tr-odd
           td.fw-bold.br-bl-td.w-col-1 7
-          td.br-bl-td  Cuantificar los resultados esperados
-          td.br-bl-td  Determinar mediciones del evento, calcular resultados esperados
+          td.br-bl-td  Cuantificar los resultados esperados.
+          td.br-bl-td  Determinar mediciones del evento, calcular resultados esperados.
         tr.bg-tr-even
           td.fw-bold.br-bl-td.w-col-1 8
-          td.br-bl-td  Desarrollar estrategia Kaizen
-          td.br-bl-td  Identificar obstáculos, utilizar simulaciones y pruebas
+          td.br-bl-td  Desarrollar estrategia Kaizen.
+          td.br-bl-td  Identificar obstáculos, utilizar simulaciones y pruebas.
         tr.bg-tr-odd
           td.fw-bold.br-bl-td.w-col-1 9
-          td.br-bl-td   Desarrollar plan de acciones Kaizen
-          td.br-bl-td  Documentar acciones, identificar recursos requeridos, establecer responsabilidades, fechas y tiempos
+          td.br-bl-td   Desarrollar plan de acciones Kaizen.
+          td.br-bl-td  Documentar acciones, identificar recursos requeridos, establecer responsabilidades, fechas y tiempos.
         tr.bg-tr-even
           td(rowspan="4").fw-bold.br-bb-td Hacer
         tr.bg-tr-even
           td.fw-bold.br-bl-td.bt-td.w-col-1 10
-          td.br-bl-td.bt-td  Implementar Kaizen
-          td.br-bl-td.bt-td  Desarrollar el evento según lo planeado, mejorar métodos, modificar layout, consultar comportamientos, realizar cambios
+          td.br-bl-td.bt-td  Implementar Kaizen.
+          td.br-bl-td.bt-td  Desarrollar el evento según lo planeado, mejorar métodos, modificar #[i layout], consultar comportamientos, realizar cambios.
         tr.bg-tr-odd
           td.fw-bold.br-bl-td.w-col-1 11
-          td.br-bl-td  Verificar los resultados a corto plazo
-          td.br-bl-td  Seguimiento a los colaboradores, verificar progreso, seguimiento al proceso
+          td.br-bl-td  Verificar los resultados a corto plazo.
+          td.br-bl-td  Seguimiento a los colaboradores, verificar progreso, seguimiento al proceso.
         tr.bg-tr-even
           td.fw-bold.br-bl-td.w-col-1 12
-          td.br-bl-td  Documentar actividades Kaizen
-          td.br-bl-td  Preparar formatos, registrar información, realizar registros fotográficos
+          td.br-bl-td  Documentar actividades Kaizen.
+          td.br-bl-td  Preparar formatos, registrar información, realizar registros fotográficos.
         tr.bg-tr-odd
           td.fw-bold Verificar<br>Actuar
           td.fw-bold.br-bl-td.bt-td.w-col-1 13
-          td.br-bl-td.bt-td  Confirmar los resultados a largo plazo
+          td.br-bl-td.bt-td  Confirmar los resultados a largo plazo.
           td.br-bl-td.bt-td  Realizar seguimiento con programa (a cargo del responsable del evento), presentar resultados y estandarizar, si no se obtiene el resultado deseado volver a iniciar.
 
 
@@ -623,15 +623,15 @@
           template(v-slot:imagen)
               img(src='@/assets/curso/temas/tema1/img_31.svg')
           .tarjeta.color-cus.p-3(x="8%" y="99%" numero="+")
-            p.mb-0.text-center El objetivo del problema o defecto a validar, además de los miembros del programa
+            p.mb-0.text-center El objetivo del problema o defecto a validar, además de los miembros del programa.
           .tarjeta.color-cus.p-3(x="30%" y="99%" numero="+")
-            p.mb-0.text-center Entender el problema o defecto
+            p.mb-0.text-center Entender el problema o defecto.
           .tarjeta.color-cus.p-3(x="50%" y="99%" numero="+")
-            p.mb-0.text-center Investigar causas reales del problema o defecto
+            p.mb-0.text-center Investigar causas reales del problema o defecto.
           .tarjeta.color-cus.p-3(x="72%" y="99%" numero="+")
-            p.mb-0.text-center Determinar las mejoras
+            p.mb-0.text-center Determinar las mejoras.
           .tarjeta.color-cus.p-3(x="92%" y="99%" numero="+")
-            p.mb-0.text-center Tomar medidas para mantener el progreso, estimación en términos económicos y en relación con el nivel de satisfacción del cliente
+            p.mb-0.text-center Tomar medidas para mantener el progreso, estimación en términos económicos y en relación con el nivel de satisfacción del cliente.
    
     
     .row.justify-content-center(data-aos="zoom-in-left")
@@ -643,7 +643,7 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Para conocer más sobre el modelo le invitamos a visitar el sitio #[i Web Leansolutions ], al cual puede acceder a través del siguiente enlace:
+                  p.mb-0 Para conocer más sobre el modelo le invitamos a visitar el sitio #[i Web ] Leansolutions, al cual puede acceder a través del siguiente enlace:
                 .col-sm-auto
                   a.boton.color-boton(href="http://leansolutions.co/conceptos-lean/que-es-six-sigma/" target="_blank")
                     span.text-sistm Enlace Web
@@ -683,48 +683,48 @@
         .row.justify-content-center.mb-5
           .col-sm-12.col-lg-6
             ol.lista-ol--cuadro
-              li
-              .lista-ol--cuadro__vineta
-                span.text-sistm.fw-bold 1
-              | Objeto y campo de aplicación 
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span.text-sistm.fw-bold 1
+                span.mb-0 Objeto y campo de aplicación.
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 2
-              | Referencias normativas
+              | Referencias normativas.
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 3
-              | Términos y definiciones
+              | Términos y definiciones.
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 4
-              | Contexto de la organización
+              | Contexto de la organización.
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 5
-              | Liderazgo
+              | Liderazgo.
           .col-sm-12.col-lg-6
             ol.lista-ol--cuadro
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 6
-              | Planificación
+              | Planificación.
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 7
-              | Apoyo
+              | Apoyo.
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 8
-              | Operación
+              | Operación.
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 9
-              | Evaluación del desempeño
+              | Evaluación del desempeño.
               li
               .lista-ol--cuadro__vineta
                 span.text-sistm.fw-bold 10
-              | Mejora
+              | Mejora.
         img.img-a(src='@/assets/curso/temas/tema1/img_35.svg')
 
     
@@ -831,7 +831,7 @@
         p Una vez se desarrolla la prenda la validación de los patrones debe estar contenida en un documento de revisión de patronaje.
     .d-flex.align-items-center.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-      h3.py-2.w-card-text.mb-cus-3 Requisitos  de calidad en patronaje
+      h3.py-2.w-card-text.mb-cus-3 Requisitos de calidad en patronaje
     p.mb-4(data-aos="zoom-in-left") Los productos tienen variables y atributos, las variables son características cuantitativas y los atributos son las cualidades no cuantificables, los cuales constituyen los requisitos de una prenda.
     p.mb-5(data-aos="zoom-in-left") Los requisitos además están clasificados de la siguiente manera:
     .row.justify-content-between.align-items-center.mb-5(data-aos="zoom-in-left")
@@ -841,28 +841,28 @@
             .col-sm-4.col-md-10.col-lg-8
                 img.img-accord-cus(src='@/assets/curso/temas/tema1/img_44.svg')
           h3.text-center.mb-3 Explícitos
-          p.text-center.mb-0 Declarados por el cliente, según sus expectativas
+          p.text-center.mb-0 Declarados por el cliente, según sus expectativas.
       .col-sm-12.col-md-6.col-lg-3
         .tarjeta--boton.color-primario.p-4.h-anexo-4.mb-cus
           .row.justify-content-center.mb-3
             .col-sm-4.col-md-10.col-lg-8
                 img.img-accord-cus(src='@/assets/curso/temas/tema1/img_45.svg')
           h3.text-center.mb-3 Implícitos
-          p.text-center.mb-0 Necesarios para que cumplan su función
+          p.text-center.mb-0 Necesarios para que cumplan su función.
       .col-sm-12.col-md-6.col-lg-3
         .tarjeta--boton.color-primario.p-4.h-anexo-4.mb-cus
           .row.justify-content-center.mb-3
             .col-sm-4.col-md-10.col-lg-8
                 img.img-accord-cus(src='@/assets/curso/temas/tema1/img_46.svg')
           h3.text-center.mb-3 Legales o reglamentarios
-          p.text-center.mb-0 De acuerdo con el cumplimiento de las leyes
+          p.text-center.mb-0 De acuerdo con el cumplimiento de las leyes.
       .col-sm-12.col-md-6.col-lg-3
         .tarjeta--boton.color-primario.p-4.h-anexo-4.mb-cus
           .row.justify-content-center.mb-3
             .col-sm-4.col-md-10.col-lg-8
                 img.img-accord-cus(src='@/assets/curso/temas/tema1/img_47.svg')
           h3.text-center.mb-3 Relacionados con la empresa
-          p.text-center.mb-0 Según las políticas de la empresa
+          p.text-center.mb-0 Según las políticas de la empresa.
     p.mb-5(data-aos="zoom-in-left") Los requisitos para revisar en patronaje son:
     AcordionA.mb-0(tipo="b" clase-tarjeta="tarjeta tarjeta--purple")(data-aos="zoom-in-left")
       .row(titulo="Medidas")
@@ -943,16 +943,16 @@
             ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Alineación de piezas: ] cada pieza debe estar contenida en el trazo conforme a la línea de aplomo
+                span #[b Alineación de piezas: ] cada pieza debe estar contenida en el trazo conforme a la línea de aplomo.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Organización de piezas: ] con el fin de controlar los rendimientos de telas, es importante la disposición de las piezas, colocando una al lado de la otra y aprovechando líneas o curvas compartidas entre las piezas
+                span #[b Organización de piezas: ] con el fin de controlar los rendimientos de telas, es importante la disposición de las piezas, colocando una al lado de la otra y aprovechando líneas o curvas compartidas entre las piezas.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Cantidad de piezas: ] contar el número de piezas que corresponda a cada talla del producto
+                span #[b Cantidad de piezas: ] contar el número de piezas que corresponda a cada talla del producto.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Ancho de trazo: ] conforme al ancho útil de la tela
+                span #[b Ancho de trazo: ] conforme al ancho útil de la tela.
       .py-4.py-md-5(titulo="Tendido").bg04
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
@@ -961,22 +961,22 @@
             ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Alineación de capas: ] respetar el margen colocado a partir de la base, es decir, la primera capa. También en los extremos debe alcanzar a cubrir el largo del trazo, sobre todo en trazos escalonados
+                span  #[b Alineación de capas: ] respetar el margen colocado a partir de la base, es decir, la primera capa. También en los extremos debe alcanzar a cubrir el largo del trazo, sobre todo en trazos escalonados.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Uniformidad de tendido: ] el extendido de cada capa no debe tener arrugas
+                span  #[b Uniformidad de tendido: ] el extendido de cada capa no debe tener arrugas.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Cantidad de capas: ] antes de cortar se debe contar el número de capas para que correspondan a las unidades a cortar, según la distribución del trazo
+                span  #[b Cantidad de capas: ] antes de cortar se debe contar el número de capas para que correspondan a las unidades a cortar, según la distribución del trazo.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Tiempos de reposo: ] sobre todo en tejidos de punto para evitar encogimiento, se tiene en cuenta la ficha técnica de la tela y se valida con pruebas que confirmen niveles de encogimiento, que se desarrollan una vez finalicen los tiempos de reposo
+                span  #[b Tiempos de reposo: ] sobre todo en tejidos de punto para evitar encogimiento, se tiene en cuenta la ficha técnica de la tela y se valida con pruebas que confirmen niveles de encogimiento, que se desarrollan una vez finalicen los tiempos de reposo.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Lado de tela: ] a partir del tipo de trazo se debe respetar el derecho de la tela
+                span  #[b Lado de tela: ] a partir del tipo de trazo se debe respetar el derecho de la tela.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Tela: ] defectos de tela, marcas, piques, marras, entre otras. Cuidar la combinación de rollos y de colores para evitar contaminación entre los colores, debido a los residuos de las fibras en el corte del tejido
+                span  #[b Tela: ] defectos de tela, marcas, piques, marras, entre otras. Cuidar la combinación de rollos y de colores para evitar contaminación entre los colores, debido a los residuos de las fibras en el corte del tejido.
     
       .py-4.py-md-5(titulo="Corte").bg04
         .row.justify-content-center.align-items-center.mb-5
@@ -986,16 +986,16 @@
             ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Uniformidad: ] respetar el trazo de cada pieza, obedeciendo a curvas y rectas según sea el caso de cada parte de la pieza
+                span  #[b Uniformidad: ] respetar el trazo de cada pieza, obedeciendo a curvas y rectas según sea el caso de cada parte de la pieza.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Simetrías: ] mantener las simetrías de cada pieza sosteniendo el colchón o bloque de telas, evitando que se corra para que no afecte la disposición de las capas inferiores
+                span #[b Simetrías: ] mantener las simetrías de cada pieza sosteniendo el colchón o bloque de telas, evitando que se corra para que no afecte la disposición de las capas inferiores.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Piquetes y puntos: ] ubicación de piquetes y en profundidad no mayor a 0,4 cm; en los puntos evitar que se corra la ubicación, y debe tener un tamaño razonable
+                span  #[b Piquetes y puntos: ] ubicación de piquetes y en profundidad no mayor a 0,4 cm; en los puntos evitar que se corra la ubicación, y debe tener un tamaño razonable.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Corte de piezas de forro y entretela: ] revisar el material y que las piezas se corten conforme a la ficha técnica y a la programación de la producción
+                span #[b Corte de piezas de forro y entretela: ] revisar el material y que las piezas se corten conforme a la ficha técnica y a la programación de la producción.
 
       .py-4.py-md-5(titulo="Tiqueteado").bg04
         .row.justify-content-center.align-items-center.mb-5
@@ -1005,10 +1005,10 @@
             ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Ubicación: ] se coloca en el revés de la tela, en un lugar visible sin que afecte el ensamble
+                span  #[b Ubicación: ] se coloca en el revés de la tela, en un lugar visible sin que afecte el ensamble.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Descripción: ] la información debe corresponder a cada pieza, contener el número consecutivo de la misma en orden, según el tendido, además debe incluir talla y referencia
+                span  #[b Descripción: ] la información debe corresponder a cada pieza, contener el número consecutivo de la misma en orden, según el tendido, además debe incluir talla y referencia.
       .py-4.py-md-5(titulo="Fusionado").bg04
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
@@ -1017,19 +1017,19 @@
             ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Temperatura: ] que corresponda con el material a fusionar
+                span  #[b Temperatura: ] que corresponda con el material a fusionar.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Tiempo: ] duración en la fusionadora
+                span  #[b Tiempo: ] duración en la fusionadora.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Presión: ] ejercida en cada pieza para que la unión sea uniforme
+                span  #[b Presión: ] ejercida en cada pieza para que la unión sea uniforme.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Alineación y posición: ] que se encuentre derecha y teniendo en cuenta si se debe dejar el ancho de costura
+                span  #[b Alineación y posición: ] que se encuentre derecha y teniendo en cuenta si se debe dejar el ancho de costura.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Limpieza de la máquina: ] para evitar manchas en las prendas fusionadas
+                span  #[b Limpieza de la máquina: ] para evitar manchas en las prendas fusionadas.
       .py-4.py-md-5(titulo="Paqueteado").bg04
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
@@ -1038,13 +1038,13 @@
             ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Cantidad: ] unidades de acuerdo con lo determinado para incorporar a la producción, 10 o 20, se prefiere paquetes pequeños que facilitan el manejo, o más unidades según lo establecido por la empresa
+                span  #[b Cantidad: ] unidades de acuerdo con lo determinado para incorporar a la producción, 10 o 20, se prefiere paquetes pequeños que facilitan el manejo, o más unidades según lo establecido por la empresa.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Amarre: ] en el doblado incluir todas las piezas del paquete, con un amarre resistente
+                span  #[b Amarre: ] en el doblado incluir todas las piezas del paquete, con un amarre resistente.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span  #[b Identificación: ] rotulado de cada paquete con tarjetas que indiquen la información necesaria como talla, número de lote, cantidad, entre otras, que precisen el contenido del paquete
+                span  #[b Identificación: ] rotulado de cada paquete con tarjetas que indiquen la información necesaria como talla, número de lote, cantidad, entre otras, que precisen el contenido del paquete.
     
     Separador  
     #t_1_6.titulo-segundo.color-primario(data-aos="zoom-in-left")
@@ -1117,7 +1117,7 @@
                 td.br-cn-td Determinación de la recuperación de las arrugas.
                 td NTC 1199
               tr
-                td.br-cn-td Determinación de la resistencia a la formación de motas (#[i pilling]) y otros 
+                td.br-cn-td Determinación de la resistencia a la formación de motas (#[i pilling]) y otros cambios de superficie de las telas.
                 td NTC 2051-2: 2003-06-26 <br>  ASTMD 3512-02
               tr
                 td.br-cn-td Determinación de la resistencia a la penetración del agua. Método presión hidrostática. 
@@ -1170,9 +1170,7 @@
               tr 
                 td.br-cn-td Determinación del número de hilos por unidad de longitud de tela, de tejidos de punto.
                 td NTC 5656
-              tr 
-                td.br-cn-td Determinación del número de hilos por unidad de longitud de tela, de tejidos de punto.
-                td NTC 5656
+              
               tr 
                 td.br-cn-td Determinación del título del hilo basado en especímenes de longitud corta.
                 td NTC 5772 / ASTMD 1059
@@ -1185,9 +1183,7 @@
               tr 
                 td.br-cn-td Flamabilidad en ángulo de 45”. A
                 td STM D 1230
-              tr 
-                td.br-cn-td Flamabilidad horizontal. 
-                td ASTMD 5132
+          
               tr 
                 td.br-cn-td Flamabilidad horizontal. 
                 td ASTMD 5132
@@ -1197,9 +1193,7 @@
               tr 
                 td.br-cn-td Longitud de caída. 
                 td #[i BS ] 3356
-              tr 
-                td.br-cn-td Longitud de caída. 
-                td #[i BS ] 3356
+             
               tr 
                 td.br-cn-td Medición de la permeabilidad de los textiles al vapor de agua con fines de control de la calidad. 
                 td NTC 6076/15015496
@@ -1306,22 +1300,22 @@
             ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Costura:] simetría, sin recogidos ni prenses, costuras rectas, respetar márgenes de costura, costura uniforme, marquilla de acuerdo con el cuidado de la prenda, remates uniformes, clase de costuras
+                span #[b Costura:] simetría, sin recogidos ni prenses, costuras rectas, respetar márgenes de costura, costura uniforme, marquilla de acuerdo con el cuidado de la prenda, remates uniformes, clase de costuras.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Tela:] con colores uniformes, tela sin arrugas, sin imperfecciones
+                span #[b Tela:] con colores uniformes, tela sin arrugas, sin imperfecciones.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Ambiente del taller:] orden y limpieza en piso, puestos de trabajo
+                span #[b Ambiente del taller:] orden y limpieza en piso, puestos de trabajo.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Ajuste de maquinaria:] mantenimiento de la máquina y uso de aditamentos, pies, guías y fólderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo
+                span #[b Ajuste de maquinaria:] mantenimiento de la máquina y uso de aditamentos, pies, guías y fólderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Operario:] manipulación del material, métodos utilizados en la operación
+                span #[b Operario:] manipulación del material, métodos utilizados en la operación.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Instrucciones de cuidado y terminados:] según la norma, tener en cuenta los símbolos y la composición del material, incluidas en la etiqueta adherida en la prenda
+                span #[b Instrucciones de cuidado y terminados:] según la norma, tener en cuenta los símbolos y la composición del material, incluidas en la etiqueta adherida en la prenda.
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
         .tarjeta.color-primario.p-3
@@ -1332,174 +1326,43 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, se presentan imágenes descriptivas de los defectos que pueden existir en las costuras, textiles e insumos:
-    .row.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-12
-        h4.text-center Listado de defectos
-
-    SlyderF.mb-5.slider-1(columnas="col-md-6 col-lg-6 col-xl-4")
-      .tarjeta.color-primario.py-4.px-cus-slyderF.mx-1
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_66.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falta de tensión en costuras
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_67.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus Costuras recogidas
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_68.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Saltos de costuras
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_69.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras sin pulir
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_70.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras recogidas
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_71.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras sueltas
-    
-            
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_72.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras rotas
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_73.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Cases de costura
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_74.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Remates nudosos
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_75.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falta de simetría
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_76.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Rotura en prenda
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_77.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras abiertas
-
    
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_78.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Costuras retendas
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_79.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Salto de puntada
-      .tarjeta.color-primario.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_80.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Hilos sueltos
-
-    .row.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-12
-        h4.text-center Defectos en textiles
-    SlyderF.mb-5.slider-2(columnas="col-md-6 col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_81.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Manchas de aceite
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_82.png") 
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Mota en tejido
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_83.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Tejido contaminado
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_84.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Agujero en el tejido
-    
-    
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_85.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Falla de aguja
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_86.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Lycra rota
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_87.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Tejido barrado
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_88.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Nudo en el tejido
    
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_89.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus  Quiebres
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1 
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_90.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   Desgaste
-      .tarjeta.color-acento-botones.py-4.mx-1.px-cus-slyderF
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-10.mx-lg-0.px-md-3.px-lg-1 
-            img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_91.png")
-            .txt-sliderF.text-center.px-1.py-1.align-content-center.mb-cus   NEPS
-
-   
-
-
-    .row.justify-content-center.mb-4(data-aos="zoom-in-left")
+ 
+    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12
-        h4.text-center Defectos en insumos
-
-    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
-      .col-sm-12.col-md-6.col-lg-3
-        .tarjeta.color-primario.py-4.px-3.mx-1.h-slyderF.mb-cus-5
-          img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_92.png")
-          .txt-sliderF.text-white.text-center.px-1.py-1.align-content-center Cremallera rota
-      .col-sm-12.col-md-6.col-lg-3
-        .tarjeta.color-primario.py-4.px-3.h-slyderF
-          img.mb-0.img-sliderF(src="@/assets/curso/temas/tema1/img_93.png")
-          .txt-sliderF.text-white.text-center.px-1.py-1.align-content-center  Rotura en cordones, sesgos, cintas
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 5.
+          span
+            |  Listado de defectos
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-12
+        img.mb-0(src="@/assets/curso/temas/tema1/img_105.svg", alt='La imagen presenta una serie de fotografías donde se ilustran los siguientes defectos: falta de tensión en las costuras, costuras recogidas, saltos de costura, costuras sin pulir, costuras sueltas, costuras rotas, cases de costuras, remates nudosos, falta de simetría, rotura en prenda, costuras abiertas, costuras retenidas, salto de puntada, hilos sueltos.')
+ 
     
 
 
+    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-9
+        .titulo-sexto.color-acento-contenido
+            h5 Figura 6.
+            span
+              | Defectos en textiles
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-9
+        img.mb-0(src="@/assets/curso/temas/tema1/img_106.svg", alt='La imagen presenta una serie de fotografías que ejemplifican los siguientes defectos en textiles: manchas de aceite,  mota en tejido, tejido contaminado, agujero en el tejido, falla de aguja, lycra rota, tejido barrado, nudo en el tejido, quiebres y NEPS.')
+  
+    
 
+    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-6
+        .titulo-sexto.color-acento-contenido
+            h5 Figura 7.
+            span
+              | Defectos en insumos
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-4
+        img.mb-0(src="@/assets/curso/temas/tema1/img_107.svg", alt='La imagen presenta dos fotografías, una de una cremallera rota y la otra de rotura en cordones, sesgos, cintas.')
 
 
 
@@ -1535,25 +1398,25 @@
             ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Planchado:] uniforme, quiebres según lo especificado, si se debe doblar que no genere arrugas, control en la temperatura para que no queme, limpieza, además del control en la presión y la humedad
+                span #[b Planchado:] uniforme, quiebres según lo especificado, si se debe doblar que no genere arrugas, control en la temperatura para que no queme, limpieza, además del control en la presión y la humedad.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Empaque:] según lo establecido por la empresa, utilizar los recursos como el gancho, bolsa y etiqueta correspondiente
+                span #[b Empaque:] según lo establecido por la empresa, utilizar los recursos como el gancho, bolsa y etiqueta correspondiente.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Embalaje:] tener en cuenta el pedido del cliente, utilizando materiales como cajas, cinta de amarre o zuncho, cinta adhesiva, tensor para la cinta de amarre. Rotular para identificar el contenido, organizar el contenido
+                span #[b Embalaje:] tener en cuenta el pedido del cliente, utilizando materiales como cajas, cinta de amarre o zuncho, cinta adhesiva, tensor para la cinta de amarre. Rotular para identificar el contenido, organizar el contenido.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Estampados:] uniformidad del dibujo y colores, posición y ubicación
+                span #[b Estampados:] uniformidad del dibujo y colores, posición y ubicación.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Bordados:] tensión del hilo, colores y letras que correspondan al diseño, posición y ubicación
+                span #[b Bordados:] tensión del hilo, colores y letras que correspondan al diseño, posición y ubicación.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Rebordados:] alineación y ubicación al colocar pedrería u otros; el diseño debe corresponder al rebordado realizado
+                span #[b Rebordados:] alineación y ubicación al colocar pedrería u otros; el diseño debe corresponder al rebordado realizado.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Lavandería:] uniformidad de colores, que el proceso corresponda al solicitado, sin dañar costuras o tejido de la tela
+                span #[b Lavandería:] uniformidad de colores, que el proceso corresponda al solicitado, sin dañar costuras o tejido de la tela.
 
     Separador  
     #t_1_8.titulo-segundo.color-primario(data-aos="zoom-in-left")
@@ -1672,7 +1535,7 @@
           td.br-cn-td Solidez del color al planchado.
           td NTC 2510
         tr
-          td.br-cn-td Solidez del color al planchado.
+          td.br-cn-td Solidez del color al lavado en seco.
           td NTC 2510
         tr
           td.br-cn-td(rowspan="20").fw-bold.bt-td Hilos
@@ -1740,23 +1603,24 @@
       h3.py-2.w-card-text.mb-cus-3 Control de calidad de materiales
     p.mb-2(data-aos="zoom-in-left") Los materiales que apoyan la producción como es el caso, en mayor medida, de la papelería, sus especificaciones técnicas deben corresponder a su aplicación en el proceso productivo.
     p.mb-5(data-aos="zoom-in-left") Para validar el uso de los materiales en las diferentes áreas se inspeccionan los siguientes requisitos:
+ 
     .row.justify-content-center.align-content-center.mb-5(data-aos="zoom-in-left")
         .col-sm-12.col-lg-5.align-content-center
           .tarjeta-avatar-b.mb-5.h-card.align-content-center
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/temas/tema1/img_99.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema1/img_99.png')
             .tarjeta.tarjeta--purple
               .p-4.align-content-center
-                h4 Disponibilidad
-                p.mb-0 El tiempo de obtención para su uso
+                h4.mt-3 Disponibilidad
+                p.mb-0 El tiempo de obtención para su uso.
         .col-sm-12.col-lg-5.align-content-center
           .tarjeta-avatar-b.mb-5.h-card.align-content-center
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/temas/tema1/img_100.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema1/img_100.png')
             .tarjeta.tarjeta--purple
               .p-4.align-content-center
                 h4 Características propias
-                p.mb-0 Funcionalidad, composición, tamaño, peso, color, uniformidad
+                p.mb-0 Funcionalidad, composición, tamaño, peso, color, uniformidad.
 
     .d-flex.align-items-center.mb-2(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
