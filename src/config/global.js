@@ -437,7 +437,7 @@ export default {
         },
         {
           nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrolladora Actividad Didáctica',
+          cargo: 'Desarrolladora <i>Full-Stack</i> Junior',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
@@ -457,7 +457,7 @@ export default {
         },
         {
           nombre: 'Diana Lizeth Lozada Díaz',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
