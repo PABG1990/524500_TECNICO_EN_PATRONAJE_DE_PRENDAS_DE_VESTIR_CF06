@@ -322,7 +322,8 @@ export default {
     {
       referencia:
         'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad.',
-      link: '/downloads/Complementario_14_3_Articulo.pdf',
+      link:
+        'https://ecoredsena-santander.github.io/524500_TECNICO_EN_PATRONAJE_DE_PRENDAS_DE_VESTIR_CF06/downloads/Complementario_14_3_Articulo.pdf',
     },
     {
       referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
@@ -455,7 +456,7 @@ export default {
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: '--',
+          nombre: 'Diana Lizeth Lozada Díaz',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },

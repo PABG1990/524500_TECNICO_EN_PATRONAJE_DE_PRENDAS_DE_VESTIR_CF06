@@ -162,25 +162,25 @@
           ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span Función del producto: referencia a su desempeño, responde a la pregunta ¿para qué sirve?
+                span Función del producto: referencia a su desempeño, responde a la pregunta ¿para qué sirve?.
               li.color-primario
                 i.fas.fa-plus
-                | Características técnicas: cantidades, peso, tamaño, color, entre otras
+                | Características técnicas: cantidades, peso, tamaño, color, entre otras.
               li.color-primario
                 i.fas.fa-plus
-                | Condiciones de pago y precio
+                | Condiciones de pago y precio.
               li.color-primario
                 i.fas.fa-plus
-                | Plazos de entrega
+                | Plazos de entrega.
               li.color-primario
                 i.fas.fa-plus
-                | Especificaciones dadas por el cliente
+                | Especificaciones dadas por el cliente.
               li.color-primario
                 i.fas.fa-plus
-                | Mantenimientos y vida útil: instrucciones de uso y términos de garantía
+                | Mantenimientos y vida útil: instrucciones de uso y términos de garantía.
               li.color-primario
                 i.fas.fa-plus
-                | Legales: leyes y normas (rotulados, materiales, uso y residuos)
+                | Legales: leyes y normas (rotulados, materiales, uso y residuos).
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
         .col-sm-12.col-lg-9           
           .cajon.color-acento-contenido.p-4.mb-4
@@ -288,10 +288,10 @@
           ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Círculos de calidad:] trabajo en equipo.
+                span  Círculos de calidad: trabajo en equipo.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Desarrollo personal:] capacitación y entrenamiento.
+                span Desarrollo personal: capacitación y entrenamiento.
               li.color-primario.d-flex
                 i.fas.fa-plus
                 span Se involucra todas las áreas y todas las personas de la empresa.
@@ -645,7 +645,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Para conocer más sobre el modelo le invitamos a visitar el sitio #[i Web ] Leansolutions, al cual puede acceder a través del siguiente enlace:
                 .col-sm-auto
-                  a.boton.color-boton(href="http://leansolutions.co/conceptos-lean/que-es-six-sigma/" target="_blank")
+                  a.boton.color-boton(href="http://leansolutions.co" target="_blank")
                     span.text-sistm Enlace Web
                     i.fas.fa-file-download.text-sistm
     p.mb-5(data-aos="zoom-in-left") En cada fase se utilizan herramientas para el análisis y creación de gráficos como histogramas, diagrama causa efecto, Pareto, gráficos de tendencias, análisis de correlación, capacidad del proceso, gráficos de control, entre otros.
