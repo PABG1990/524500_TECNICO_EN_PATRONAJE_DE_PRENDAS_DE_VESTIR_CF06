@@ -171,25 +171,11 @@ export default {
       link: 'https://oa.upm.es/38763/',
     },
     {
-      tema: 'Confección de panty tanga.',
-      referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). Panty tanga. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/2DkN1Ur5Dw0',
-    },
-    {
       tema: 'Confección de ropa interior para dama.',
       referencia:
         'Mata. J. (26 de agosto 2017). Confección de ropa interior para damas. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/Ds5CtwVbaag',
-    },
-    {
-      tema: 'Confección de <i>boxer</i> pijamero.',
-      referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (23 de noviembre 2020). <i>Boxer</i> pijamero. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/OnqJO8oVyrc',
     },
     {
       tema: 'Confección de <i>boxer</i> de hombre.',
@@ -217,7 +203,7 @@ export default {
       referencia:
         'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección.  YouTube. ',
       tipo: 'Video',
-      link: 'https://youtu.be/oZTVpkX7cuk',
+      link: 'https://youtu.be/3xGfOwDybBs',
     },
     {
       tema: 'Confección de pantalón de sudadera de dama.',
@@ -284,7 +270,7 @@ export default {
     {
       termino: '<i>Sigma</i> (σ)',
       significado:
-        'es una letra del alfabeto griego, utilizada en representar la desviación estándar (undad estadística de medición), representa la dispersión o variabilidad de un conjunto de datos.',
+        'es una letra del alfabeto griego, utilizada en representar la desviación estándar (unidad estadística de medición), representa la dispersión o variabilidad de un conjunto de datos.',
     },
 
     {
@@ -297,7 +283,7 @@ export default {
     {
       referencia:
         'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección. YouTube.',
-      link: 'https://youtu.be/oZTVpkX7cuk',
+      link: 'https://youtu.be/3xGfOwDybBs',
     },
     {
       referencia:
@@ -322,8 +308,6 @@ export default {
     {
       referencia:
         'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad.',
-      link:
-        'https://ecoredsena-santander.github.io/524500_TECNICO_EN_PATRONAJE_DE_PRENDAS_DE_VESTIR_CF06/downloads/Complementario_14_3_Articulo.pdf',
     },
     {
       referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
@@ -348,16 +332,6 @@ export default {
       referencia:
         'Montilla, E. (10 de mayo 2017). Confección de <i>Leggings</i> deportivo con transparencia.  YouTube.',
       link: 'https://youtu.be/owM_WYtLwlc',
-    },
-    {
-      referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (Agosto 2024). Panty tanga.  YouTube.',
-      link: 'https://youtu.be/2DkN1Ur5Dw0',
-    },
-    {
-      referencia:
-        'Red producción de contenidos grupo gestión curricular SENA. (Agosto 2024). <i>Boxer</i> pijamero.  YouTube',
-      link: 'https://youtu.be/OnqJO8oVyrc',
     },
     {
       referencia:
@@ -392,12 +366,12 @@ export default {
         {
           nombre: 'Leidy Johana Velásquez Hernández',
           cargo: 'Experta temática',
-          centro: 'Regional Antioquía - Diseño, Confección y Moda ',
+          centro: 'Regional Antioquia - Diseño, Confección y Moda ',
         },
         {
           nombre: 'Paola Angélica Castro Salazar',
           cargo: 'Experta temática',
-          centro: 'Regional Antioquía - Diseño, Confección y Moda ',
+          centro: 'Regional Antioquia - Diseño, Confección y Moda ',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',

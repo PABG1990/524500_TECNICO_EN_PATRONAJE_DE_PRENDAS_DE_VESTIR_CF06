@@ -162,7 +162,7 @@
           ul.lista-ul--color
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span Función del producto: referencia a su desempeño, responde a la pregunta ¿para qué sirve?.
+                span Función del producto: referencia a su desempeño, responde a la pregunta ¿para qué sirve?
               li.color-primario
                 i.fas.fa-plus
                 | Características técnicas: cantidades, peso, tamaño, color, entre otras.
@@ -323,7 +323,7 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Complementario - 14.3 Artículo
+                  p.mb-0 Revisar el artículo para complementar la información.
                 .col-sm-auto
                   a.boton.color-boton(:href="obtenerLink('/downloads/Complementario_14_3_Articulo.pdf')" target="_blank")
                     span.text-sistm Descargar
@@ -413,8 +413,8 @@
       h3.py-2.w-card-text.mb-cus-2 Automatización de control de calidad en la industria textil y confección
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
-        p.mb-4 La calidad 4.0 está relacionada con la revolución digital, teniendo en cuenta las tecnologías #[i big data], inteligencia artificial, #[i machine learning, deep learning] e #[i internet] de las cosas. La automatización de los procesos proporciona agilidad, más seguridad en los datos porque disminuye la presentación de información incorrecta, y más conocimiento sobre cada área de la empresa.
-        p.mb-4 La implementación básica se refiere a la utilización de #[i software]  especializado; de herramientas de calidad como los programas SPSS, #[i Statgraphics Centurion] o SAS; de recursos relacionados con #[i internet]  de las cosas, por ejemplo, la geolocalización con aplicaciones con códigos #[i QR], y las relacionadas con las herramientas #[i Lean Manufacturing ].
+        p.mb-4 La calidad 4.0 está relacionada con la revolución digital, teniendo en cuenta las tecnologías #[i big data], inteligencia artificial, #[i machine learning, deep learning] e  internet de las cosas. La automatización de los procesos proporciona agilidad, más seguridad en los datos porque disminuye la presentación de información incorrecta, y más conocimiento sobre cada área de la empresa.
+        p.mb-4 La implementación básica se refiere a la utilización de #[i software]  especializado; de herramientas de calidad como los programas SPSS, #[i Statgraphics Centurion] o SAS; de recursos relacionados con  internet  de las cosas, por ejemplo, la geolocalización con aplicaciones con códigos QR, y las relacionadas con las herramientas #[i Lean Manufacturing ].
         .cajon.color-acento-contenido.p-4.mb-4
             p.fw-bold.mb-0 Con la integración de datos y su tratamiento avanzado se puede simular los procesos para mejorar la gestión de calidad. Además, las personas encargadas directamente de la calidad pueden desarrollar actividades de manera remota, sin necesidad de su presencia #[i in situ] en la empresa. También puede apoyar la planificación de auditorías en el mejoramiento de la implementación de la metodología 5S.
       .col-sm-12.col-lg-3
@@ -489,7 +489,7 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 2.
             span
-              | Circulo de calidad
+              | Círculos de calidad
           img.img-a(src='@/assets/curso/temas/tema1/img_24.svg', alt='En el diagrama del circulo de calidad  se aprecian sus componentes así:  objetivos mejora continua del producto, integrantes son de la misma área, reuniones acordadas en horario diferente al laboral y en otro ambiente,  participación voluntaria, equipos de 3 a 15 personas.')
     .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
@@ -534,7 +534,7 @@
           h3.text-center.mb-0.text-primario Sugerencias para las mejoras
 
     p.mb-3(data-aos="zoom-in-left") Para conocer sobre la metodología Kaizen, leer la estrategia Kaizen ubicada en las referencias bibliográficas (Lefcovich, 2009).
-    p.mb-5(data-aos="zoom-in-left") La estrategia Kaizen fue desarrollada en Japón una vez terminada la II Guerra Mundial, la cual inicia con el análisis del problema; en la siguiente figura podemos consultar los diferentes aspectos a tener en cuenta: 
+    p.mb-5(data-aos="zoom-in-left") La estrategia Kaizen fue desarrollada en Japón una vez terminada la II Guerra Mundial, la cual inicia con el análisis del problema; en la siguiente figura se pueden consultar los diferentes aspectos a tener en cuenta: 
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-contenido
@@ -659,13 +659,13 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span
-            | Tipos de Costos de Calidad
+            | Tipos de costos de calidad
         img.img-a(src='@/assets/curso/temas/tema1/img_32.svg', alt='En el diagrama se  presentan los tipos de costos de calidad:  Costo de  Calidad que comprende la Prevención y como ejemplo el mantenimiento de máquinas y capacitación de personal y la Evaluación como   ejemplo las  inspecciones, pruebas de laboratorio y auditorías internas y externas   y Costos de no calidad que comprenden los fallos internos  como la producción defectuosa, reprocesos, falda de productividad y paradas de producción y fallos externos  como devoluciones y demandas.')
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
         .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
           img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-          h3.py-2.w-card-text.mb-cus-2 Sistema de gestión de la calidad, Norma #[i ISO ] 9001 versión 2015
+          h3.py-2.w-card-text.mb-cus-2 Sistema de gestión de la calidad, Norma ISO 9001 versión 2015
         p.mb-5 El sistema de gestión de la calidad es una herramienta administrativa, cuenta con una estructura organizada para integrar todos los procesos, e incluye los elementos necesarios para lograr cumplir las necesidades y expectativas del cliente. Obtener la certificación es evidenciar la capacidad que tiene la empresa para cumplir con los requisitos. Una vez certificada la empresa su vigencia es de tres años, con auditorias de seguimiento y una vez pasados los tres años se debe realizar una auditoría de renovación.
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0.fw-bold La certificación es una constancia de valor a nivel internacional. El enfoque de la norma está basado en los riesgos, a través de los cuales la empresa demuestra la gestión de los riesgos y determina las acciones que pueden afectar la capacidad de proporcionar satisfacción al cliente y obtener los resultados esperados de la empresa.
@@ -733,7 +733,8 @@
     Separador  
     #t_1_3.titulo-segundo.color-primario(data-aos="zoom-in-left")
       h2 1.3 Puntos de control en el proceso de confección    
-    .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
+    p.mb-0 A continuación, se describen los diferentes puntos de control:
+    .d-flex.align-items-center.mt-3.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
       h3.py-2.w-card-text.mb-cus-3 Puntos de control en patronaje
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
@@ -1071,7 +1072,7 @@
     
     .row.justify-content-center.mb-3(data-aos="zoom-in-left")
       .col-sm-12.col-lg-8
-        p.mb-0 En el siguiente cuadro se presentan algunos ensayos con la norma relacionada que se pueden realizar a la prenda.
+        p.mb-0 En la siguiente tabla se presentan algunos ensayos con la norma relacionada que se pueden realizar a la prenda.
     
     .row.justify-content-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
@@ -1083,7 +1084,7 @@
           .tabla-b__header.bg-tx
               h3.mb-0 Pruebas de calidad en laboratorios para prenda terminada
           table.table-xl
-            caption Tabla Recuperada de: Material de formación - Equipo de desarrollo curricular Tec. Control Calidad en Confección Industrial - SENA 2020
+            caption Tomada de: Material de formación - Equipo de desarrollo curricular Tec. Control Calidad en Confección Industrial - SENA 2020.
             thead
               tr
                 th.bg-theader Ensayo
@@ -1124,7 +1125,7 @@
                 td EN 20811
               tr
                 td.br-cn-td Determinación de la resistencia al deslizamiento de los hilos de una costura en telas de tejido plano. <br>Parte 1: método de abertura fija en una costura.
-                td NTC 1386-1: 2006-11-30 <br> #[i ISO ] 13936-1:2004
+                td NTC 1386-1: 2006-11-30 <br> ISO 13936-1:2004
               tr
                 td.br-cn-td Determinación de la resistencia al estallido de textiles. 
                 td NTC 2291/A8TMD3787
@@ -1148,10 +1149,10 @@
                 td NTC 850/AATCC 106
               tr 
                 td.br-cn-td Determinación de la solidez del color al planchado.
-                td NTC 766 / #[i ISO ] 105-X 11
+                td NTC 766 / ISO 105-X 11
               tr 
                 td.br-cn-td Determinación de la tendencia a la formación de motas y de pelusa.
-                td NTC 2051-1: 2003-04-23<br> #[i ISO ] 12945-1: 2000<br>NTC 2051-3 ASTMD 4969
+                td NTC 2051-1: 2003-04-23<br> ISO 12945-1: 2000<br>NTC 2051-3 ASTMD 4969
               tr 
                 td.br-cn-td Determinación del ancho de las telas.
                 td NTC 228: 2016-05-18<br> ASTM D3774:1996 (2012)
@@ -1160,7 +1161,7 @@
                 td NTC 3401
               tr 
                 td.br-cn-td Determinación del contenido de formaldehído. 
-                td NORMA #[i ISO ] 14184-1:2011
+                td NORMA ISO 14184-1:2011
               tr 
                 td.br-cn-td Determinación del daño relacionado con la aguja causado por la costura, en tejido plano y en tejido de punto.
                 td NTC 5893 / ASTM D1908
@@ -1199,7 +1200,7 @@
                 td NTC 6076/15015496
               tr 
                 td.br-cn-td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc). 
-                td NORMA #[i ISO ] 17072-1:2011
+                td NORMA ISO 17072-1:2011
               tr 
                 td.br-cn-td Método de ensayo para determinar la solidez del color a la transpiración. 
                 td NTC 772: 2017-03-22 <br>AATCC 15:2002
@@ -1229,7 +1230,7 @@
                 td ASTMD 1683
               tr 
                 td.br-cn-td Método para determinar la resistencia al desgarre trapezoidal. 
-                td ASTM D 5587- NTC 2261/ #[i ISO ] 9073-4
+                td ASTM D 5587- NTC 2261/ ISO 9073-4
               tr 
                 td.br-cn-td Método para determinar las propiedades de estiramiento de telas de tejido de punto de bajo poder. 
                 td ASTMD 2594
@@ -1238,16 +1239,16 @@
                 td NORMA NTC 5462 / ASTMD 3107
               tr 
                 td.br-cn-td Métodos de ensayo para telas no tejidas. Determinación de la masa  por unidad de área. 
-                td NTC 2598 <br>#[i ISO ] 9073-1
+                td NTC 2598 <br>ISO 9073-1
               tr 
                 td.br-cn-td Métodos de ensayo para telas no tejidas. Determinación de la resistencia al desgarre. 
-                td NTC 2601 <br>#[i ISO ] 9073-4
+                td NTC 2601 <br>ISO 9073-4
               tr 
                 td.br-cn-td Métodos de ensayo para telas no tejidas. Determinación del alargamiento y resistencia a la tensión. 
-                td NTC 2600 <br>#[i ISO ] 9073-3
+                td NTC 2600 <br>ISO 9073-3
               tr 
                 td.br-cn-td Métodos de ensayo para telas no tejidas. Determinación del espesor. 
-                td NTC 2599 <br>#[i ISO ] 9073-2
+                td NTC 2599 <br>ISO 9073-2
               tr 
                 td.br-cn-td Permeabilidad al agua por rociado. 
                 td AATCC 22
@@ -1277,7 +1278,7 @@
                 td NTC 1479-2 1SO 105- B02
               tr 
                 td.br-cn-td Solidez del color a la saliva. 
-                td #[i ISO ] 20701
+                td ISO 20701
               tr 
                 td.br-cn-td Solidez del color al agua. 
                 td AATCC 107:2013
@@ -1286,7 +1287,7 @@
                 td AATCC 116
               tr 
                 td.br-cn-td Textiles. Determinación de la resistencia al deslizamiento de los hilos de una costura en telas de tejido plano. 
-                td  NTC 1386-2: 2006-11-30 <br>#[i ISO ] 13936-2: 2004
+                td  NTC 1386-2: 2006-11-30 <br>ISO 13936-2: 2004
     .d-flex.align-items-center.mb-2(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
       h3.py-2.w-card-text.mb-cus-3 Requisitos de calidad en confección
@@ -1465,7 +1466,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Es importante controlar desperdicios generados en la producción de los insumos, los cuales inciden en el costo del producto, de allí la importancia del control de los consumos en la planta.
      
-    p.mb-5.text-center El siguiente cuadro presenta pruebas especializadas que se realizan para evaluar características de algunos insumos:
+    p.mb-5.text-center La siguiente tabla presenta pruebas especializadas que se realizan para evaluar características de algunos insumos:
     .row.justify-content-center.mb-3
       .col-sm-12.col-lg-12
         .titulo-sexto.color-acento-contenido
@@ -1476,9 +1477,9 @@
       .tabla-b__header.bg-tx
         h4.mb-0 Pruebas de calidad en laboratorios para insumos
       table.table-xl-2
-        caption Tabla tomada del SENA - programa técnico Control calidad en confección industrial (2020)
+        caption Nota. Tabla tomada del SENA - programa técnico Control calidad en confección industrial (2020)
         tr
-          th.bg-theader.w-10-cus &nbsp;
+          th.bg-theader.w-10-cus Insumo
           th.bg-theader Ensayo
           th.bg-theader Norma
         tr
@@ -1509,7 +1510,7 @@
           td NTC 2512 / #[i BS ] 3084
         tr
           td.br-cn-td Resistencia a la fijación del tope inferior por separación de la tira.
-          td &nbsp;
+          td NTC 2512 / #[i BS ] 3084 
         tr
           td.br-cn-td Resistencia del tope superior.
           td  NTC 2512 / #[i BS ] 3084
@@ -1587,16 +1588,16 @@
           td NTC 1155-3: 2017-10-18<br>AATCC 61:2013
         tr
           td.br-cn-td Solidez del color a la luz- luz solar. 
-          td NTC 1479-2 #[i ISO ] 105- B02
+          td NTC 1479-2 ISO 105- B02
         tr
           td.br-cn-td Determinación de torsiones. 
           td NTC 443-NTC 752
         tr
           td.br-cn-td Formaldehído libre. 
-          td #[i ISO ] 14184-1:2011
+          td ISO 14184-1:2011
         tr
           td.br-cn-td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc). 
-          td #[i ISO ] 17072-1:2011
+          td ISO 17072-1:2011
 
     .d-flex.align-items-center.mb-2(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
@@ -1637,7 +1638,7 @@
           .tabla-b__header.bg-tx
             h4.mb-0 Pruebas de calidad en laboratorios para textiles
           table.table-xl
-            caption Tabla tomada del SENA - programa técnico Control calidad en confección industrial (2020)
+            caption Nota. Tabla tomada del SENA - programa técnico Control calidad en confección industrial (2020)
             tr
               th.bg-theader Ensayo
               th.bg-theader Norma
@@ -1664,7 +1665,7 @@
               td NTC 959
             tr 
               td.br-cn-td Libre de formaldehído.
-              td #[i ISO ] 14184-1:2011
+              td ISO 14184-1:2011
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9

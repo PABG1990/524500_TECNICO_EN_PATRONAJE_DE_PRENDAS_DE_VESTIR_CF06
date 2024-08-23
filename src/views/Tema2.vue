@@ -36,20 +36,14 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_2.png')
 
+    p A continuación, consulte los siguientes recursos para ampliar la información:
+    
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2DkN1Ur5Dw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. #[i Panty] tanga - Confección de ropa interior para damas.
+    
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-5
-        .tarjeta.color-primario.p-4.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-md-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 #[i Panty] tanga - Confección de ropa interior para damas.
-                .col-sm-12.col-md-3.col-lg-5
-                  a.boton.color-boton(href="https://www.youtube.com/embed/2DkN1Ur5Dw0" target="_blank")
-                    span.text-sistm Ir al video
-                    i.fas.fa-video.text-sistm
       .col-sm-12.col-lg-5
         .tarjeta.color-primario.p-4.mb-5
           .row.justify-content-around.align-items-center
@@ -60,7 +54,7 @@
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
                   p.mb-cus-5 Confección de ropa interior para damas.
                 .col-sm-12.col-md-3.col-lg-5
-                  a.boton.color-boton(href="https://www.youtube.com/embed/Ds5CtwVbaag" target="_blank")
+                  a.boton.color-boton(href="https://www.youtube.com/watch?v=Ds5CtwVbaag" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
     Separador  
@@ -68,7 +62,7 @@
       h2 2.2  Confección #[i boxer] masculino
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
-        p.mb-3 La prenda requiere máquina fileteadora de 3 hilos o con 4 hilos, con dosificadores de elástico, recubridoras con dosificador de elástico, presilladora. Este tipo de prendas se pueden ensamblar en la máquina flat seamer, que les da más seguridad a las costuras. 
+        p.mb-3 La prenda requiere máquina fileteadora de 3 hilos o con 4 hilos, con dosificadores de elástico, recubridoras con dosificador de elástico, presilladora. Este tipo de prendas se pueden ensamblar en la máquina #[i flat seamer], que les da más seguridad a las costuras. 
         ul.lista-ul--color
           li.color-primario.d-flex
             i.fas.fa-plus
@@ -81,22 +75,14 @@
             span #[b Operaciones de terminados: ] presillar, limpiar, revisar, empacar, entre otras.
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_3.png')
+    
+    p A continuación, consulte los siguientes recursos para ampliar la información:
 
-
+    figure.mb-5(data-aos="zoom-in-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/OnqJO8oVyrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. #[i Boxer] pijamero - #[i Boxer] de hombre. 
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-5
-        .tarjeta.color-primario.p-4.mb-5
-          .row.justify-content-around.align-items-center
-            .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src="@/assets/template/icono-video.svg")
-            .col-sm-12.col-md-12.col-lg-10
-              .row.justify-content-between.align-items-center
-                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 #[i Boxer] pijamero - #[i Boxer] de hombre.
-                .col-sm-12.col-md-3.col-lg-5
-                  a.boton.color-boton(href="https://www.youtube.com/embed/OnqJO8oVyrc" target="_blank")
-                    span.text-sistm Ir al video
-                    i.fas.fa-video.text-sistm
       .col-sm-12.col-lg-5
         .tarjeta.color-primario.p-4.mb-5
           .row.justify-content-around.align-items-center
@@ -130,7 +116,7 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_4.png')
 
-
+    p A continuación, consulte los siguientes recursos para ampliar la información:
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-5
         .tarjeta.color-primario.p-4.mb-5
@@ -178,7 +164,8 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_5.png')
 
-
+    p.text-center A continuación, consulte los siguientes recursos para ampliar la información:
+    
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-5
         .tarjeta.color-primario.p-4.mb-5
@@ -219,9 +206,9 @@
             .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-9.mb-sm-0
-                  p.mb-cus-5 ¿Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección?
+                  p.mb-cus-5 #[i Top] deportivo facil de confeccionar 
                 .col-sm-12.col-md-3.col-lg-3
-                  a.boton.color-boton(href="https://www.youtube.com/embed/oZTVpkX7cuk" target="_blank")
+                  a.boton.color-boton(href="https://www.youtube.com/embed/3xGfOwDybBs" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
         .tarjeta.color-primario.p-3.mb-5
@@ -231,7 +218,7 @@
             .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-9.mb-sm-0
-                  p.mb-cus-5 ¿Cómo hacer un pantalón de sudadera para mujer, corte y confección?
+                  p.mb-cus-5 Confección de #[i leggins] deportivo con transparencias 
                 .col-sm-12.col-md-3.col-lg-3
                   a.boton.color-boton(href="https://www.youtube.com/embed/owM_WYtLwlc" target="_blank")
                     span.text-sistm Ir al video
