@@ -1685,7 +1685,7 @@
             .col-sm-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-cus-6 Complementario 2 - Manual control de calidad en productos textiles y afines.
+                  p.mb-cus-6 Consulte el recurso manual control de calidad en productos textiles y afines.
                 .col-sm-auto
                   a.boton.color-boton(:href="obtenerLink('/downloads/Manual_Control_Calidad.pdf')" target="_blank")
                     span.text-sistm Descargar

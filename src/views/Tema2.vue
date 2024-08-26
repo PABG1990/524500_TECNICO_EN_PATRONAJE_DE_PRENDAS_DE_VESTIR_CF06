@@ -36,13 +36,13 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_2.png')
 
-    p A continuación, consulte los siguientes recursos para ampliar la información:
+    p Consulte los siguientes recursos para ampliar la información:
     
     figure.mb-5(data-aos="zoom-in-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2DkN1Ur5Dw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. #[i Panty] tanga - Confección de ropa interior para damas.
-    
+    p.mb5- Consulte el recurso que se relaciona a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de panty femenino.
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-5
         .tarjeta.color-primario.p-4.mb-5
@@ -76,12 +76,13 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_3.png')
     
-    p A continuación, consulte los siguientes recursos para ampliar la información:
+    p Consulte los siguientes recursos para ampliar la información:
 
     figure.mb-5(data-aos="zoom-in-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/OnqJO8oVyrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. #[i Boxer] pijamero - #[i Boxer] de hombre. 
+    p.mb-5 Consulte el recurso que se relaciona a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de boxer masculino.
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-5
         .tarjeta.color-primario.p-4.mb-5
@@ -116,7 +117,7 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_4.png')
 
-    p A continuación, consulte los siguientes recursos para ampliar la información:
+    p Consulte los recursos que se relacionan a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de camiseta tipo polo.
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-5
         .tarjeta.color-primario.p-4.mb-5
@@ -164,7 +165,7 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_5.png')
 
-    p.text-center A continuación, consulte los siguientes recursos para ampliar la información:
+    p Consulte los recursos que se relacionan a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de pantalón sudadera.
     
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-5
@@ -199,6 +200,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p.mb-3 Para la elaboración del #[i top] y de los #[i leggins] se utiliza además de maquinaria básica, máquinas especiales como encauchadora para sentar el elástico.
+        p.mb-5 Consulte los recursos que se relacionan a continuación, para ampliar sus conocimientos y revisar en detalle el proceso de elaboración de conjunto deportivo #[i top] y #[i leggins].
         .tarjeta.color-primario.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-1.d-none.d-lg-block
@@ -206,7 +208,7 @@
             .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-9.mb-sm-0
-                  p.mb-cus-5 #[i Top] deportivo facil de confeccionar 
+                  p.mb-cus-5 #[i Top] deportivo fácil de confeccionar 
                 .col-sm-12.col-md-3.col-lg-3
                   a.boton.color-boton(href="https://www.youtube.com/embed/3xGfOwDybBs" target="_blank")
                     span.text-sistm Ir al video
