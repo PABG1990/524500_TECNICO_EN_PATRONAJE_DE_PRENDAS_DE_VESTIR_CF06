@@ -118,7 +118,7 @@ li.color-primario > i
   height: 150px
 .text-align-cus
   text-align: center
-.w-card-text
+.w-card-text, .w-card-text-2
   position: relative
   left: -70px
   z-index: 0
@@ -285,6 +285,11 @@ li.color-primario > i
   padding-right: .25rem !important;
   padding-left: .25rem !important;
 //// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-lg)
+  .w-card-text-2
+    margin-bottom: 50px;
+
+//// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em 
@@ -305,7 +310,9 @@ li.color-primario > i
     width: auto !important
   .h-card-ctl
     height: 370px
-
+  .w-card-text-2
+    margin-bottom: 10px !important
+  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   
@@ -329,6 +336,8 @@ li.color-primario > i
     width: auto !important
   .h-card-ctl
     height: 370px
+  .w-card-text-2
+    margin-bottom: 10px !important
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)

@@ -665,7 +665,7 @@
       .col-sm-12.col-lg-8
         .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
           img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-          h3.py-2.w-card-text.mb-cus-2 Sistema de gestión de la calidad, Norma ISO 9001 versión 2015
+          h3.py-2.w-card-text-2.mb-cus-2 Sistema de gestión de la calidad, Norma ISO 9001 versión 2015
         p.mb-5 El sistema de gestión de la calidad es una herramienta administrativa, cuenta con una estructura organizada para integrar todos los procesos, e incluye los elementos necesarios para lograr cumplir las necesidades y expectativas del cliente. Obtener la certificación es evidenciar la capacidad que tiene la empresa para cumplir con los requisitos. Una vez certificada la empresa su vigencia es de tres años, con auditorias de seguimiento y una vez pasados los tres años se debe realizar una auditoría de renovación.
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0.fw-bold La certificación es una constancia de valor a nivel internacional. El enfoque de la norma está basado en los riesgos, a través de los cuales la empresa demuestra la gestión de los riesgos y determina las acciones que pueden afectar la capacidad de proporcionar satisfacción al cliente y obtener los resultados esperados de la empresa.
@@ -774,7 +774,7 @@
         .col-sm-12.col-lg-7 
           .d-flex.align-items-center.mt-5.mb-3
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text.mb-cus-3 Puntos de control en el producto en proceso
+            h3.py-2.w-card-text-2.mb-cus-3 Puntos de control en el producto en proceso
           p.mb-3 Aunque es muy importante el autocontrol que ejerce cada operario sobre lo que realiza para garantizar la calidad de su trabajo; de igual manera se debe llevar a cabo las inspecciones denominadas “en pie de máquina”, estas se realizan mientras la persona desarrolla las operaciones en su puesto de trabajo, con el fin de detectar de manera temprana defectos y establecer acciones de mejora. 
           .cajon.color-acento-botones.p-4.mb-4
               p.mb-0.fw-bold Cuando en el producto se realizan procesos de estampación o bordados se requiere establecer puntos de control de esos procesos, que son considerados críticos.
@@ -787,14 +787,14 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text.mb-cus-3 Puntos de control en el producto terminado
+            h3.py-2.w-card-text-2.mb-cus-3 Puntos de control en el producto terminado
           p.mb-0  Al finalizar la confección en cada módulo de producción o línea de la referencia se revisa el producto terminado antes de realizar procesos de planchado, de lavandería, empaque y embalaje; pero igualmente se debe inspeccionar una vez se realice el planchado, si es requerido, y su empaque. Se debe establecer las medidas para la atención de prendas que no fueron aceptadas en las inspecciones y las acciones para su tratamiento.
       
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text.mb-cus-3 Puntos de control en confección de lote piloto
+            h3.py-2.w-card-text-2.mb-cus-3 Puntos de control en confección de lote piloto
           p.mb-4 El lote piloto son unidades que se confeccionan con el fin de simular la producción de una referencia nueva; desarrollado el nuevo producto, es necesario realizar simulaciones para prever fallas en la producción; la información proporcionada una vez se realice el pilotaje brinda confianza sobre la viabilidad del producto y señala las estrategias a efectuar en el momento de la producción de la prenda.
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img.img-a(src='@/assets/curso/temas/tema1/img_109.png')
@@ -805,7 +805,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text.mb-cus-2 Puntos de control en compra de materiales e insumos
+            h3.py-2.w-card-text-2.mb-cus-2 Puntos de control en compra de materiales e insumos
           p.mb-4 En las áreas de bodegas y almacenes se deben realizar las inspecciones necesarias antes de la integración del producto, donde se realiza el alistamiento de los insumos necesarios para la confección y se integran al paquete de las unidades cortadas según las unidades establecidas.
           .cajon.color-acento-botones.p-4.mb-4
               p.mb-0.fw-bold En el caso de las telas se puede apoyar su control con equipos como revisadores para inspeccionar los defectos.
