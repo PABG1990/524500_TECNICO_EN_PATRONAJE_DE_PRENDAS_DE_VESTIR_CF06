@@ -36,8 +36,7 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_2.png')
 
-    p Consulte los siguientes recursos para ampliar la información:
-    
+   
     figure.mb-5(data-aos="zoom-in-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2DkN1Ur5Dw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -76,11 +75,10 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema2/img_3.png')
     
-    p Consulte los siguientes recursos para ampliar la información:
-
+  
     figure.mb-5(data-aos="zoom-in-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/OnqJO8oVyrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/cZ2lyqcUjqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. #[i Boxer] pijamero - #[i Boxer] de hombre. 
     p.mb-5 Consulte el recurso que se relaciona a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de boxer masculino.
     .row.justify-content-center(data-aos="zoom-in-left")
