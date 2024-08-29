@@ -60,7 +60,7 @@
     
     .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-      h3.py-2.w-card-text Concepto control de calidad
+      h3.py-2.w-card-text.mb-cus-7 Concepto control de calidad
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p.mb-4 Una vez se tienen definidos los objetivos y los requisitos de calidad del producto se deben controlar las variaciones de esas características, cualidades o especificaciones exigidas por el cliente o de acuerdo con la norma.
@@ -188,7 +188,7 @@
     p.text-center.mb-3 Dado que se presentan variaciones en los productos es preciso permitir tolerancias, que son márgenes permisibles de variación y aceptación.
     .d-flex.align-items-center.mt-5.mb-0(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-      h3.py-2.w-card-text.mb-cus-3 Antecedentes y evolución de control de calidad
+      h3.py-2.w-card-text.mb-cus-8 Antecedentes y evolución de control de calidad
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
         .col-sm-12.col-lg-9
           p.mb-3 Al ubicarse de manera temporal en el cambio de la fabricación artesanal a la industrialización, derivado de la Revolución Industrial y de los cambios en la producción masificada, se presentó un auge en la industria del automóvil liderada por Henry Ford en la década de 1910, en la que se daba los inicios de la calidad en las inspecciones del producto terminado. 
@@ -330,7 +330,7 @@
                     i.fas.fa-file-download.text-sistm
     .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-      h3.py-2.w-card-text.mb-cus-3 Control de calidad en la industria textil y confección
+      h3.py-2.w-card-text.mb-cus-8 Control de calidad en la industria textil y confección
     p.mb-5(data-aos="zoom-in-left") Se controla la calidad con el fin de mantener y corregir los defectos, errores o no conformidad que se presenta durante la producción de la prenda. Por tanto, se desarrolla según las variables y atributos del producto. 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-6
@@ -410,11 +410,11 @@
         p.mb-0  Mejora continua, con el fin de prever ocurrencias de la no conformidad, y facilitar la toma de decisiones.
     .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-      h3.py-2.w-card-text.mb-cus-2 Automatización de control de calidad en la industria textil y confección
+      h3.py-2.w-card-text.mb-cus-9 Automatización de control de calidad en la industria textil y confección
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p.mb-4 La calidad 4.0 está relacionada con la revolución digital, teniendo en cuenta las tecnologías #[i big data], inteligencia artificial, #[i machine learning, deep learning] e  internet de las cosas. La automatización de los procesos proporciona agilidad, más seguridad en los datos porque disminuye la presentación de información incorrecta, y más conocimiento sobre cada área de la empresa.
-        p.mb-4 La implementación básica se refiere a la utilización de #[i software]  especializado; de herramientas de calidad como los programas SPSS, #[i Statgraphics Centurion] o SAS; de recursos relacionados con  internet  de las cosas, por ejemplo, la geolocalización con aplicaciones con códigos QR, y las relacionadas con las herramientas #[i Lean Manufacturing ].
+        p.mb-4 La implementación básica se refiere a la utilización de #[i software]  especializado; de herramientas de calidad como los programas SPSS, #[i Statgraphics Centurion] o SAS; de recursos relacionados con  internet  de las cosas, por ejemplo, la geolocalización con aplicaciones con códigos QR, y las relacionadas con las herramientas #[i Lean Manufacturing].
         .cajon.color-acento-contenido.p-4.mb-4
             p.fw-bold.mb-0 Con la integración de datos y su tratamiento avanzado se puede simular los procesos para mejorar la gestión de calidad. Además, las personas encargadas directamente de la calidad pueden desarrollar actividades de manera remota, sin necesidad de su presencia #[i in situ] en la empresa. También puede apoyar la planificación de auditorías en el mejoramiento de la implementación de la metodología 5S.
       .col-sm-12.col-lg-3
@@ -464,13 +464,13 @@
       .col-sm-12.col-lg-10
         .cajon.color-acento-botones.p-4.mb-4
             p.mb-0.fw-bold La comunicación interna también debe estar bien organizada, contar con un sistema de comunicación adecuado para evitar duplicidades de información que afecten negativamente la gestión de la calidad.
-    p.mb-5(data-aos="zoom-in-left") Para reconocer la gestión en los procesos se debe tener en cuenta el ciclo de Deming, sobre el cual se construyen los sistemas de gestión. En la siguiente figura se aprecia cómo se constituye el ciclo de calidad para la mejora continua.
+    p.mb-5(data-aos="zoom-in-left") Para reconocer la gestión en los procesos se debe tener en cuenta el ciclo de #[i Deming], sobre el cual se construyen los sistemas de gestión. En la siguiente figura se aprecia cómo se constituye el ciclo de calidad para la mejora continua.
     .row(data-aos="zoom-in-left")
       .col-sm-12.col-lg-6.mx-auto.mb-5
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span
-            | Ciclo de #[i Deming ]
+            | Ciclo de #[i Deming]
         img.img-a(src='@/assets/curso/temas/tema1/img_22.svg', alt='El diagrama presenta los pasos del ciclo: planear, hacer, verificar, actuar.')
        
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
@@ -493,7 +493,7 @@
           img.img-a(src='@/assets/curso/temas/tema1/img_24.svg', alt='En el diagrama del circulo de calidad  se aprecian sus componentes así:  objetivos mejora continua del producto, integrantes son de la misma área, reuniones acordadas en horario diferente al laboral y en otro ambiente,  participación voluntaria, equipos de 3 a 15 personas.')
     .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-      h3.py-2.w-card-text.mb-cus-3 Metodología de mejoramiento continuo   
+      h3.py-2.w-card-text.mb-cus-8 Metodología de mejoramiento continuo   
     p.mb-3(data-aos="zoom-in-left") La metodología se encuentra enmarcada dentro del ciclo de mejoramiento continuo, en el que se desarrollan trece pasos. De manera que todo el personal involucrado en la empresa debe participar para que el mejoramiento sea constante, ya que es un trabajo diario.
     p.mb-5(data-aos="zoom-in-left") Los elementos del Kaizen son:
 
@@ -541,7 +541,7 @@
           h5 Figura 3.
           span
             | Proceso para la solución de problemas
-        img.img-a(src='@/assets/curso/temas/tema1/img_30.svg', alt='La imagen contiene los diferentes aspectos que se deben tener en cuenta para la solución de problemas ellos son:  Sentido común, revisión de diseño, trabajo en equipo, rapeo de procesos, habilidades de liderazgo, diseño de experimentos, flujogramas de despliegues, siete nuevas herramientas administrativas, análisis del árbol de fallas, análisis de valor e ingeniería de valor,  #[i six sigma], análisis del modo y efecto de la falla, control estadístico del proceso.')
+        img.img-a(src='@/assets/curso/temas/tema1/img_30.svg', alt='La imagen contiene los diferentes aspectos que se deben tener en cuenta para la solución de problemas ellos son:  Sentido común, revisión de diseño, trabajo en equipo, mapeo de procesos, habilidades de liderazgo, diseño de experimentos, flujogramas de despliegues, siete nuevas herramientas administrativas, análisis del árbol de fallas, análisis de valor e ingeniería de valor,  six sigma, análisis del modo y efecto de la falla, control estadístico del proceso.')
     p.mb-3(data-aos="zoom-in-left") A continuación, se presentan los 13 pasos de la metodología, descritos en la siguiente tabla:
     .row.mb-2(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12
@@ -648,7 +648,7 @@
                   a.boton.color-boton(href="http://leansolutions.co" target="_blank")
                     span.text-sistm Enlace Web
                     i.fas.fa-file-download.text-sistm
-    p.mb-5(data-aos="zoom-in-left") En cada fase se utilizan herramientas para el análisis y creación de gráficos como histogramas, diagrama causa efecto, Pareto, gráficos de tendencias, análisis de correlación, capacidad del proceso, gráficos de control, entre otros.
+    p.mb-5(data-aos="zoom-in-left") En cada fase se utilizan herramientas para el análisis y creación de gráficos como histogramas, diagrama causa-efecto, Pareto, gráficos de tendencias, análisis de correlación, capacidad del proceso, gráficos de control, entre otros.
     .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
       h3.py-2.w-card-text Costos de calidad
@@ -665,7 +665,7 @@
       .col-sm-12.col-lg-8
         .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
           img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-          h3.py-2.w-card-text-2.mb-cus-2 Sistema de gestión de la calidad, Norma ISO 9001 versión 2015
+          h3.py-2.w-card-text-2.mb-cus-10 Sistema de gestión de la calidad, Norma ISO 9001 versión 2015
         p.mb-5 El sistema de gestión de la calidad es una herramienta administrativa, cuenta con una estructura organizada para integrar todos los procesos, e incluye los elementos necesarios para lograr cumplir las necesidades y expectativas del cliente. Obtener la certificación es evidenciar la capacidad que tiene la empresa para cumplir con los requisitos. Una vez certificada la empresa su vigencia es de tres años, con auditorias de seguimiento y una vez pasados los tres años se debe realizar una auditoría de renovación.
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0.fw-bold La certificación es una constancia de valor a nivel internacional. El enfoque de la norma está basado en los riesgos, a través de los cuales la empresa demuestra la gestión de los riesgos y determina las acciones que pueden afectar la capacidad de proporcionar satisfacción al cliente y obtener los resultados esperados de la empresa.
@@ -756,7 +756,7 @@
         .col-sm-12.col-lg-9
           p.mb-5 El corte se debe revisar una vez se termina de extender. Antes de iniciar el corte de las unidades de capas y alineación del tendido se debe inspeccionar la apariencia de la tela, también se debe tener cuidado con la separación del corte, sobre todo si se han extendido diferentes rollos de tela en el mismo corte, y verificar el cumplimiento de tiempos de reposo.
           .cajon.color-acento-contenido.p-4
-            p.mb-0.fw-bold En la separación, tiqueteado y paqueteo de las piezas, el inspector de calidad debe revisar el corte de las piezas, al comparar con el patronaje de la pieza, contar las piezas del paquete, y verificar el sistema de amarre y rotulado. Es importante disponer de un puesto de trabajo para la inspección, con excelente luz y limpieza para determinar defectos en la tela y en el corte de las piezas. Es necesaria la correcta disposición de las piezas para evitar contaminaciones del paquete con otros colores de estas u otras referencias.
+            p.mb-0.fw-bold En la separación, etiquetado y paqueteo de las piezas, el inspector de calidad debe revisar el corte de las piezas, al comparar con el patronaje de la pieza, contar las piezas del paquete, y verificar el sistema de amarre y rotulado. Es importante disponer de un puesto de trabajo para la inspección, con excelente luz y limpieza para determinar defectos en la tela y en el corte de las piezas. Es necesaria la correcta disposición de las piezas para evitar contaminaciones del paquete con otros colores de estas u otras referencias.
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img.img-a(src='@/assets/curso/temas/tema1/img_37.png')
           
@@ -774,7 +774,7 @@
         .col-sm-12.col-lg-7 
           .d-flex.align-items-center.mt-5.mb-3
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text-2.mb-cus-3 Puntos de control en el producto en proceso
+            h3.py-2.w-card-text-2.mb-cus-10 Puntos de control en el producto en proceso
           p.mb-3 Aunque es muy importante el autocontrol que ejerce cada operario sobre lo que realiza para garantizar la calidad de su trabajo; de igual manera se debe llevar a cabo las inspecciones denominadas “en pie de máquina”, estas se realizan mientras la persona desarrolla las operaciones en su puesto de trabajo, con el fin de detectar de manera temprana defectos y establecer acciones de mejora. 
           .cajon.color-acento-botones.p-4.mb-4
               p.mb-0.fw-bold Cuando en el producto se realizan procesos de estampación o bordados se requiere establecer puntos de control de esos procesos, que son considerados críticos.
@@ -787,14 +787,14 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text-2.mb-cus-3 Puntos de control en el producto terminado
+            h3.py-2.w-card-text-2.mb-cus-10 Puntos de control en el producto terminado
           p.mb-0  Al finalizar la confección en cada módulo de producción o línea de la referencia se revisa el producto terminado antes de realizar procesos de planchado, de lavandería, empaque y embalaje; pero igualmente se debe inspeccionar una vez se realice el planchado, si es requerido, y su empaque. Se debe establecer las medidas para la atención de prendas que no fueron aceptadas en las inspecciones y las acciones para su tratamiento.
       
       .row.justify-content-center.align-items-center.mb-5
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text-2.mb-cus-3 Puntos de control en confección de lote piloto
+            h3.py-2.w-card-text-2.mb-cus-10 Puntos de control en confección de lote piloto
           p.mb-4 El lote piloto son unidades que se confeccionan con el fin de simular la producción de una referencia nueva; desarrollado el nuevo producto, es necesario realizar simulaciones para prever fallas en la producción; la información proporcionada una vez se realice el pilotaje brinda confianza sobre la viabilidad del producto y señala las estrategias a efectuar en el momento de la producción de la prenda.
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img.img-a(src='@/assets/curso/temas/tema1/img_109.png')
@@ -805,7 +805,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center.mt-5.mb-3(data-aos="zoom-in-left")
             img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
-            h3.py-2.w-card-text-2.mb-cus-2 Puntos de control en compra de materiales e insumos
+            h3.py-2.w-card-text-2.mb-cus-10 Puntos de control en compra de materiales e insumos
           p.mb-4 En las áreas de bodegas y almacenes se deben realizar las inspecciones necesarias antes de la integración del producto, donde se realiza el alistamiento de los insumos necesarios para la confección y se integran al paquete de las unidades cortadas según las unidades establecidas.
           .cajon.color-acento-botones.p-4.mb-4
               p.mb-0.fw-bold En el caso de las telas se puede apoyar su control con equipos como revisadores para inspeccionar los defectos.
@@ -998,7 +998,7 @@
                 i.fas.fa-plus
                 span #[b Corte de piezas de forro y entretela: ] revisar el material y que las piezas se corten conforme a la ficha técnica y a la programación de la producción.
 
-      .py-4.py-md-5(titulo="Tiqueteado").bg04
+      .py-4.py-md-5(titulo="Etiquetado").bg04
         .row.justify-content-center.align-items-center.mb-5
           .col-sm-12.col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/temas/tema1/img_60.svg')
@@ -1050,7 +1050,7 @@
     Separador  
     #t_1_6.titulo-segundo.color-primario(data-aos="zoom-in-left")
       h2 1.6 Control de calidad en confección    
-    p.mb-5(data-aos="zoom-in-left") Tiene en cuenta la distribución de las operaciones, es decir, la hoja de ruta; operaciones de preparación, ensamble y terminados, cada proceso tiene un método, un tiempo estándar, descripción de la maquinaria, pies, guías, fólderes y aditamentos que se deben revisar.
+    p.mb-5(data-aos="zoom-in-left") Tiene en cuenta la distribución de las operaciones, es decir, la hoja de ruta; operaciones de preparación, ensamble y terminados, cada proceso tiene un método, un tiempo estándar, descripción de la maquinaria, pies, guías, folderes y aditamentos que se deben revisar.
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p.mb-5 En los puntos de revisión se realizan inspecciones, en las que se retienen prendas o piezas con defectos para analizar las causas y determinar acciones, así mismo, la revisión se lleva a cabo en los puestos de trabajo, donde la responsabilidad es de cada operario con el acompañamiento y apoyo del auditor de calidad en pie de máquina. Conforme corresponda la inspección se utilizan los formatos de producto terminado y en proceso.
@@ -1097,7 +1097,7 @@
                 td.br-cn-td Análisis cuantitativo de fibras.
                 td NTC 481: 2012-12-12    ASTMD 629:2008
               tr
-                td.br-cn-td Cambio de oblicuidad en telas y deformación por torsión en prendas de vestir como resultado de lavado .
+                td.br-cn-td Cambio de oblicuidad en telas y deformación por torsión en prendas de vestir como resultado de lavado.
                 td NTC 5121: 2002-10-30 <br> AATCC 179:2004
               tr
                 td.br-cn-td Cambios dimensionales en prendas después de lavado en máquina de uso doméstico.
@@ -1310,7 +1310,7 @@
                 span #[b Ambiente del taller:] orden y limpieza en piso, puestos de trabajo.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Ajuste de maquinaria:] mantenimiento de la máquina y uso de aditamentos, pies, guías y fólderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo.
+                span #[b Ajuste de maquinaria:] mantenimiento de la máquina y uso de aditamentos, pies, guías y folderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo.
               li.color-primario.d-flex
                 i.fas.fa-plus
                 span #[b Operario:] manipulación del material, métodos utilizados en la operación.
@@ -1627,7 +1627,7 @@
       img.w-card-icon(src="@/assets/curso/temas/icon-title.svg")
       h3.py-2.w-card-text.mb-cus-3 Control de calidad en textiles
     p.mb-3(data-aos="zoom-in-left") En el caso de los textiles, teniendo en cuenta las propiedades asociadas a su composición se realizan las inspecciones que pueden ser evidenciadas con detenimiento, pero es necesario realizar pruebas de laboratorio que garanticen la calidad para su utilización.
-    p.mb-5(data-aos="zoom-in-left") Se tienen en cuenta algunas de ellas como presenta el siguiente cuadro:
+    p.mb-5(data-aos="zoom-in-left") Se tienen en cuenta algunas de ellas como presenta en la siguiente tabla:
     .row.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-contenido

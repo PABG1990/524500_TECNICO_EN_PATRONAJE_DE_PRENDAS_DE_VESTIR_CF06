@@ -32,37 +32,37 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: ' Gestión de la calidad total',
+            titulo: 'Gestión de la calidad total',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: ' Puntos de control en el proceso de confección',
+            titulo: 'Puntos de control en el proceso de confección',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: ' Control de calidad en patronaje',
+            titulo: 'Control de calidad en patronaje',
             hash: 't_1_4',
           },
           {
             numero: '1.5',
-            titulo: ' Control de calidad en trazo y corte',
+            titulo: 'Control de calidad en trazo y corte',
             hash: 't_1_5',
           },
           {
             numero: '1.6',
-            titulo: ' Control de calidad en confección',
+            titulo: 'Control de calidad en confección',
             hash: 't_1_6',
           },
           {
             numero: '1.7',
-            titulo: ' Control de calidad en terminados',
+            titulo: 'Control de calidad en terminados',
             hash: 't_1_7',
           },
           {
             numero: '1.8',
-            titulo: ' Control de calidad en insumos, materiales y textiles',
+            titulo: 'Control de calidad en insumos, materiales y textiles',
             hash: 't_1_8',
           },
         ],
@@ -76,28 +76,28 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: ' Confección <i>panty</i> femenino',
+            titulo: 'Confección <i>panty</i> femenino',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: ' Confección <i>boxer</i> masculino',
+            titulo: 'Confección <i>boxer</i> masculino',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: ' Confección de camiseta tipo polo',
+            titulo: 'Confección de camiseta tipo polo',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo: ' Confección de pantalón sudadera',
+            titulo: 'Confección de pantalón sudadera',
             hash: 't_2_4',
           },
           {
             numero: '2.5',
             titulo:
-              ' Elaboración de conjunto deportivo <i>top</i> y <i>leggins</i>',
+              'Elaboración de conjunto deportivo <i style="margin-right: 0 !important;">top</i> y <i>leggins</i>',
             hash: 't_2_5',
           },
         ],
@@ -203,7 +203,7 @@ export default {
       referencia:
         'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección.  YouTube. ',
       tipo: 'Video',
-      link: 'https://youtu.be/3xGfOwDybBs',
+      link: 'https://youtu.be/oZTVpkX7cuk',
     },
     {
       tema: 'Confección de pantalón de sudadera de dama.',
@@ -241,7 +241,7 @@ export default {
     {
       termino: 'ISO',
       significado:
-        ' Organización Internacional de Estandarización, ubicada en Ginebra Suiza y tiene presencia en 193. Promueve y desarrolla normas para estandarizar productos y servicios.',
+        'Organización Internacional de Estandarización, ubicada en Ginebra Suiza y tiene presencia en 193. Promueve y desarrolla normas para estandarizar productos y servicios.',
     },
     {
       termino: 'Lote',
@@ -283,7 +283,7 @@ export default {
     {
       referencia:
         'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección. YouTube.',
-      link: 'https://youtu.be/3xGfOwDybBs',
+      link: 'https://youtu.be/oZTVpkX7cuk',
     },
     {
       referencia:
@@ -307,7 +307,9 @@ export default {
     },
     {
       referencia:
-        'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad.',
+        'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad. ',
+      link:
+        'https://ecoredsena-santander.github.io/524500_TECNICO_EN_PATRONAJE_DE_PRENDAS_DE_VESTIR_CF06/downloads/Complementario_14_3_Articulo.pdf',
     },
     {
       referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
@@ -333,10 +335,6 @@ export default {
         'Montilla, E. (10 de mayo 2017). Confección de <i>Leggings</i> deportivo con transparencia.  YouTube.',
       link: 'https://youtu.be/owM_WYtLwlc',
     },
-    {
-      referencia:
-        'SENA. (2020). Desarrollo curricular. Técnico Control calidad en confección industrial. ',
-    },
   ],
   creditos: [
     {
@@ -344,12 +342,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -391,7 +389,7 @@ export default {
         },
         {
           nombre: 'Carolina Jiménez Suescun',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -406,17 +404,17 @@ export default {
         },
         {
           nombre: 'Lizeth Karina Manchego Suarez',
-          cargo: 'Desarrolladora <i>Full-Stack</i>',
+          cargo: 'Desarrolladora <i>full-Stack</i>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrolladora <i>Full-Stack</i> Junior',
+          cargo: 'Desarrolladora <i>full-Stack</i> junior',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'María Alejandra Vera Briceño',
-          cargo: 'Animadora y Productora Multimedia',
+          cargo: 'Animadora y productora multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
@@ -426,12 +424,12 @@ export default {
       autores: [
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
-          cargo: 'Validadora de Recursos Educativos Digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
           nombre: 'Diana Lizeth Lozada Díaz',
-          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

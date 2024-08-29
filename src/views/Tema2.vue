@@ -13,7 +13,7 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img_1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 La elaboración de prototipos en tejido de punto se enfoca principalmente en la elaboración de línea interior y línea deportiva, donde se desarrollan gran variedad de productos, pasando por prendas delicadas, de manipulación cuidadosa, debido al material y tamaño de las piezas. Requiere maquinaria básica, además contar con aditamentos como dosificadores de elástico en fileteadoras, recubridoras, encauchadora, guías y fólderes especiales para asegurar la calidad de las costuras. También se incluye en el proceso máquinas zigzadoras y presilladoras.
+            p.mb-0 La elaboración de prototipos en tejido de punto se enfoca principalmente en la elaboración de línea interior y línea deportiva, donde se desarrollan gran variedad de productos, pasando por prendas delicadas, de manipulación cuidadosa, debido al material y tamaño de las piezas. Requiere maquinaria básica, además contar con aditamentos como dosificadores de elástico en fileteadoras, recubridoras, encauchadora, guías y folderes especiales para asegurar la calidad de las costuras. También se incluye en el proceso máquinas zigzadoras y presilladoras.
     p.mb-5 Los materiales utilizados requieren un manejo con mayor habilidad sobre todo en las prendas de tejido de punto, incluyendo los de composición de elastano.
     Separador  
     #t_2_1.titulo-segundo.color-primario(data-aos="zoom-in-left")
@@ -22,7 +22,7 @@
       .col-sm-12.col-lg-9
         p.mb-3 En el mercado existen cada vez mejores atributos y funcionalidades en este tipo de prendas, sirven de ejemplo, #[i pantys] control de abdomen, #[i pantys] 0 costuras, entre muchos otros.
         .cajon.color-acento-contenido.p-4.mb-3
-          p.mb-0.fw-bold Las máquinas donde se realiza el ensamble son fileteadoras de tres hilos, recubridoras con dosificadores, fólderes sesgadores con dosificación de elástico, zigzadoras y presilladoras.
+          p.mb-0.fw-bold Las máquinas donde se realiza el ensamble son fileteadoras de tres hilos, recubridoras con dosificadores, folderes sesgadores con dosificación de elástico, zigzadoras y presilladoras.
         ul.lista-ul--color
           li.color-primario.d-flex
             i.fas.fa-plus
@@ -41,7 +41,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2DkN1Ur5Dw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. #[i Panty] tanga - Confección de ropa interior para damas.
-    p.mb5- Consulte el recurso que se relaciona a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de panty femenino.
+    p.mb5- Consulte el recurso que se relaciona a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de #[i panty] femenino.
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-lg-5
         .tarjeta.color-primario.p-4.mb-5
@@ -138,7 +138,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Como hacer camiseta polo hombre corte y confección.
+                  p.mb-cus-5 ¿Cómo hacer camiseta polo hombre corte y confección?
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/HJJp-lOu1E4" target="_blank")
                     span.text-sistm Ir al video
