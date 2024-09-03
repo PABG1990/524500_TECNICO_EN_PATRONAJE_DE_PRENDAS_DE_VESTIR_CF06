@@ -43,16 +43,16 @@
       figcaption Video. #[i Panty] tanga - Confección de ropa interior para damas.
     p.mb5- Consulte el recurso que se relaciona a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de #[i panty] femenino.
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-5
+      .col-sm-12.col-lg-7
         .tarjeta.color-primario.p-4.mb-5
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Confección de ropa interior para damas.
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-9.col-lg-8.mb-sm-0
+                  p.mb-cus-5 Mata. J. (26 de agosto 2017). Confección de ropa interior para damas. [video]. YouTube.
+                .col-sm-12.col-md-3.col-lg-4
                   a.boton.color-boton(href="https://www.youtube.com/watch?v=Ds5CtwVbaag" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -82,16 +82,16 @@
       figcaption Video. #[i Boxer] pijamero - #[i Boxer] de hombre. 
     p.mb-5 Consulte el recurso que se relaciona a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de boxer masculino.
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-5
+      .col-sm-12.col-lg-7
         .tarjeta.color-primario.p-4.mb-5
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src="@/assets/template/icono-video.svg")
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
-                .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 #[i Boxer] de hombre.
-                .col-sm-12.col-md-3.col-lg-5
+                .col-sm-12.col-md-9.col-lg-8.mb-sm-0
+                  p.mb-cus-5 Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un #[i boxer] de hombre. [video]. YouTube.
+                .col-sm-12.col-md-3.col-lg-4
                   a.boton.color-boton(href="https://www.youtube.com/embed/Y3tyM2WTpZ0" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
@@ -117,7 +117,7 @@
 
     p Consulte los recursos que se relacionan a continuación para ampliar sus conocimientos, y revisar en detalle el proceso de confección de camiseta tipo polo.
     .row.justify-content-center(data-aos="zoom-in-left")
-      .col-sm-12.col-lg-5
+      .col-sm-12.col-lg-6
         .tarjeta.color-primario.p-4.mb-5
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
@@ -125,12 +125,12 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Polo #[i Shirt Production].
+                  p.mb-cus-5 #[i Juki central europe]. (11 de agosto 2015). JUKI - polo #[i shirt production]. [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/QPor7WBIZNA" target="_blank")
                     span.text-sistm Ir al video
                     i.fas.fa-video.text-sistm
-      .col-sm-12.col-lg-5
+      .col-sm-12.col-lg-6
         .tarjeta.color-primario.p-4.mb-5
           .row.justify-content-around.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
@@ -138,7 +138,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 ¿Cómo hacer camiseta polo hombre corte y confección?
+                  p.mb-cus-5 Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección. [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/HJJp-lOu1E4" target="_blank")
                     span.text-sistm Ir al video
@@ -174,7 +174,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 ¿Cómo hacer un pantalón de sudadera entubado con cintas laterales, corte y confección?
+                  p.mb-cus-5 Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección. [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/oZTVpkX7cuk" target="_blank")
                     span.text-sistm Ir al video
@@ -187,7 +187,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 ¿Cómo hacer un pantalón de sudadera para mujer, corte y confección?
+                  p.mb-cus-5 Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección. [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/hlBctRHgSUw" target="_blank")
                     span.text-sistm Ir al video
@@ -206,7 +206,7 @@
             .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-9.mb-sm-0
-                  p.mb-cus-5 #[i Top] deportivo fácil de confeccionar 
+                  p.mb-cus-5 Josmar creando con amor. (24 de abril de 2020). #[i Top] deportivo muy fácil de confeccionar /josmar. [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-3
                   a.boton.color-boton(href="https://www.youtube.com/embed/3xGfOwDybBs" target="_blank")
                     span.text-sistm Ir al video
@@ -218,7 +218,7 @@
             .col-sm-12.col-md-12.col-lg-11
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-9.mb-sm-0
-                  p.mb-cus-5 Confección de #[i leggins] deportivo con transparencias 
+                  p.mb-cus-5 Montilla, E. (10 de mayo 2017). Confección de #[i leggins] deportivo con transparencia. [video]. YouTube. 
                 .col-sm-12.col-md-3.col-lg-3
                   a.boton.color-boton(href="https://www.youtube.com/embed/owM_WYtLwlc" target="_blank")
                     span.text-sistm Ir al video
