@@ -150,13 +150,6 @@ export default {
   },
   complementario: [
     {
-      tema: 'Análisis de la evolución del significado de calidad.',
-      referencia:
-        'Gutiérrez, E. (2017). Calidad: instrumento capaz de garantizar el éxito de la gestión a largo plazo evolución del significado de calidad.',
-      tipo: 'Artículo',
-      descarga: '/downloads/Complementario_14_3_Articulo.pdf',
-    },
-    {
       tema: 'Generalidades del sistema de gestión de calidad ISO 9001.',
       referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
       tipo: 'Norma',
