@@ -1050,7 +1050,7 @@
     Separador  
     #t_1_6.titulo-segundo.color-primario(data-aos="zoom-in-left")
       h2 1.6 Control de calidad en confección    
-    p.mb-5(data-aos="zoom-in-left") Tiene en cuenta la distribución de las operaciones, es decir, la hoja de ruta; operaciones de preparación, ensamble y terminados, cada proceso tiene un método, un tiempo estándar, descripción de la maquinaria, pies, guías, folderes y aditamentos que se deben revisar.
+    p.mb-5(data-aos="zoom-in-left") Tiene en cuenta la distribución de las operaciones, es decir, la hoja de ruta; operaciones de preparación, ensamble y terminados, cada proceso tiene un método, un tiempo estándar, descripción de la maquinaria, pies, guías, fólderes y aditamentos que se deben revisar.
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-9
         p.mb-5 En los puntos de revisión se realizan inspecciones, en las que se retienen prendas o piezas con defectos para analizar las causas y determinar acciones, así mismo, la revisión se lleva a cabo en los puestos de trabajo, donde la responsabilidad es de cada operario con el acompañamiento y apoyo del auditor de calidad en pie de máquina. Conforme corresponda la inspección se utilizan los formatos de producto terminado y en proceso.
@@ -1310,7 +1310,7 @@
                 span #[b Ambiente del taller:] orden y limpieza en piso, puestos de trabajo.
               li.color-primario.d-flex
                 i.fas.fa-plus
-                span #[b Ajuste de maquinaria:] mantenimiento de la máquina y uso de aditamentos, pies, guías y folderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo.
+                span #[b Ajuste de maquinaria:] mantenimiento de la máquina y uso de aditamentos, pies, guías y fólderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo.
               li.color-primario.d-flex
                 i.fas.fa-plus
                 span #[b Operario:] manipulación del material, métodos utilizados en la operación.

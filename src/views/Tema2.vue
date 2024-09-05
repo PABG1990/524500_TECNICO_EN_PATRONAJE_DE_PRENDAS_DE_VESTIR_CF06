@@ -13,7 +13,7 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img_1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 La elaboración de prototipos en tejido de punto se enfoca principalmente en la elaboración de línea interior y línea deportiva, donde se desarrollan gran variedad de productos, pasando por prendas delicadas, de manipulación cuidadosa, debido al material y tamaño de las piezas. Requiere maquinaria básica, además contar con aditamentos como dosificadores de elástico en fileteadoras, recubridoras, encauchadora, guías y folderes especiales para asegurar la calidad de las costuras. También se incluye en el proceso máquinas zigzadoras y presilladoras.
+            p.mb-0 La elaboración de prototipos en tejido de punto se enfoca principalmente en la elaboración de línea interior y línea deportiva, donde se desarrollan gran variedad de productos, pasando por prendas delicadas, de manipulación cuidadosa, debido al material y tamaño de las piezas. Requiere maquinaria básica, además contar con aditamentos como dosificadores de elástico en fileteadoras, recubridoras, encauchadora, guías y fólderes especiales para asegurar la calidad de las costuras. También se incluye en el proceso máquinas zigzadoras y presilladoras.
     p.mb-5 Los materiales utilizados requieren un manejo con mayor habilidad sobre todo en las prendas de tejido de punto, incluyendo los de composición de elastano.
     Separador  
     #t_2_1.titulo-segundo.color-primario(data-aos="zoom-in-left")
@@ -22,7 +22,7 @@
       .col-sm-12.col-lg-9
         p.mb-3 En el mercado existen cada vez mejores atributos y funcionalidades en este tipo de prendas, sirven de ejemplo, #[i pantys] control de abdomen, #[i pantys] 0 costuras, entre muchos otros.
         .cajon.color-acento-contenido.p-4.mb-3
-          p.mb-0.fw-bold Las máquinas donde se realiza el ensamble son fileteadoras de tres hilos, recubridoras con dosificadores, folderes sesgadores con dosificación de elástico, zigzadoras y presilladoras.
+          p.mb-0.fw-bold Las máquinas donde se realiza el ensamble son fileteadoras de tres hilos, recubridoras con dosificadores, fólderes sesgadores con dosificación de elástico, zigzadoras y presilladoras.
         ul.lista-ul--color
           li.color-primario.d-flex
             i.fas.fa-plus
@@ -90,7 +90,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-8.mb-sm-0
-                  p.mb-cus-5 Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un #[i boxer] de hombre. [video]. YouTube.
+                  p.mb-cus-5 Academia confección alamoda. (20 de octubre 2019). DIY ¿cómo confeccionar un #[i boxer] de hombre? [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-4
                   a.boton.color-boton(href="https://www.youtube.com/embed/Y3tyM2WTpZ0" target="_blank")
                     span.text-sistm Ir al video
@@ -138,7 +138,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección. [video]. YouTube.
+                  p.mb-cus-5 Academia confección alamoda. (6 de abril de 2019). DIY ¿cómo hacer camiseta polo hombre corte y confección? [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/HJJp-lOu1E4" target="_blank")
                     span.text-sistm Ir al video
@@ -174,7 +174,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección. [video]. YouTube.
+                  p.mb-cus-5 Academia confección alamoda. (13 de diciembre 2018). DIY ¿cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección? [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/oZTVpkX7cuk" target="_blank")
                     span.text-sistm Ir al video
@@ -187,7 +187,7 @@
             .col-sm-12.col-md-12.col-lg-10
               .row.justify-content-between.align-items-center
                 .col-sm-12.col-md-9.col-lg-7.mb-sm-0
-                  p.mb-cus-5 Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección. [video]. YouTube.
+                  p.mb-cus-5 Academia confección alamoda. (17 de octubre 2019). DIY ¿cómo hacer un pantalón de sudadera mujer corte y confección? [video]. YouTube.
                 .col-sm-12.col-md-3.col-lg-5
                   a.boton.color-boton(href="https://www.youtube.com/embed/hlBctRHgSUw" target="_blank")
                     span.text-sistm Ir al video
